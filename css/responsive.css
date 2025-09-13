@@ -29,5 +29,8 @@
      nav.navbar.bootsnav .navbar-nav{
          padding: 0px;
          margin: 0px;
+    }
+     .custom-select-box{
+         display: none;
 }
 }
