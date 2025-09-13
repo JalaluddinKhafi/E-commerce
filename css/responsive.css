@@ -43,5 +43,9 @@
      nav.bootsnav .megamenu-content .col-menu{
          -ms-flex: 0 0 100%;
          flex: 0 0 100%;
+         max-width: 100%;
+    }
+     .col-menu .title{
+         font-size: 16px;
 }
 }
