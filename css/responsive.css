@@ -32,5 +32,8 @@
     }
      .custom-select-box{
          display: none;
+    }
+     .attr-nav{
+         top: 10px;
 }
 }
