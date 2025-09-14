@@ -62,5 +62,8 @@
     }
      .add-comp a{
          margin-bottom: 30px;
+    }
+     .add-to-btn .share-bar{
+         float: none;
 }
 }
