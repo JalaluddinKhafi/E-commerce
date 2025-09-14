@@ -50,5 +50,8 @@
     }
      .product-item-filter p{
          float: none;
+    }
+     .product-item-filter{
+         margin: 30px 0px;
 }
 }
