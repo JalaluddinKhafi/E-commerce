@@ -59,5 +59,8 @@
     }
      .toolbar-sorter-right .bootstrap-select.form-control:not([class*="col-"]){
          width: 70%;
+    }
+     .add-comp a{
+         margin-bottom: 30px;
 }
 }
