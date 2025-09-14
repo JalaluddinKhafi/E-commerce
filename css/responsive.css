@@ -47,5 +47,8 @@
     }
      .col-menu .title{
          font-size: 16px;
+    }
+     .product-item-filter p{
+         float: none;
 }
 }
