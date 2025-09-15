@@ -109,5 +109,12 @@
     }
      .offer-box li{
          font-size: 12px;
+    }
+     .custom-select-box{
+         display: none;
+    }
+     .right-phone-box, .our-link{
+         float: none;
+         text-align: center;
 }
 }
