@@ -90,5 +90,8 @@
     }
      nav.navbar.bootsnav ul.nav > li > a{
          padding: 5px 15px;
+    }
+     nav.navbar.bootsnav .navbar-nav{
+         padding: 0px;
 }
 }
