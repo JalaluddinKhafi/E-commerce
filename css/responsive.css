@@ -188,5 +188,11 @@
     }
      .attr-nav{
          top: 15px;
+    }
+     .right-phone-box{
+         display: none;
+    }
+	.text-slid-box{
+		display: none;
 }
 }
