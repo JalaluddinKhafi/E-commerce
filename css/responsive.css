@@ -208,5 +208,6 @@
      .navbar-light .navbar-toggler{
          border-color: #b0b435;
          color: #010101;
+         border-radius: 0px;
 }
 }
