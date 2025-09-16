@@ -237,5 +237,8 @@
     }
      .custom-select-box{
          display: none;
+    }
+     .right-phone-box, .our-link{
+         float: none;
 }
 }
