@@ -219,5 +219,14 @@
      nav.navbar.bootsnav .navbar-nav{
          padding: 0px;
          margin: 0px;
+    }
+     .cover-slides h1{
+         font-size: 28px;
+    }
+     .cover-slides p{
+         font-size: 16px;
+    }
+     .cover-slides p a{
+         font-size: 18px;
 }
 }
