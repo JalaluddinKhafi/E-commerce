@@ -134,5 +134,11 @@
      nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu{
          position: initial !important;
          top: 0px;
+    }
+     .col-menu .title{
+         font-size: 16px;
+    }
+     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:hover{
+         color: #b0b435;
 }
 }
