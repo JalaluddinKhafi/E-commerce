@@ -198,5 +198,15 @@
 	.login-box{
 		float: none;
 		text-align: center;
+		margin: 0 auto;
+	}
+	.offer-box-products{
+		margin-bottom: 30px;
+	}
+}
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+     .navbar-light .navbar-toggler{
+         border-color: #b0b435;
+         color: #010101;
 }
 }
