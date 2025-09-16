@@ -164,5 +164,11 @@
     }
      .why-text.full-width h4{
          font-size: 20px;
+    }
+     .coupon-box{
+         margin-bottom: 30px;
+    }
+     .update-box input[type="submit"]{
+         margin-right: 0px;
 }
 }
