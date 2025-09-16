@@ -211,5 +211,13 @@
          border-radius: 0px;
          margin-right: 7px;
          padding-top: 6px;
+		 padding-bottom: 6px;
+    }
+     nav.navbar.bootsnav ul.nav > li > a{
+         padding: 5px 15px;
+    }
+     nav.navbar.bootsnav .navbar-nav{
+         padding: 0px;
+         margin: 0px;
 }
 }
