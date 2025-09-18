@@ -262,5 +262,20 @@
     }
      .col-menu .title{
          font-size: 16px;
+    }
+     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:hover{
+         color: #b0b435;
+    }
+     .hover-team{
+         margin-bottom: 30px;
+    }
+     .product-categori{
+         margin-bottom: 30px;
+    }
+     .product-item-filter .toolbar-sorter-right{
+         width: 100%;
+    }
+     .product-item-filter p{
+         float: none;
 }
 }
