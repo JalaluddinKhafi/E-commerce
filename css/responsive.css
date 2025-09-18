@@ -298,5 +298,17 @@
     }
      .single-product-slider{
          margin-bottom: 30px;
+    }
+     .single-product-details h2{
+         font-size: 18px;
+    }
+     .add-comp a{
+         margin-bottom: 30px;
+    }
+     .add-to-btn .share-bar{
+         float: none;
+    }
+     .contact-info-left{
+         margin-bottom: 30px;
 }
 }
