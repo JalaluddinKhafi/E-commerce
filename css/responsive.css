@@ -310,5 +310,11 @@
     }
      .contact-info-left{
          margin-bottom: 30px;
+    }
+     .right-phone-box{
+         display: none;
+    }
+	.text-slid-box{
+		display: none;
 }
 }
