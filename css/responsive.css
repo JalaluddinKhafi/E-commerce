@@ -295,5 +295,8 @@
     }
      .update-box input[type="submit"]{
          margin-right: 0px;
+    }
+     .single-product-slider{
+         margin-bottom: 30px;
 }
 }
