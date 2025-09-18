@@ -292,5 +292,8 @@
     }
      .coupon-box{
          margin-bottom: 30px;
+    }
+     .update-box input[type="submit"]{
+         margin-right: 0px;
 }
 }
