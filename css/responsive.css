@@ -324,5 +324,9 @@
 	}
 	.offer-box-products{
 		margin-bottom: 30px;
+	}
+	.side-menu p{
+		display: none;
+	}
 }
-}
+ 
