@@ -246,5 +246,8 @@
          font-size: 14px;
          padding: 5px 18px;
 		 margin-bottom: 3px;
+    }
+     .title-blog h3{
+         font-size: 16px;
 }
 }
