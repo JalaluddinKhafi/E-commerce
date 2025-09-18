@@ -240,5 +240,6 @@
     }
      .right-phone-box, .our-link{
          float: none;
+         text-align: center;
 }
 }
