@@ -316,5 +316,8 @@
     }
 	.text-slid-box{
 		display: none;
+	}
+	.login-box{
+		float: none;
 }
 }
