@@ -46,4 +46,10 @@
      -moz-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
 }
