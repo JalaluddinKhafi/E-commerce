@@ -28,3 +28,12 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 @import url(baguetteBox.min.css);
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+ body {
+     color: #666666;
+     font-size: 15px;
+     font-family: 'Dosis', sans-serif;
+}
