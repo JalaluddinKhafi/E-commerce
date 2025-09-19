@@ -43,4 +43,5 @@
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
 }
