@@ -134,3 +134,14 @@
  .bootstrap-select .dropdown-toggle:focus{
      outline: none !important;
 }
+ .form-control::-moz-placeholder {
+     color: #ffffff;
+     opacity: 1;
+}
+ .bootstrap-select .dropdown-toggle:focus{
+     box-shadow: none !important 
+}
+/*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
+ #back-to-top {
+     position: fixed;
+}
