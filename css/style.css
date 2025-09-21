@@ -131,3 +131,6 @@
  p{
      margin: 0px;
 }
+ .bootstrap-select .dropdown-toggle:focus{
+     outline: none !important;
+}
