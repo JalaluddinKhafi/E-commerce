@@ -149,4 +149,6 @@
      z-index: 9999;
      width: 32px;
      height: 32px;
+     text-align: center;
+     line-height: 5px;
 }
