@@ -204,3 +204,6 @@
      top: 13px;
      right: 10px;
 }
+ .bootstrap-select.btn-group .dropdown-toggle .filter-option{
+     overflow: inherit;
+}
