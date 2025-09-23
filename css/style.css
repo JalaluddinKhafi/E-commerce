@@ -212,3 +212,7 @@
      padding: 0px;
      border-radius: 0px;
 }
+ .right-phone-box{
+     float: left;
+     margin-right: 10px;
+}
