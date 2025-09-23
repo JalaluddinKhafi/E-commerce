@@ -207,3 +207,8 @@
  .bootstrap-select.btn-group .dropdown-toggle .filter-option{
      overflow: inherit;
 }
+ .bootstrap-select.btn-group .dropdown-menu{
+     border: none;
+     padding: 0px;
+     border-radius: 0px;
+}
