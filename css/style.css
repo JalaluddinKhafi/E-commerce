@@ -201,4 +201,6 @@
      border-bottom: 0;
      border-left: .3em solid transparent;
      position: absolute;
+     top: 13px;
+     right: 10px;
 }
