@@ -220,4 +220,8 @@
      margin: 0px;
      color: #ffffff;
      font-size: 14px;
+     line-height: 30px;
+}
+ .right-phone-box p a{
+     color: #ffffff;
 }
