@@ -234,3 +234,9 @@
      padding: 2px 15px;
      font-family: 'Poppins', sans-serif;
 }
+ .offer-box li {
+     font-weight: 600;
+}
+ .offer-box li i{
+     margin-right: 15px;
+}
