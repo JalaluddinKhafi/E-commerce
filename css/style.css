@@ -247,4 +247,6 @@
 }
  .our-link ul li{
      display: inline-block;
+     border-right: 1px solid #ffffff;
+     padding: 0px 10px;
 }
