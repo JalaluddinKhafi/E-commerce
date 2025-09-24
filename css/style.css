@@ -216,3 +216,7 @@
      float: left;
      margin-right: 10px;
 }
+ .right-phone-box p{
+     margin: 0px;
+     color: #ffffff;
+}
