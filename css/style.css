@@ -269,4 +269,9 @@
 .login-box{
     float: right;
     width: 120px;
+    margin-left: 20px;
+}
+
+.login-box .form-control{
+     background: none;
 }
