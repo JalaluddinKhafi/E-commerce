@@ -245,3 +245,6 @@
  .our-link{
      float: left;
 }
+ .our-link ul li{
+     display: inline-block;
+}
