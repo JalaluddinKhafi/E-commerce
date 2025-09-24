@@ -257,4 +257,6 @@
  .our-link ul li a{
      color: #ffffff;
      font-weight: 700;
+     text-transform: uppercase;
+     font-size: 14px;
 }
