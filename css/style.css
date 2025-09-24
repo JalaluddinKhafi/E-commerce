@@ -254,3 +254,6 @@
  .our-link ul{
      line-height: 30px;
 }
+ .our-link ul li a{
+     color: #ffffff;
+}
