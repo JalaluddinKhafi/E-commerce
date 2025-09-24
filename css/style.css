@@ -260,3 +260,9 @@
      text-transform: uppercase;
      font-size: 14px;
 }
+ .our-link ul li a:hover{
+     color: #b0b435;
+}
+ .our-link ul li:last-child{
+     border: none;
+}
