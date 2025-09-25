@@ -288,3 +288,6 @@
      padding: 2px;
      line-height: 15px;
 }
+.login-box .dropdown-toggle::after {
+     display: inline-block;
+}
