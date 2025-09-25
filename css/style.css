@@ -296,4 +296,6 @@
      vertical-align: .255em;
      content: "";
      border-top: .3em solid;
+     border-right: .3em solid transparent;
+     border-bottom: 0;
 }
