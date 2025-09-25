@@ -282,4 +282,9 @@
      background: #b0b435;
      color: #fff;
      border: none;
+     border-radius: 0px;
+}
+ .login-box .bootstrap-select .btn-light span{
+     padding: 2px;
+     line-height: 15px;
 }
