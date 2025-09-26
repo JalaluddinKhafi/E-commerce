@@ -354,5 +354,9 @@
     /* Navbar Center ------*/
      nav.navbar-center .navbar-brand{
          margin: 0 !important;
+    }
+    /* Navbar Brand Top ------*/
+     nav.navbar-brand-top .navbar-brand{
+         margin: 10px !important;
 }
 }
