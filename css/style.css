@@ -301,4 +301,9 @@
      border-left: .3em solid transparent;
      position: absolute;
      top: 13px;
+     right: 10px;
+}
+
+.login-box .dropdown-item{
+	padding: 5px 10px;
 }
