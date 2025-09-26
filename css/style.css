@@ -307,3 +307,7 @@
 .login-box .dropdown-item{
 	padding: 5px 10px;
 }
+
+.bootstrap-select.btn-group .dropdown-menu a.dropdown-item span.dropdown-item-inner span.text{
+	font-size: 13px;
+}
