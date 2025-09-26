@@ -336,3 +336,9 @@
      font-weight: 700;
      color: #ffffff;
 }
+ @media (min-width: 1024px) {
+    /* Navbar General ------*/
+     nav.navbar ul.nav > li > a{
+         padding: 30px 15px;
+}
+}
