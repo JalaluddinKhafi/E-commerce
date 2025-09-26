@@ -350,5 +350,9 @@
     }
      nav.navbar li.dropdown ul.dropdown-menu{
          border-top: solid 5px;
+    }
+    /* Navbar Center ------*/
+     nav.navbar-center .navbar-brand{
+         margin: 0 !important;
 }
 }
