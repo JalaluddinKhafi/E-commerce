@@ -331,4 +331,6 @@
  ul.cart-list > li.total > .btn{
      border-bottom: solid 1px #cfcfcf !important;
      color: #000000 ;
+     padding: 10px 15px;
+     border: none;
 }
