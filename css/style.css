@@ -367,5 +367,8 @@
     /* Navbar Sidebar ------*/
      nav.navbar-sidebar ul.nav, nav.navbar-sidebar .navbar-brand{
          margin-bottom: 50px;
+    }
+     nav.navbar-sidebar ul.nav > li > a{
+         padding: 10px 15px;
 }
 }
