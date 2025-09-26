@@ -323,3 +323,8 @@
  nav.navbar.bootsnav ul.nav > li > a{
      margin: 0px;
 }
+/* Navbar Adjusment =========================== */
+/* Navbar Atribute ------*/
+ .attr-nav > ul > li > a{
+     padding: 28px 15px;
+}
