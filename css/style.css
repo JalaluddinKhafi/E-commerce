@@ -363,5 +363,9 @@
      nav.navbar-full .navbar-brand{
          position: relative;
          top: -15px;
+    }
+    /* Navbar Sidebar ------*/
+     nav.navbar-sidebar ul.nav, nav.navbar-sidebar .navbar-brand{
+         margin-bottom: 50px;
 }
 }
