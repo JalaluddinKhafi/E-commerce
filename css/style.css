@@ -317,3 +317,9 @@
  .search a{
      color: #b0b435;
 }
+ .attr-nav > ul > li > a:hover{
+     color: #b0b435;
+}
+ nav.navbar.bootsnav ul.nav > li > a{
+     margin: 0px;
+}
