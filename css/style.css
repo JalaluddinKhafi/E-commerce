@@ -358,5 +358,9 @@
     /* Navbar Brand Top ------*/
      nav.navbar-brand-top .navbar-brand{
          margin: 10px !important;
+    }
+    /* Navbar Full ------*/
+     nav.navbar-full .navbar-brand{
+         position: relative;
 }
 }
