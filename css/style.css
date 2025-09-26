@@ -340,5 +340,9 @@
     /* Navbar General ------*/
      nav.navbar ul.nav > li > a{
          padding: 30px 15px;
+         font-weight: 600;
+    }
+     nav.navbar .navbar-brand{
+         margin-top: 0;
 }
 }
