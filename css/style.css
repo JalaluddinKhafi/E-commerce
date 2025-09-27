@@ -410,5 +410,9 @@
     /* Navbar Mobile slide ------*/
      nav.navbar.navbar-mobile ul.nav > li > a{
          padding: 15px 15px;
+    }
+     nav.navbar.navbar-mobile ul.nav ul.dropdown-menu > li > a{
+         padding-right: 15px !important;
+         padding-top: 15px !important;
 }
 }
