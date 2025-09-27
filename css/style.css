@@ -406,5 +406,9 @@
     }
      .attr-nav > ul > li > a{
          padding: 16px 15px 15px;
+    }
+    /* Navbar Mobile slide ------*/
+     nav.navbar.navbar-mobile ul.nav > li > a{
+         padding: 15px 15px;
 }
 }
