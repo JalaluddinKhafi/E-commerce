@@ -464,4 +464,5 @@
 }
  nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu{
      background-color: #222;
+     border-left: solid 1px #303030;
 }
