@@ -383,5 +383,8 @@
     }
      nav.navbar.bootsnav.navbar-transparent.white .attr-nav{
          border-left: solid 1px #bbb;
+    }
+     nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark .attr-nav, nav.navbar.bootsnav.navbar-transparent.dark .attr-nav{
+         border-left: solid 1px #555;
 }
 }
