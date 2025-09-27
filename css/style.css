@@ -462,3 +462,6 @@
  nav.navbar.navbar-inverse .attr-nav > ul > li > a{
      color: #eee;
 }
+ nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu{
+     background-color: #222;
+}
