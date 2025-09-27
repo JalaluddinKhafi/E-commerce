@@ -415,5 +415,8 @@
          padding-right: 15px !important;
          padding-top: 15px !important;
          padding-bottom: 15px !important;
+    }
+     nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title{
+         padding-right: 30px !important;
 }
 }
