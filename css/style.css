@@ -456,4 +456,9 @@
 }
  nav.navbar.navbar-inverse .form-control{
      background-color: #333;
+     border-color: #303030;
+     color: #fff;
+}
+ nav.navbar.navbar-inverse .attr-nav > ul > li > a{
+     color: #eee;
 }
