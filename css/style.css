@@ -424,5 +424,14 @@
      nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a{
          padding-top: 13px !important;
          padding-bottom: 13px !important;
+    }
+    /* Navbar Full ------*/
+     nav.navbar-full .navbar-brand{
+         top: 0;
+         padding-top: 10px;
+    }
 }
+/* Navbar Inverse =================================*/
+ nav.navbar.navbar-inverse{
+     background-color: #222;
 }
