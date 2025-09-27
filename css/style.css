@@ -386,5 +386,8 @@
     }
      nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark .attr-nav, nav.navbar.bootsnav.navbar-transparent.dark .attr-nav{
          border-left: solid 1px #555;
+    }
+     nav.navbar.bootsnav.no-background.white .attr-nav > ul > li > a, nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, nav.navbar.bootsnav.no-background.white ul.nav > li > a{
+         color: #fff;
 }
 }
