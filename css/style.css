@@ -403,5 +403,8 @@
     }
      nav.navbar .navbar-brand img.logo{
          width: 160px;
+    }
+     .attr-nav > ul > li > a{
+         padding: 16px 15px 15px;
 }
 }
