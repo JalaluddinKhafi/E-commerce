@@ -481,3 +481,12 @@
  nav.navbar.navbar-inverse .share ul > li > a{
      background-color: #555;
 }
+ nav.navbar.navbar-inverse .dropdown-tabs .tab-menu{
+     border-right: solid 1px #303030;
+}
+ nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul > li > a{
+     border-bottom: solid 1px #303030;
+}
+ nav.navbar.navbar-inverse .dropdown-tabs .tab-content{
+     border-left: solid 1px #303030;
+}
