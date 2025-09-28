@@ -493,3 +493,6 @@
  nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul > li > a:hover, nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul > li > a:focus, nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul > li.active > a{
      background-color: #333 !important;
 }
+ nav.navbar-inverse.navbar-full ul.nav > li > a{
+     border:none;
+}
