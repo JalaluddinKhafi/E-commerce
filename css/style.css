@@ -526,3 +526,11 @@
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
      color: #b0b435;
 }
+ @media (min-width: 1024px) {
+     nav.navbar.navbar-inverse ul.nav .dropdown-menu{
+         background-color: #222 !important;
+         border-left: solid 1px #303030 !important;
+         border-bottom: solid 1px #303030 !important;
+         border-right: solid 1px #303030 !important;
+}
+}
