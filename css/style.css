@@ -470,4 +470,5 @@
 }
  nav.navbar.navbar-inverse ul.cart-list > li{
      border-bottom: solid 1px #303030;
+     color: #eee;
 }
