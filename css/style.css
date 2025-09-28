@@ -499,3 +499,10 @@
  nav.navbar-inverse.navbar-full .navbar-collapse .wrap-full-menu{
      background-color: #222;
 }
+ nav.navbar-inverse.navbar-full .navbar-toggle{
+     background-color: #222 !important;
+     color: #6f6f6f;
+}
+ nav.navbar.bootsnav ul.nav > li > a{
+     position: relative;
+}
