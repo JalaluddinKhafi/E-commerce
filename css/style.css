@@ -496,3 +496,6 @@
  nav.navbar-inverse.navbar-full ul.nav > li > a{
      border:none;
 }
+ nav.navbar-inverse.navbar-full .navbar-collapse .wrap-full-menu{
+     background-color: #222;
+}
