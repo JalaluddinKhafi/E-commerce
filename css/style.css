@@ -465,4 +465,9 @@
  nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu{
      background-color: #222;
      border-left: solid 1px #303030;
+     border-bottom: solid 1px #303030;
+     border-right: solid 1px #303030;
+}
+ nav.navbar.navbar-inverse ul.cart-list > li{
+     border-bottom: solid 1px #303030;
 }
