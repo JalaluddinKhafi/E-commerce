@@ -523,3 +523,6 @@
  nav.navbar.bootsnav ul.nav li > a:hover{
      color: #b0b435;
 }
+ nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
+     color: #b0b435;
+}
