@@ -478,3 +478,6 @@
  nav.navbar.navbar-inverse ul.cart-list > li.total{
      background-color: #333;
 }
+ nav.navbar.navbar-inverse .share ul > li > a{
+     background-color: #555;
+}
