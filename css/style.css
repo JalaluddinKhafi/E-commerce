@@ -566,5 +566,19 @@
      nav.navbar.navbar-inverse ul.nav li.dropdown ul.dropdown-menu > li > a{
          color: #999;
          border-bottom: solid 1px #303030;
+    }
+     nav.navbar.navbar-inverse .dropdown .megamenu-content .col-menu .title{
+         border-bottom: solid 1px #303030;
+         color: #eee;
+    }
+     nav.navbar.navbar-inverse .dropdown .megamenu-content .col-menu ul > li > a{
+         border-bottom: solid 1px #303030;
+         color: #999 !important;
+    }
+     nav.navbar.navbar-inverse .dropdown .megamenu-content .col-menu.on:last-child .title{
+         border-bottom: solid 1px #303030;
+    }
+     nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul{
+         border-top: solid 1px #303030;
 }
 }
