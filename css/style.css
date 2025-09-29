@@ -580,5 +580,13 @@
     }
      nav.navbar.navbar-inverse .dropdown-tabs .tab-menu > ul{
          border-top: solid 1px #303030;
+    }
+     nav.navbar.navbar-inverse.navbar-mobile .navbar-collapse{
+         background-color: #222;
+    }
+}
+ @media (max-width: 767px) {
+     nav.navbar.navbar-inverse.navbar-mobile ul.nav{
+         border-top: solid 1px #222;
 }
 }
