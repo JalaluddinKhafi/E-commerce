@@ -552,5 +552,11 @@
     }
      nav.navbar.navbar-inverse.no-background.dark .attr-nav > ul > li > a, nav.navbar.navbar-inverse.no-background.dark .attr-nav > ul > li > a, nav.navbar.navbar-inverse.no-background.dark ul.nav > li > a, nav.navbar.navbar-inverse.no-background.dark ul.nav > li > a{
          color: #3f3f3f;
+    }
+}
+ @media (max-width: 992px) {
+     nav.navbar.navbar-inverse .navbar-toggle{
+         color: #eee;
+         background-color: #222 !important;
 }
 }
