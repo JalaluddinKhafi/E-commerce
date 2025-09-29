@@ -532,5 +532,8 @@
          border-left: solid 1px #303030 !important;
          border-bottom: solid 1px #303030 !important;
          border-right: solid 1px #303030 !important;
+    }
+     nav.navbar.navbar-inverse li.dropdown ul.dropdown-menu > li > a{
+         border-bottom: solid 1px #303030;
 }
 }
