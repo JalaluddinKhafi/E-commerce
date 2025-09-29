@@ -588,5 +588,8 @@
  @media (max-width: 767px) {
      nav.navbar.navbar-inverse.navbar-mobile ul.nav{
          border-top: solid 1px #222;
+    }
 }
+ .arrow::before{
+     font-family: 'FontAwesome';
 }
