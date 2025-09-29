@@ -565,5 +565,6 @@
     }
      nav.navbar.navbar-inverse ul.nav li.dropdown ul.dropdown-menu > li > a{
          color: #999;
+         border-bottom: solid 1px #303030;
 }
 }
