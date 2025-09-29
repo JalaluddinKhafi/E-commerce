@@ -535,5 +535,8 @@
     }
      nav.navbar.navbar-inverse li.dropdown ul.dropdown-menu > li > a{
          border-bottom: solid 1px #303030;
+    }
+     nav.navbar.navbar-inverse ul.dropdown-menu.megamenu-content .col-menu{
+         border-left: solid 1px #303030;
 }
 }
