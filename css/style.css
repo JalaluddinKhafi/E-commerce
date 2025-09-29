@@ -538,5 +538,6 @@
     }
      nav.navbar.navbar-inverse ul.dropdown-menu.megamenu-content .col-menu{
          border-left: solid 1px #303030;
+         border-right: solid 1px #303030;
 }
 }
