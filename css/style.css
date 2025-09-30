@@ -607,4 +607,5 @@
 }
  nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a{
      display: block;
+	 padding: 6px 25px;
 }
