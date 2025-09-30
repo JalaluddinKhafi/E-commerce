@@ -634,3 +634,6 @@
 .side-menu p{
 	display: inline-block;
 }
+ .col-menu .title{
+     font-size: 20px;
+}
