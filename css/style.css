@@ -625,3 +625,6 @@
      font-size: 16px;
      font-weight: 700;
 }
+ .cart-list h6 a:hover{
+     color: #b0b435;
+}
