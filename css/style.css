@@ -593,4 +593,5 @@
  .arrow::before{
      font-family: 'FontAwesome';
      content: "\f0d7";
+     margin-left: 5px;
 }
