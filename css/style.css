@@ -602,3 +602,6 @@
      right: 10px;
      top: 10px;
 }
+ .dropdown-toggle::after{
+     display: none;
+}
