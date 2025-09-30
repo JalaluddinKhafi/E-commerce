@@ -605,3 +605,6 @@
  .dropdown-toggle::after{
      display: none;
 }
+ nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a{
+     display: block;
+}
