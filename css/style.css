@@ -628,3 +628,9 @@
  .cart-list h6 a:hover{
      color: #b0b435;
 }
+ ul.cart-list p .price{
+     font-weight: normal;
+}
+.side-menu p{
+	display: inline-block;
+}
