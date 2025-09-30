@@ -597,4 +597,6 @@
      margin-top: 2px;
      border: none;
      display: inline-block;
+     vertical-align: inherit;
+     position: absolute;
 }
