@@ -609,3 +609,13 @@
      display: block;
 	 padding: 6px 25px;
 }
+
+ nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover{
+	 
+ }
+ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+     left: auto;
+}
+.custom-select-box .dropdown-item{
+	padding: 5px 10px;
+}
