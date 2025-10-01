@@ -676,4 +676,5 @@
  .hvr-hover:hover::after{
      -webkit-transform: scale(2);
 	 transform: scale(2);
+     color: #ffffff;
 }
