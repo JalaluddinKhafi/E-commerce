@@ -690,4 +690,5 @@
 }
  .main-header.fixed-menu {
      position: fixed;
+     visibility: hidden;
 }
