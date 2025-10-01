@@ -656,4 +656,5 @@
 }
  .hvr-hover::after {
     content: "";
+	position: absolute;
 }
