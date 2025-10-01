@@ -678,3 +678,9 @@
 	 transform: scale(2);
      color: #ffffff;
 }
+ .hvr-hover{
+	 overflow: hidden;
+}
+ ul.cart-list > li.total > .btn:hover{
+     color: #ffffff;
+}
