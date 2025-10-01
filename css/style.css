@@ -684,3 +684,10 @@
  ul.cart-list > li.total > .btn:hover{
      color: #ffffff;
 }
+ .cart-box{
+     margin-top: 40px;
+     background: #ffffff;
+}
+ .main-header.fixed-menu {
+     position: fixed;
+}
