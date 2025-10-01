@@ -666,4 +666,5 @@
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
+	-webkit-transition-property: transform;
 }
