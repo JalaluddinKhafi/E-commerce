@@ -657,4 +657,5 @@
  .hvr-hover::after {
     content: "";
 	position: absolute;
+	z-index: -1;
 }
