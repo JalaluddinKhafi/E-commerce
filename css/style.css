@@ -673,3 +673,6 @@
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
 }
+ .hvr-hover:hover::after{
+     -webkit-transform: scale(2);
+}
