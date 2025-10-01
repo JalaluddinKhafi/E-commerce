@@ -667,4 +667,5 @@
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	-webkit-transition-property: transform;
+	transition-property: transform;
 }
