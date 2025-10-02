@@ -706,4 +706,5 @@
      opacity: 1;
      visibility: visible;
      -ms-animation-name: fadeInDown;
+     -moz-animation-name: fadeInDown;
 }
