@@ -721,4 +721,8 @@
      -webkit-animation-timing-function: linear;
      animation-timing-function: linear;
      -ms-animation-iteration-count: 1;
+     -moz-animation-iteration-count: 1;
+     -op-animation-iteration-count: 1;
+     -webkit-animation-iteration-count: 1;
+     animation-iteration-count: 1;
 }
