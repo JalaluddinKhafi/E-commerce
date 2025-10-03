@@ -726,3 +726,6 @@
      -webkit-animation-iteration-count: 1;
      animation-iteration-count: 1;
 }
+ .main-header.fixed-menu {
+     padding: 0px;
+}
