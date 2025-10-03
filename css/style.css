@@ -718,4 +718,5 @@
      -ms-animation-timing-function: linear;
      -moz-animation-timing-function: linear;
      -op-animation-timing-function: linear;
+     -webkit-animation-timing-function: linear;
 }
