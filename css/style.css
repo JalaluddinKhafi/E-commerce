@@ -717,4 +717,5 @@
      animation-duration: 500ms;
      -ms-animation-timing-function: linear;
      -moz-animation-timing-function: linear;
+     -op-animation-timing-function: linear;
 }
