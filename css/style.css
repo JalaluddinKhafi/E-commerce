@@ -709,4 +709,6 @@
      -moz-animation-name: fadeInDown;
      -op-animation-name: fadeInDown;
      -webkit-animation-name: fadeInDown;
+     animation-name: fadeInDown;
+     -ms-animation-duration: 500ms;
 }
