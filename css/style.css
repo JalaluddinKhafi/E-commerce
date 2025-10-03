@@ -728,4 +728,5 @@
 }
  .main-header.fixed-menu {
      padding: 0px;
+     box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
 }
