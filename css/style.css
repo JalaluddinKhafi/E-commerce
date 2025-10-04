@@ -741,3 +741,6 @@
  .cover-slides{
      height: 100vh;
 }
+ .slides-navigation a {
+     background: #b0b435;
+}
