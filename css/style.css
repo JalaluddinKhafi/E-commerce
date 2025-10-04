@@ -734,3 +734,6 @@
  .top-search .input-group-addon{
      line-height: 40px;
 }
+ .top-search input.form-control{
+     color: #ffffff;
+}
