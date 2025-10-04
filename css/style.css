@@ -744,4 +744,5 @@
  .slides-navigation a {
      background: #b0b435;
      position: absolute;
+     height: 70px;
 }
