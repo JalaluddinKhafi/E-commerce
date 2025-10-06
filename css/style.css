@@ -793,3 +793,6 @@
      color: #fff;
      padding-bottom: 30px;
 }
+ .slides-pagination a{
+     border: 2px solid #ffffff;
+}
