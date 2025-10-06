@@ -762,4 +762,9 @@
 }
  .cover-slides .container{
      height: 100%;
+     position: relative;
+     z-index: 2;
+}
+ .cover-slides .container > .row {
+     -webkit-box-align: center;
 }
