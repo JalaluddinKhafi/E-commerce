@@ -760,3 +760,6 @@
  .slides-navigation a:hover {
      background: #000000;
 }
+ .cover-slides .container{
+     height: 100%;
+}
