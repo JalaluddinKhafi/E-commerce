@@ -767,4 +767,5 @@
 }
  .cover-slides .container > .row {
      -webkit-box-align: center;
+     -ms-flex-align: center;
 }
