@@ -782,3 +782,6 @@
      top: 0;
      opacity: 0.5;
 }
+ .cover-slides h1{
+     font-family: 'Poppins', sans-serif;
+}
