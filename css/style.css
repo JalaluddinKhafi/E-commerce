@@ -752,4 +752,5 @@
      color: #fff;
      line-height: 90px;
      text-align: center;
+     transition: all .3s ease-in-out;
 }
