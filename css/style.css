@@ -754,3 +754,6 @@
      text-align: center;
      transition: all .3s ease-in-out;
 }
+ .slides-navigation a i{
+     font-size: 40px;
+}
