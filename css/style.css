@@ -820,4 +820,5 @@
      border: 0px solid #000000;
 	 box-shadow: 9px 9px 30px 0px rgba(0, 0, 0, 0.3);
 	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out 0s;
 }
