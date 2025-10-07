@@ -826,4 +826,6 @@
      margin: -10px 0 0 -10px;
      max-width: none;
      width: -webkit-calc(100% + 10px);
+     width: calc(100% + 10px);
+     opacity: 0.9;
 }
