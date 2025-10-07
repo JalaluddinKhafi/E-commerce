@@ -833,4 +833,5 @@
      -webkit-transform: translate3d(10px,10px,0);
      transform: translate3d(10px,10px,0);
      -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
 }
