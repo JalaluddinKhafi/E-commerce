@@ -825,4 +825,5 @@
  .shop-cat-box img{
      margin: -10px 0 0 -10px;
      max-width: none;
+     width: -webkit-calc(100% + 10px);
 }
