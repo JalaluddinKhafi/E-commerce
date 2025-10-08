@@ -862,4 +862,5 @@
 
 .offer-box{
 	position: relative;
+	overflow: hidden;
 }
