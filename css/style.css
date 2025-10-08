@@ -867,4 +867,6 @@
 
 .offer-box-products{
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out 0s;
 }
