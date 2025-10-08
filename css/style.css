@@ -859,3 +859,7 @@
 	padding: 70px 0px;
 	background-color: #f4f4f4;
 }
+
+.offer-box{
+	position: relative;
+}
