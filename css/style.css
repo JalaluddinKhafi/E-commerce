@@ -870,3 +870,8 @@
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease-in-out 0s;
 }
+
+.offer-box-products:hover{
+	-webkit-transform: translateY(6px);
+	transform: translateY(6px);
+}
