@@ -881,3 +881,6 @@
  .title-all{
      margin-bottom: 30px;
 }
+ .title-all h1{
+     font-size: 32px;
+}
