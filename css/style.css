@@ -899,3 +899,7 @@
  .filter-button-group{
      display: inline-block;
 }
+ .filter-button-group button{
+     background: #b0b435;
+     color: #ffffff;
+}
