@@ -924,4 +924,8 @@
  .box-img-hover img{
      margin: 0 auto;
      text-align: center;
+     display: block;
+}
+ .type-lb{
+     position: absolute;
 }
