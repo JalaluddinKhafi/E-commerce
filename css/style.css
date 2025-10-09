@@ -910,3 +910,13 @@
  .filter-button-group button.active{
      background: #000000;
 }
+ .filter-button-group button{
+}
+ .products-single {
+     overflow: hidden;
+     position: relative;
+     margin-bottom: 30px;
+}
+ .products-single .box-img-hover{
+     overflow: hidden;
+}
