@@ -919,4 +919,5 @@
 }
  .products-single .box-img-hover{
      overflow: hidden;
+     position: relative;
 }
