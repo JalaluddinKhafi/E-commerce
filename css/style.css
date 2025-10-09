@@ -930,4 +930,8 @@
      position: absolute;
      top: 0px;
      right: 0px;
+     z-index:8;
+}
+ .type-lb .sale{
+     background: #b0b435;
 }
