@@ -921,3 +921,6 @@
      overflow: hidden;
      position: relative;
 }
+ .box-img-hover img{
+     margin: 0 auto;
+}
