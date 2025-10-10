@@ -961,4 +961,9 @@
      padding: 4px;
 	 display: inline-block;
 	 background: #b0b435;
+	 color: #ffffff;
+     font-weight: 600;
+}
+ .mask-icon{
+     width: 100%;
 }
