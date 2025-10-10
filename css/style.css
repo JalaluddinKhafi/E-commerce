@@ -955,3 +955,8 @@
      font-weight: 700;
      padding-bottom: 15px;
 }
+ .why-text h5{
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     padding: 4px;
+}
