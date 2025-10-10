@@ -981,3 +981,8 @@
  .mask-icon ul li{
      background: #b0b435;
 }
+ .mask-icon ul li a{
+     color: #ffffff;
+     padding: 5px 10px;
+     display: block;
+}
