@@ -959,4 +959,6 @@
      font-size: 18px;
      font-family: 'Poppins', sans-serif;
      padding: 4px;
+	 display: inline-block;
+	 background: #b0b435;
 }
