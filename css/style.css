@@ -976,4 +976,8 @@
      display: inline-block;
 	 position: absolute;
 	 bottom: 0;
+	 right: 0;
+}
+ .mask-icon ul li{
+     background: #b0b435;
 }
