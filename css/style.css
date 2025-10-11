@@ -1030,3 +1030,11 @@
      -ms-animation: bounceY 0.9s linear;
      animation: bounceY 0.9s linear;
 }
+ @keyframes bounceY {
+     0% {
+         transform: translateY(-205px);
+    }
+     40% {
+         transform: translateY(-100px);
+}
+}
