@@ -1015,3 +1015,6 @@
      -ms-transition: all 0.3s ease-out 0.5s;
      transition: all 0.3s ease-out 0.5s;
 }
+ .products-single:hover .mask-icon{
+     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
