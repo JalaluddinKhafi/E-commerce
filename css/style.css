@@ -1006,4 +1006,7 @@
  .products-single .mask-icon{
      background: rgba(1,1,1, 0.5);
      top: -100%;
+     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     filter: alpha(opacity=0);
+     opacity: 0;
 }
