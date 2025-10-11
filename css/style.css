@@ -989,4 +989,5 @@
  .mask-icon a.cart{
      background: #b0b435;
      position: absolute;
+     bottom: 0;
 }
