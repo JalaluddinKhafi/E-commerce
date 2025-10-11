@@ -1003,3 +1003,6 @@
      background: #000000;
      color: #ffffff;
 }
+ .products-single .mask-icon{
+     background: rgba(1,1,1, 0.5);
+}
