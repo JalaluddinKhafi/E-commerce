@@ -1010,4 +1010,5 @@
      filter: alpha(opacity=0);
      opacity: 0;
      -webkit-transition: all 0.3s ease-out 0.5s;
+     -moz-transition: all 0.3s ease-out 0.5s;
 }
