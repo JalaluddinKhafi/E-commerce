@@ -1036,5 +1036,8 @@
     }
      40% {
          transform: translateY(-100px);
+    }
+     65% {
+         transform: translateY(-52px);
 }
 }
