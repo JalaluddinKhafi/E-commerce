@@ -1079,5 +1079,8 @@
     }
      65% {
          -webkit-transform: translateY(-52px);
+    }
+     82% {
+         -webkit-transform: translateY(-25px);
 }
 }
