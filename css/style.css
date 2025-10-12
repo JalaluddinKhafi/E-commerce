@@ -1048,5 +1048,10 @@
     }
      55%, 75%, 87%, 97%, 100% {
          transform: translateY(0px);
+    }
+}
+ @-moz-keyframes bounceY {
+     0% {
+         -moz-transform: translateY(-205px);
 }
 }
