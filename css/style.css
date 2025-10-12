@@ -1082,5 +1082,8 @@
     }
      82% {
          -webkit-transform: translateY(-25px);
+    }
+     92% {
+         -webkit-transform: translateY(-12px);
 }
 }
