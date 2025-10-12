@@ -1132,4 +1132,5 @@
  }
  .option-blog li a{
      background: #000000;
+     display: inline-block;
 }
