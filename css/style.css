@@ -1111,3 +1111,14 @@
  .title-blog{
      padding: 40px 30px 40px 30px;
 }
+ .title-blog h3{
+     font-size: 20px;
+     font-weight: 700;
+     color: #000000;
+}
+ .title-blog p{
+     margin: 0px;
+}
+ .option-blog {
+     position: absolute;
+}
