@@ -1062,5 +1062,8 @@
     }
      82% {
          -moz-transform: translateY(-25px);
+    }
+     92% {
+         -moz-transform: translateY(-12px);
 }
 }
