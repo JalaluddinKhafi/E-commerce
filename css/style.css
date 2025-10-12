@@ -1056,5 +1056,8 @@
     }
      40% {
          -moz-transform: translateY(-100px);
+    }
+     65% {
+         -moz-transform: translateY(-52px);
 }
 }
