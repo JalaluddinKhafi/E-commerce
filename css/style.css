@@ -1053,5 +1053,8 @@
  @-moz-keyframes bounceY {
      0% {
          -moz-transform: translateY(-205px);
+    }
+     40% {
+         -moz-transform: translateY(-100px);
 }
 }
