@@ -1127,3 +1127,9 @@
 	 margin: 0 auto;
 	 text-align: center;
 }
+ .option-blog li{
+	 display: inline-block;
+ }
+ .option-blog li a{
+     background: #000000;
+}
