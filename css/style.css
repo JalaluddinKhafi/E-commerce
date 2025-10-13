@@ -1173,4 +1173,5 @@
      background-size: auto auto;
      -webkit-background-size: cover;
      -moz-background-size: cover;
+     -ms-background-size: cover;
 }
