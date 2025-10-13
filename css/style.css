@@ -1154,4 +1154,6 @@
 }
  .tooltip.bs-tooltip-left .arrow:before {
      border-left-color: #b0b435 !important;
+	 padding-top: 0px !important;
+	 padding-right: 5px !important;
 }
