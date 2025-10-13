@@ -1163,4 +1163,5 @@
 }
  .tooltip.bs-tooltip-top .arrow:before {
      border-top-color: #b0b435 !important;
+	 padding-top: 0px !important;
 }
