@@ -1156,4 +1156,11 @@
      border-left-color: #b0b435 !important;
 	 padding-top: 0px !important;
 	 padding-right: 5px !important;
+     top: 0px !important;
+}
+ .tooltip.bs-tooltip-bottom .arrow:before {
+     border-right-color: #b0b435 !important;
+}
+ .tooltip.bs-tooltip-top .arrow:before {
+     border-top-color: #b0b435 !important;
 }
