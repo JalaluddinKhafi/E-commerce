@@ -1142,4 +1142,11 @@
 }
  .option-blog li a:hover{
      background: #b0b435;
+     color: #ffffff;
+}
+ .tooltip-inner {
+     background-color: #b0b435;
+}
+ .tooltip.bs-tooltip-right .arrow:before {
+     border-right-color: #b0b435 !important;
 }
