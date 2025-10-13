@@ -1178,3 +1178,6 @@
      background-size: cover;
      position: relative;
 }
+ .instagram-box::before{
+     background: rgba(0,0,0,0.9);
+}
