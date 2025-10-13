@@ -1171,4 +1171,6 @@
      padding: 70px 0px;
      background: url(../images/ins-bg.jpg) no-repeat center center;
      background-size: auto auto;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
 }
