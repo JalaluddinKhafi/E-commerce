@@ -1152,3 +1152,6 @@
      padding-top: 0px !important;
      top: 0px !important;
 }
+ .tooltip.bs-tooltip-left .arrow:before {
+     border-left-color: #b0b435 !important;
+}
