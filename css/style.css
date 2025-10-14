@@ -1212,4 +1212,7 @@
      background: #000000;
      position: absolute;
      z-index: 1;
+     display: block;
+     height: 100%;
+     width: 50px;
 }
