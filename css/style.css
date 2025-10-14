@@ -1197,4 +1197,11 @@
      width: 50px;
      line-height: 0px;
      font-size: 24px;
+     cursor: pointer;
+     color: #ffffff;
+     top: 0;
+     padding: 0;
+     margin-top: 0;
+     opacity: 1;
+     left: 0px;
 }
