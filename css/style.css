@@ -1204,4 +1204,5 @@
      margin-top: 0;
      opacity: 1;
      left: 0px;
+     -webkit-transition: all 0.3s ease;
 }
