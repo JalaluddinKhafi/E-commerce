@@ -1191,4 +1191,5 @@
  .main-instagram.owl-carousel .owl-nav button.owl-prev{
      background: #000000;
      position: absolute;
+     z-index: 1;
 }
