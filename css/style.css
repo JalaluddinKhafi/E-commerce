@@ -1186,4 +1186,9 @@
      top: 0px;
      content: "" ;
      position: absolute;
+     z-index: 0;
+}
+ .main-instagram.owl-carousel .owl-nav button.owl-prev{
+     background: #000000;
+     position: absolute;
 }
