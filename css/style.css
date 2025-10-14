@@ -1205,4 +1205,11 @@
      opacity: 1;
      left: 0px;
      -webkit-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+}
+ .main-instagram.owl-carousel .owl-nav button.owl-next{
+     background: #000000;
+     position: absolute;
+     z-index: 1;
 }
