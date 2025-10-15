@@ -1258,4 +1258,5 @@
      color: #000000;
      font-size: 48px;
      position: relative;
+     z-index: 2;
 }
