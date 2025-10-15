@@ -1257,4 +1257,5 @@
  .hov-in i{
      color: #000000;
      font-size: 48px;
+     position: relative;
 }
