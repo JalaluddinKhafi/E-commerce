@@ -1225,4 +1225,5 @@
      opacity: 1;
      right: 0px;
      -webkit-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
 }
