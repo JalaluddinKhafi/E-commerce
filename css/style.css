@@ -1251,4 +1251,5 @@
 }
  .hov-in a{
      display: table-cell;
+     vertical-align: middle;
 }
