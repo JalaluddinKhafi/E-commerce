@@ -1234,3 +1234,6 @@
  .ins-inner-box{
      position: relative;
 }
+ .hov-in{
+     opacity: 0;
+}
