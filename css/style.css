@@ -1249,3 +1249,6 @@
      text-align: center;
      display: table;
 }
+ .hov-in a{
+     display: table-cell;
+}
