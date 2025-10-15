@@ -1236,4 +1236,5 @@
 }
  .hov-in{
      opacity: 0;
+     background: rgba(211,59,51, 0.5);
 }
