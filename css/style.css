@@ -1246,4 +1246,5 @@
      -o-transition: all 0.3s ease-out 0.5s;
      -ms-transition: all 0.3s ease-out 0.5s;
      transition: all 0.3s ease-out 0.5s;
+     text-align: center;
 }
