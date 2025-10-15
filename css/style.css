@@ -1231,3 +1231,6 @@
  .main-instagram.owl-carousel .owl-nav button.owl-next:hover, .main-instagram.owl-carousel .owl-nav button.owl-prev:hover{
      background: #b0b435;
 }
+ .ins-inner-box{
+     position: relative;
+}
