@@ -1260,3 +1260,10 @@
      position: relative;
      z-index: 2;
 }
+ .hov-in a i:hover{
+     color: #ffffff;
+}
+ .ins-inner-box:hover .hov-in{
+     bottom: 0;
+     opacity: 1;
+}
