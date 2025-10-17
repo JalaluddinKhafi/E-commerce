@@ -1290,4 +1290,12 @@
     width: 50%;
     position: absolute;
     bottom: 3px;
+    left: 0px;
+}
+.list-time{
+	margin-top: 15px;
+}
+.footer-top-box .list-time li{
+	color: #ffffff;
+	font-size: 16px;
 }
