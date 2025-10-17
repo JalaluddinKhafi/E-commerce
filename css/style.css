@@ -1275,3 +1275,9 @@
 .footer-main hr{
 	border-top: 1px solid rgba(255,255,255,.6);
 }
+.footer-top-box{
+	margin-bottom: 30px;
+}
+.footer-top-box h3{
+	color: #ffffff;
+}
