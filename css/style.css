@@ -1283,3 +1283,6 @@
 	position: relative;
 	font-size: 20px;
 }
+.footer-top-box h3::before {
+    border-bottom: 2px solid #b0b435;
+}
