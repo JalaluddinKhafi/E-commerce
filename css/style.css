@@ -1326,4 +1326,13 @@
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 500;
+	
+}
+ .footer-top-box p{
+	 padding-bottom: 15px;
+	 color: #cccccc;
+ }
+
+ .footer-top-box ul{
+     display: inline-block;
 }
