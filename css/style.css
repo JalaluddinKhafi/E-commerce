@@ -1336,3 +1336,11 @@
  .footer-top-box ul{
      display: inline-block;
 }
+ .footer-top-box ul li {
+     float: left;
+     margin-right: 5px;
+}
+ .footer-top-box ul li a {
+     color: #ffffff;
+     display: inline-block;
+}
