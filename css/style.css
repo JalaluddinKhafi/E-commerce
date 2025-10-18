@@ -1314,4 +1314,8 @@
 	border-radius: 0;
 	background: #fff;
 	padding: 0 20px;
+	width: 100%;
+}
+.newsletter-box i{
+	position: absolute;
 }
