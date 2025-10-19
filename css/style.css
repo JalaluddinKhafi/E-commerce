@@ -1358,4 +1358,6 @@
 }
  .footer-widget h4 {
      color: #ffffff;
+     font-size: 16px;
+     text-transform: uppercase;
 }
