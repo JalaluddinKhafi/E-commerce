@@ -1365,3 +1365,6 @@
      position: relative;
      font-weight: 700;
 }
+ .footer-widget h4::before {
+     border-bottom: 3px solid #b0b435;
+}
