@@ -1349,3 +1349,13 @@
      text-align: center;
      line-height: 32px;
 }
+ .footer-top-box ul li a:hover {
+     color: #b0b435;
+     border-color: #b0b435;
+}
+.footer-widget, .footer-link, .footer-link-contact{
+	margin-top: 15px;
+}
+ .footer-widget h4 {
+     color: #ffffff;
+}
