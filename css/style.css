@@ -1345,4 +1345,7 @@
      display: inline-block;
      width: 36px;
      height: 36px;
+     border: 2px solid #ffffff;
+     text-align: center;
+     line-height: 32px;
 }
