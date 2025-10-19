@@ -1370,4 +1370,5 @@
      content: "";
      height: 3px;
      width: 100%;
+     position: absolute;
 }
