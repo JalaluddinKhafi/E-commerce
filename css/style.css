@@ -1401,3 +1401,9 @@
      bottom: 3px;
      left: 0px;
 }
+ .footer-link ul li {
+     margin-right: 5px;
+}
+ .footer-link ul li a {
+     color: #ffffff;
+}
