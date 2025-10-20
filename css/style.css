@@ -1406,4 +1406,7 @@
 }
  .footer-link ul li a {
      color: #ffffff;
+     text-align: left;
+     display: block;
+     line-height: 32px;
 }
