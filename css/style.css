@@ -1412,4 +1412,5 @@
      position: relative;
      padding-left: 15px;
      transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
 }
