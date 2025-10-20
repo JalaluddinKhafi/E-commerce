@@ -1392,3 +1392,6 @@
      position: relative;
      font-weight: 700;
 }
+ .footer-link h4::before {
+     border-bottom: 3px solid #b0b435;
+}
