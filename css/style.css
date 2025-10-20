@@ -1395,4 +1395,5 @@
  .footer-link h4::before {
      border-bottom: 3px solid #b0b435;
      content: "";
+     height: 3px;
 }
