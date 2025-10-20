@@ -1411,4 +1411,5 @@
      line-height: 32px;
      position: relative;
      padding-left: 15px;
+     transition: all .3s ease-in-out;
 }
