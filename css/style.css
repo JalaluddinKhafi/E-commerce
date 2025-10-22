@@ -1433,3 +1433,6 @@
  .footer-link ul li a:hover::before {
      left: 5px;
 }
+ .footer-link ul li a:hover {
+     color: #b0b435;
+}
