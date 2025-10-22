@@ -1453,4 +1453,6 @@
      height: 3px;
      width: 100%;
      position: absolute;
+     bottom: 3px;
+     left: 0px;
 }
