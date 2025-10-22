@@ -1467,4 +1467,6 @@
 }
  .footer-link-contact ul li p{
      padding-left: 25px;
+     color: #cccccc;
+     position: relative;
 }
