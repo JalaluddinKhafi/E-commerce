@@ -1470,3 +1470,6 @@
      color: #cccccc;
      position: relative;
 }
+ .footer-link-contact ul li p{
+     font-size: 16px;
+}
