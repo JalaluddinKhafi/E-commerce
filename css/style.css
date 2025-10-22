@@ -1447,3 +1447,8 @@
      position: relative;
      font-weight: 700;
 }
+ .footer-link-contact h4::before {
+     border-bottom: 3px solid #b0b435;
+     content: "";
+     height: 3px;
+}
