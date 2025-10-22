@@ -1414,4 +1414,9 @@
      transition: all .3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+}
+ .footer-link ul li a::before {
+     font-family: FontAwesome;
 }
