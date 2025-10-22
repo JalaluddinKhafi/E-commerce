@@ -1420,4 +1420,5 @@
  .footer-link ul li a::before {
      font-family: FontAwesome;
      content: "\f105";
+     position: absolute;
 }
