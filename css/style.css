@@ -1459,3 +1459,7 @@
  .footer-link-contact ul li{
      margin-bottom: 12px;
 }
+ .footer-link-contact ul li i{
+     position: absolute;
+     left: 0;
+}
