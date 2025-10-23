@@ -1473,4 +1473,6 @@
  .footer-link-contact ul li p{
      font-size: 16px;
      color: #cccccc;
+     font-weight: 300;
+     padding-right: 16px;
 }
