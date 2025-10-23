@@ -1503,4 +1503,6 @@
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
      background: url("../images/all-bg-title.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
 }
