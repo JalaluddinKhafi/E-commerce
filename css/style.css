@@ -1497,3 +1497,6 @@
  .footer-copyright p a{
      color: #ffffff;
 }
+ .footer-copyright p a:hover{
+     color: #b0b435;
+}
