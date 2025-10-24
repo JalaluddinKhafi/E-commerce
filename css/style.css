@@ -1516,4 +1516,6 @@
  .all-title-box::before{
      background: rgba(0,0,0,0.6);
      content: "";
+     position: absolute;
+     z-index: 0;
 }
