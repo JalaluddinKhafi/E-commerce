@@ -1515,4 +1515,5 @@
 }
  .all-title-box::before{
      background: rgba(0,0,0,0.6);
+     content: "";
 }
