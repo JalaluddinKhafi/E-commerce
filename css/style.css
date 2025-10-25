@@ -1546,3 +1546,12 @@
      color: #ffffff;
      font-size: 16px;
 }
+ .all-title-box .breadcrumb-item + .breadcrumb-item::before{
+     color: #000000;
+}
+ .about-box-main{
+     padding: 70px 0px;
+}
+ .noo-sh-title{
+     font-size: 28px;
+}
