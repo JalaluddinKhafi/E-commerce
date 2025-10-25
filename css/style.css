@@ -1540,4 +1540,8 @@
  .all-title-box .breadcrumb li{
      display: inline-block;
      color: #000000;
+     font-size: 16px;
+}
+ .all-title-box .breadcrumb li a{
+     color: #ffffff;
 }
