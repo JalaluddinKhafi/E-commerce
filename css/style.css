@@ -1537,3 +1537,6 @@
      border-radius: 0px;
 	 float: right;
 }
+ .all-title-box .breadcrumb li{
+     display: inline-block;
+}
