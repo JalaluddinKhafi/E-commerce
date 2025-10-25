@@ -1577,4 +1577,15 @@
 
 .about-box-main a{
 	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+}
+
+.about-box-main a.btn{
+	padding: 12px 15px;
+}
+
+ .service-block-inner::before {
+     content: "";
 }
