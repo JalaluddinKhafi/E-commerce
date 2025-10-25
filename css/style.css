@@ -1532,4 +1532,6 @@
 }
  .all-title-box .breadcrumb{
      background: #b0b435;
+     margin: 0px;
+     display: inline-block;
 }
