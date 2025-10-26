@@ -1614,3 +1614,6 @@
      text-transform: uppercase;
      font-weight: 600;
 }
+ .service-block-inner p {
+     margin: 0px;
+}
