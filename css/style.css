@@ -1588,4 +1588,5 @@
 
  .service-block-inner::before {
      content: "";
+     width: 100%;
 }
