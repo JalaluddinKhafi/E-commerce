@@ -1597,3 +1597,7 @@
      left: 0;
      transition: all 0.5s ease 0s;
 }
+ .service-block-inner::after {
+     content: "";
+     width: 100%;
+}
