@@ -1616,4 +1616,6 @@
 }
  .service-block-inner p {
      margin: 0px;
+     font-size: 16px;
+     font-weight: 300;
 }
