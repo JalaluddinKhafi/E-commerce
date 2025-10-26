@@ -1592,4 +1592,8 @@
      height: 5px;
      border-radius: 0px;
      background: #000000;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: all 0.5s ease 0s;
 }
