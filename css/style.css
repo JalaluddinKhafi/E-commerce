@@ -1618,4 +1618,12 @@
      margin: 0px;
      font-size: 16px;
      font-weight: 300;
+     padding-bottom: 0px;
+}
+ .service-block-inner:hover::after {
+     height: 100%;
+}
+
+.service-block-inner:hover h3{
+	color: #ffffff;
 }
