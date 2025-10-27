@@ -1654,4 +1654,5 @@
  .our-team .team-content{
      color: #000;
      opacity: 1;
+     position: absolute;
 }
