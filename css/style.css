@@ -1648,3 +1648,6 @@
      height: auto;
      transition: all 0.3s ease-in-out 0s;
 }
+ .our-team:hover img{
+     opacity: 0.5;
+}
