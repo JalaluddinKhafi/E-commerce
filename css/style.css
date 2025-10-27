@@ -1636,4 +1636,6 @@
 
  .our-team{
      box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+     overflow: hidden;
+     position: relative;
 }
