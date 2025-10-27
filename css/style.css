@@ -1651,3 +1651,6 @@
  .our-team:hover img{
      opacity: 0.5;
 }
+ .our-team .team-content{
+     color: #000;
+}
