@@ -1672,3 +1672,6 @@
      display: block;
      font-size: 15px;
 }
+ .our-team .social{
+     list-style: none;
+}
