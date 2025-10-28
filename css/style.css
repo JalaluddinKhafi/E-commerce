@@ -1687,3 +1687,9 @@
  .our-team:hover .social{
      opacity: 1;
 }
+ .our-team .social li{
+     display: block;
+}
+ .our-team .social li a{
+     display: inline-block;
+}
