@@ -1677,4 +1677,7 @@
      padding: 0;
      margin: 0;
      width: 35px;
+     text-align: center;
+     opacity: 0;
+     position: absolute;
 }
