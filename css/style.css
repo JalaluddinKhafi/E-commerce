@@ -1684,3 +1684,6 @@
 	 right: 0px;
      transition: all 0.3s ease 0s;
 }
+ .our-team:hover .social{
+     opacity: 1;
+}
