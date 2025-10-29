@@ -1706,4 +1706,5 @@
  .our-team .social li a:hover{
      width: 35px;
      background: #b0b435;
+     transition-delay: 0s;
 }
