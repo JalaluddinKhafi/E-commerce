@@ -1700,4 +1700,9 @@
      color: #fff;
      opacity: 0.9;
      position: relative;
+     transform: translate(35px, -35px);
+     transition: all 0.3s ease-in-out 0s 
+}
+ .our-team .social li a:hover{
+     width: 35px;
 }
