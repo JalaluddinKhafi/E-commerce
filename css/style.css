@@ -1721,3 +1721,7 @@
  .team-description{
      padding: 20px 0px;
 }
+ .team-description p{
+     font-size: 14px;
+     margin: 0px;
+}
