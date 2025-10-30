@@ -1767,4 +1767,6 @@
      margin-bottom: 15px;
      padding: 0 20px;
      -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+     transition: all .5s ease;
 }
