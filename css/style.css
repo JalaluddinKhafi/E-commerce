@@ -1740,3 +1740,9 @@
  .hover-team:hover .social li:nth-child(4) a{
      transition-delay: 0.0s;
 }
+ .hover-team:hover .social li a{
+     transform: translate(0, 0) 
+}
+ .hover-team:hover img{
+     opacity: 0.5;
+}
