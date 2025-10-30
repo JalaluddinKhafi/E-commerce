@@ -1770,4 +1770,12 @@
      -moz-transition: all .5s ease;
      transition: all .5s ease;
      width: 100%;
+     outline: 0;
+}
+ .search-product .form-control::-moz-placeholder {
+     color: #ffffff;
+     opacity: 1;
+}
+ .search-product button {
+     background: #000000;
 }
