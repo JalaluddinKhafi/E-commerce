@@ -1734,3 +1734,9 @@
  .hover-team:hover .social li:nth-child(2) a{
      transition-delay: 0.2s;
 }
+ .hover-team:hover .social li:nth-child(3) a{
+     transition-delay: 0.1s;
+}
+ .hover-team:hover .social li:nth-child(4) a{
+     transition-delay: 0.0s;
+}
