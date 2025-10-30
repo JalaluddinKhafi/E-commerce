@@ -1757,4 +1757,6 @@
 }
  .search-product input[type="text"] {
      background: #333333;
+     border: 0;
+     box-shadow: none;
 }
