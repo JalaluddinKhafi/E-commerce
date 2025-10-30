@@ -1755,3 +1755,6 @@
  .search-product {
      position: relative;
 }
+ .search-product input[type="text"] {
+     background: #333333;
+}
