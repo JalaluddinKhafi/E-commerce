@@ -1752,3 +1752,6 @@
  .shop-box-inner{
      padding: 70px 0px;
 }
+ .search-product {
+     position: relative;
+}
