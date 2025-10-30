@@ -1725,3 +1725,6 @@
      font-size: 14px;
      margin: 0px;
 }
+ .hover-team:hover .social{
+     opacity: 1;
+}
