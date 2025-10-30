@@ -1746,3 +1746,9 @@
  .hover-team:hover img{
      opacity: 0.5;
 }
+ .hover-team .team-content .title{
+     border-bottom: 2px solid #b0b435;
+}
+ .shop-box-inner{
+     padding: 70px 0px;
+}
