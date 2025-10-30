@@ -1728,3 +1728,6 @@
  .hover-team:hover .social{
      opacity: 1;
 }
+ .hover-team:hover .social li:nth-child(1) a{
+     transition-delay: 0.3s;
+}
