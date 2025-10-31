@@ -1818,4 +1818,5 @@
      top: calc(50% - 12px);
      right: 10px;
      content: '';
+     -webkit-transition: top .2s,-webkit-transform .2s;
 }
