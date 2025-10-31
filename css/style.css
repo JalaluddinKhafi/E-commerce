@@ -1814,4 +1814,8 @@
  .list-group-item[data-toggle="collapse"]::after {
      width: 0;
      height: 0;
+     position: absolute;
+     top: calc(50% - 12px);
+     right: 10px;
+     content: '';
 }
