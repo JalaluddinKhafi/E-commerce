@@ -1797,4 +1797,6 @@
 }
  .title-left{
      font-size: 16px;
+     border-bottom: 3px solid #000000;
+     margin-bottom: 20px;
 }
