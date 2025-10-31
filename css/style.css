@@ -1803,3 +1803,6 @@
  .title-left h3{
      font-weight: 700;
 }
+ .list-group-item {
+     border: none;
+}
