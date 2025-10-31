@@ -1786,4 +1786,15 @@
      top: 0;
      line-height: 27px;
      border: none;
+     cursor: pointer;
+     height: 100%;
+}
+ .search-product button:hover{
+     background: #b0b435;
+}
+ .filter-sidebar-left{
+     margin-bottom: 20px;
+}
+ .title-left{
+     font-size: 16px;
 }
