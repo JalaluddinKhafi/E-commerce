@@ -1811,3 +1811,6 @@
  .text-muted {
      padding: 10px 0px;
 }
+ .list-group-item[data-toggle="collapse"]::after {
+     width: 0;
+}
