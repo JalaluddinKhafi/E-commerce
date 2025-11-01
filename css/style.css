@@ -1845,4 +1845,5 @@
 }
  .list-group-tree .list-group-item:hover {
      color: #b0b435;
+     background-color: #fff;
 }
