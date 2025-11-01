@@ -1831,4 +1831,9 @@
 }
  .list-group-tree .list-group-item.active {
      color: #b0b435;
+     background-color: #fff;
+     font-weight: 700;
+}
+ .list-group-tree .list-group-collapse .list-group > .list-group-item::before {
+     position: absolute;
 }
