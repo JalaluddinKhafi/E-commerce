@@ -1846,4 +1846,9 @@
  .list-group-tree .list-group-item:hover {
      color: #b0b435;
      background-color: #fff;
+     outline: 0;
+     font-weight: 700;
+}
+ .filter-price-left{
+     margin-bottom: 20px;
 }
