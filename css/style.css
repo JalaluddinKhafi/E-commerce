@@ -1841,4 +1841,8 @@
      content: '';
      width: 8px;
      height: 1px;
+     background-color: #ced4da;
+}
+ .list-group-tree .list-group-item:hover {
+     color: #b0b435;
 }
