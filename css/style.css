@@ -1852,3 +1852,7 @@
  .filter-price-left{
      margin-bottom: 20px;
 }
+ #slider-range .ui-slider-handle {
+     background-color: #b0b435;
+     border: 2px solid #fff;
+}
