@@ -1829,3 +1829,6 @@
      margin-left: 25px;
      border-left: 1px solid #ced4da;
 }
+ .list-group-tree .list-group-item.active {
+     color: #b0b435;
+}
