@@ -1837,4 +1837,5 @@
  .list-group-tree .list-group-collapse .list-group > .list-group-item::before {
      position: absolute;
      top: 14px;
+     left: 0;
 }
