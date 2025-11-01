@@ -1856,4 +1856,6 @@
      background-color: #b0b435;
      border: 2px solid #fff;
      border-radius: 50%;
+     cursor: pointer;
+     height: 21px;
 }
