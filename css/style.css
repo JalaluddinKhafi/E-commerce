@@ -1885,3 +1885,6 @@
  .price-box-slider p input{
      margin-top: 5px;
 }
+ .price-box-slider p button{
+     border: none;
+}
