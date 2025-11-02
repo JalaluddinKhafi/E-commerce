@@ -1879,4 +1879,5 @@
  .price-box-slider p{
      clear: both;
      margin-top: 20px;
+     display: inline-block;
 }
