@@ -1876,3 +1876,6 @@
      margin-top: 14px;
      width: 100%;
 }
+ .price-box-slider p{
+     clear: both;
+}
