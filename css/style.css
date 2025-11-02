@@ -1882,3 +1882,6 @@
      display: inline-block;
      width: 100%;
 }
+ .price-box-slider p input{
+     margin-top: 5px;
+}
