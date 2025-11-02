@@ -1863,3 +1863,6 @@
      width: 21px;
      box-shadow: 0px 0px 6.65px 0.35px rgba(0,0,0,0.15);
 }
+ #slider-range .ui-slider-range {
+     background-color: #b0b435;
+}
