@@ -1888,4 +1888,5 @@
  .price-box-slider p button{
      border: none;
      color: #ffffff;
+     float: right;
 }
