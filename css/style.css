@@ -1890,3 +1890,6 @@
      color: #ffffff;
      float: right;
 }
+ .brand-box {
+     display: inline-block;
+}
