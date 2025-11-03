@@ -1896,3 +1896,7 @@
      height: 259px;
      position: relative;
 }
+ .product-item-filter{
+     border-bottom: 1px solid #000000;
+     border-top: 1px solid #000000;
+}
