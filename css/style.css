@@ -1899,4 +1899,10 @@
  .product-item-filter{
      border-bottom: 1px solid #000000;
      border-top: 1px solid #000000;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
 }
