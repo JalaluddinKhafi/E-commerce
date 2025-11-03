@@ -1939,3 +1939,6 @@
      background: #000000;
      color: #ffffff;
 }
+ .toolbar-sorter-right .btn-light:hover{
+     background: #b0b435;
+}
