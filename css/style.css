@@ -1909,3 +1909,9 @@
      justify-content: space-between;
      padding: 5px 0;
 }
+ .nice-select.wide{
+     width: 75%;
+}
+ .product-item-filter .toolbar-sorter-right span{
+     line-height: 42px;
+}
