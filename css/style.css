@@ -1932,3 +1932,6 @@
      border-radius: 0px;
      border: none;
 }
+ .toolbar-sorter-right .bootstrap-select.btn-group .dropdown-toggle .filter-option{
+     padding-left: 15px;
+}
