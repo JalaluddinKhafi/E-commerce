@@ -1925,4 +1925,8 @@
 }
  .toolbar-sorter-right .bootstrap-select.form-control:not([class*="col-"]){
      width: 77%;
+     float: right;
+}
+ .toolbar-sorter-right .bootstrap-select.btn-group > .dropdown-toggle{
+     padding: 0px;
 }
