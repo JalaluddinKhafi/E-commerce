@@ -1929,4 +1929,5 @@
 }
  .toolbar-sorter-right .bootstrap-select.btn-group > .dropdown-toggle{
      padding: 0px;
+     border-radius: 0px;
 }
