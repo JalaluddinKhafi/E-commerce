@@ -1905,4 +1905,6 @@
      display: flex;
      -webkit-box-pack: justify;
      -ms-flex-pack: justify;
+     -webkit-justify-content: space-between;
+     justify-content: space-between;
 }
