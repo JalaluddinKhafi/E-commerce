@@ -1944,3 +1944,6 @@
      border-radius: 0px;
      border: none;
 }
+ .toolbar-sorter-right .show > .btn-light.dropdown-toggle{
+     background-color: #b0b435;
+}
