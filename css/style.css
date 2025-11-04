@@ -1968,3 +1968,6 @@
      display: inline-block;
      vertical-align: middle;
 }
+ .product-item-filter li .nav-link {
+     border: none;
+}
