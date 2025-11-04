@@ -1947,3 +1947,9 @@
  .toolbar-sorter-right .show > .btn-light.dropdown-toggle{
      background-color: #b0b435;
 }
+ .toolbar-sorter-right .bootstrap-select .dropdown-toggle:focus{
+     background: #b0b435;
+}
+ .toolbar-sorter-right .dropup .dropdown-toggle::after{
+     position: absolute;
+}
