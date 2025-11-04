@@ -1970,4 +1970,6 @@
 }
  .product-item-filter li .nav-link {
      border: none;
+     border-radius: 0px;
+     color: #111111;
 }
