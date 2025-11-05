@@ -2032,4 +2032,5 @@
      -webkit-animation: bounceY 0.9s linear;
      -moz-animation: bounceY 0.9s linear;
      -ms-animation: bounceY 0.9s linear;
+     animation: bounceY 0.9s linear;
 }
