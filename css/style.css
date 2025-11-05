@@ -2025,4 +2025,5 @@
      opacity: 1;
      top: 0px;
      -webkit-transition-delay: 0s;
+     -moz-transition-delay: 0s;
 }
