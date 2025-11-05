@@ -2007,3 +2007,6 @@
      color: #000000;
      font-weight: 700;
 }
+ .why-text.full-width p{
+     padding-bottom: 20px;
+}
