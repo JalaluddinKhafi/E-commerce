@@ -2031,4 +2031,5 @@
      transition-delay: 0s;
      -webkit-animation: bounceY 0.9s linear;
      -moz-animation: bounceY 0.9s linear;
+     -ms-animation: bounceY 0.9s linear;
 }
