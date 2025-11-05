@@ -2010,3 +2010,6 @@
  .why-text.full-width p{
      padding-bottom: 20px;
 }
+ .why-text.full-width a{
+     padding: 10px 20px;
+}
