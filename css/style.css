@@ -1983,4 +1983,14 @@
  .product-item-filter li .nav-link:hover {
      background: #000000;
      border: none;
+     color: #ffffff;
+}
+ .product-categori{
+     margin-bottom: 30px;
+}
+ .product-categorie-box{
+     margin-top: 20px;
+}
+ .tab-content, .tab-pane{
+     width: 100%;
 }
