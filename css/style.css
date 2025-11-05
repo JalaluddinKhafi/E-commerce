@@ -2021,4 +2021,5 @@
 }
  .list-view-box:hover .mask-icon{
      -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     filter: alpha(opacity=100);
 }
