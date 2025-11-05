@@ -1975,3 +1975,7 @@
      font-size: 18px;
      padding: 4px 12px;
 }
+ .product-item-filter li .nav-link.active {
+     background: #b0b435;
+     border: none;
+}
