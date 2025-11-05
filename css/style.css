@@ -1980,3 +1980,7 @@
      border: none;
      color: #ffffff;
 }
+ .product-item-filter li .nav-link:hover {
+     background: #000000;
+     border: none;
+}
