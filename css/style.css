@@ -2016,3 +2016,9 @@
      color: #ffffff;
      border: none;
 }
+ .list-view-box{
+     margin-bottom: 30px;
+}
+ .list-view-box:hover .mask-icon{
+     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
