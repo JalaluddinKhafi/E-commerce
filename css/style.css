@@ -1994,3 +1994,7 @@
  .tab-content, .tab-pane{
      width: 100%;
 }
+ .why-text.full-width h4 {
+     font-size: 24px;
+     font-weight: 700;
+}
