@@ -2091,4 +2091,6 @@
  .update-box input[type="submit"]{
      background: #000000;
      border: medium none;
+     border-radius: 0;
+     -webkit-box-shadow: none;
 }
