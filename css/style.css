@@ -2053,4 +2053,5 @@
 }
  .quantity-box input{
      width: 60px;
+     border: 2px solid #000000;
 }
