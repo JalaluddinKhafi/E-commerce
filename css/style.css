@@ -2072,4 +2072,5 @@
      border-radius: 0px;
      font-weight: 400;
      border: 1px solid #e8e8e8;
+     box-shadow: none !important;
 }
