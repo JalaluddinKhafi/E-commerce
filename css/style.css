@@ -2051,3 +2051,6 @@
      vertical-align: middle;
      font-size: 16px;
 }
+ .quantity-box input{
+     width: 60px;
+}
