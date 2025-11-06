@@ -2077,3 +2077,6 @@
  .coupon-box .input-group .form-control::-moz-placeholder{
      color: #000000;
 }
+ .coupon-box .input-group .input-group-append .btn-theme {
+     background: #000000;
+}
