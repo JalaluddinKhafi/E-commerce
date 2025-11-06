@@ -2056,3 +2056,11 @@
      border: 2px solid #000000;
      text-align: center;
 }
+ .quantity-box input:focus{
+     border-color: #b0b435;
+}
+ .name-pr a{
+     font-weight: 700;
+     font-size: 18px;
+     color: #000000;
+}
