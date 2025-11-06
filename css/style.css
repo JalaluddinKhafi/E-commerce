@@ -2088,3 +2088,6 @@
  .coupon-box .input-group .input-group-append .btn-theme:hover {
      background: #b0b435;
 }
+ .update-box input[type="submit"]{
+     background: #000000;
+}
