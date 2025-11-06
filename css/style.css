@@ -2041,3 +2041,6 @@
      background: #b0b435;
      color: #ffffff;
 }
+ .table-main .table thead th{
+     font-size: 18px;
+}
