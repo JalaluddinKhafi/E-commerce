@@ -2074,3 +2074,6 @@
      border: 1px solid #e8e8e8;
      box-shadow: none !important;
 }
+ .coupon-box .input-group .form-control::-moz-placeholder{
+     color: #000000;
+}
