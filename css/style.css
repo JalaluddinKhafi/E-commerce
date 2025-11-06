@@ -2047,3 +2047,6 @@
  .table-main table td.thumbnail-img{
      width: 120px;
 }
+ .table-main table td{
+     vertical-align: middle;
+}
