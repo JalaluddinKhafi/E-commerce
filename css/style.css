@@ -2085,3 +2085,6 @@
      font-size: 16px;
      padding: 0px 20px;
 }
+ .coupon-box .input-group .input-group-append .btn-theme:hover {
+     background: #b0b435;
+}
