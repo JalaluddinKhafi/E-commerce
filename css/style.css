@@ -2064,3 +2064,10 @@
      font-size: 18px;
      color: #000000;
 }
+ .remove-pr{
+     text-align: center;
+}
+ .coupon-box .input-group .form-control {
+     min-height: 50px;
+     border-radius: 0px;
+}
