@@ -2109,4 +2109,8 @@
      -webkit-transition: all 0.3s ease 0s;
      transition: all 0.3s ease 0s;
      white-space: nowrap;
+     width: inherit;
+}
+ .update-box input[type="submit"]:hover{
+     background: #b0b435;
 }
