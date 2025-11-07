@@ -2121,4 +2121,13 @@
 }
  .order-box h4 {
      font-size: 16px;
+     padding: 0px;
+     line-height: 35px !important;
+}
+ .order-box .font-weight-bold{
+     font-size: 18px;
+}
+ .gr-total h5 {
+     font-weight: 700;
+     color: #b0b435;
 }
