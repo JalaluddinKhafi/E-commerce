@@ -2133,4 +2133,9 @@
      font-size: 18px;
      margin: 0px;
      padding: 0px;
+     line-height: 35px !important;
+}
+ .gr-total .h5{
+     margin: 0px;
+     font-weight: 700;
 }
