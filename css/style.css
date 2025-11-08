@@ -2151,4 +2151,8 @@
 }
  .payment-icon {
      display: inline-block;
+     padding: 10px 0px;
+}
+ .payment-icon ul li {
+     width: 20%;
 }
