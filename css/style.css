@@ -2157,3 +2157,7 @@
      width: 20%;
      float: left;
 }
+ .needs-validation label {
+     font-size: 16px;
+     margin-bottom: 0px;
+}
