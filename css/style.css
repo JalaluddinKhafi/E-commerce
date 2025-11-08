@@ -2155,4 +2155,5 @@
 }
  .payment-icon ul li {
      width: 20%;
+     float: left;
 }
