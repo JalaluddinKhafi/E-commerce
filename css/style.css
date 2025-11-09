@@ -2169,3 +2169,6 @@
      box-shadow: none !important;
      font-size: 14px;
 }
+ .needs-validation .form-control:focus {
+     border: 1px solid #b0b435 !important;
+}
