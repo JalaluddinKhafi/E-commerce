@@ -2174,4 +2174,5 @@
 }
  .review-form-box .form-control{
      min-height: 40px;
+     border-radius: 0px;
 }
