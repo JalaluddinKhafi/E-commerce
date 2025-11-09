@@ -2172,3 +2172,6 @@
  .needs-validation .form-control:focus {
      border: 1px solid #b0b435 !important;
 }
+ .review-form-box .form-control{
+     min-height: 40px;
+}
