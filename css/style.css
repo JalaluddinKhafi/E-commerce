@@ -2160,4 +2160,10 @@
  .needs-validation label {
      font-size: 16px;
      margin-bottom: 0px;
+     line-height: 24px;
+}
+ .needs-validation .form-control {
+     min-height: 40px;
+     border-radius: 0px;
+     border: 1px solid #e8e8e8;
 }
