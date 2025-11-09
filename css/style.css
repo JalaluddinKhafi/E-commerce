@@ -2181,4 +2181,8 @@
 }
  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
      background-color: #b0b435;
+     box-shadow: none;
+}
+ .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+     background-color: #b0b435;
 }
