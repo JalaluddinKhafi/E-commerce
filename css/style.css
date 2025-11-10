@@ -2185,4 +2185,8 @@
 }
  .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
      background-color: #b0b435;
+     box-shadow: none;
+}
+ .new-account-login h5 {
+     font-size: 18px;
 }
