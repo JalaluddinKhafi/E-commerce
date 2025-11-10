@@ -2208,3 +2208,6 @@
  .wide.w-100 option{
      min-height: 40px;
 }
+ .custom-control-input:focus ~ .custom-control-label::before{
+     box-shadow: none;
+}
