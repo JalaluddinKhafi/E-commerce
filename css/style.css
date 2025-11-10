@@ -2192,3 +2192,6 @@
      color: #1111111;
      font-weight: 600;
 }
+ .new-account-login h5 a:hover{
+     color: #b0b435;
+}
