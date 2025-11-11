@@ -2241,3 +2241,6 @@
  .my-account-page a:hover{
      color: #b0b435;
 }
+ .service-icon i{
+     font-size: 34px;
+}
