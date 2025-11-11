@@ -2238,3 +2238,6 @@
  .my-account-page a{
      color: #000000;
 }
+ .my-account-page a:hover{
+     color: #b0b435;
+}
