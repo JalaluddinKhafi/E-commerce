@@ -2244,3 +2244,8 @@
  .service-icon i{
      font-size: 34px;
 }
+ .my-account-page a:hover i{
+}
+ .service-desc p{
+     font-size: 16px;
+}
