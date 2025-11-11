@@ -2222,3 +2222,6 @@
      padding: 30px;
      border: 1px solid #000000;
 }
+ .bottom-box {
+     border-top: 1px solid #eee;
+}
