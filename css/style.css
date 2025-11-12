@@ -2274,3 +2274,7 @@
      z-index: 1;
      color: #ffffff;
 }
+ .service-icon a::after {
+     pointer-events: none;
+     position: absolute;
+}
