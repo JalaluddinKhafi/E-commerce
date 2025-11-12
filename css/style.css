@@ -2277,4 +2277,5 @@
  .service-icon a::after {
      pointer-events: none;
      position: absolute;
+     width: 100%;
 }
