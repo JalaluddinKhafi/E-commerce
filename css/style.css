@@ -2271,4 +2271,6 @@
      border-radius: 50%;
      text-align: center;
      position: relative;
+     z-index: 1;
+     color: #ffffff;
 }
