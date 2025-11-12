@@ -2260,3 +2260,7 @@
      -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
      transition: transform ease-out 0.1s, background 0.2s;
 }
+ .service-icon a{
+     display: inline-block;
+     font-size: 0px;
+}
