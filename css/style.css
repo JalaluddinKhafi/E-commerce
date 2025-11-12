@@ -2267,4 +2267,6 @@
      margin: 15px 0px;
      width: 90px;
      height: 90px;
+     line-height: 110px;
+     border-radius: 50%;
 }
