@@ -2326,5 +2326,8 @@
  @-moz-keyframes sonarEffect {
      0% {
          opacity: 0.3;
+    }
+     40% {
+         opacity: 0.5;
 }
 }
