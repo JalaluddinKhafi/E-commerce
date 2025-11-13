@@ -2282,4 +2282,5 @@
      border-radius: 50%;
      content: '';
      -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
 }
