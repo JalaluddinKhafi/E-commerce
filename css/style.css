@@ -2309,3 +2309,11 @@
      transform: scale(0.93);
      color: #fff;
 }
+ @-webkit-keyframes sonarEffect {
+     0% {
+         opacity: 0.3;
+    }
+     40% {
+         opacity: 0.5;
+}
+}
