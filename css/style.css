@@ -2299,4 +2299,8 @@
  .service-icon a:hover::after{
      -webkit-animation: sonarEffect 1.3s ease-out 75ms;
      -moz-animation: sonarEffect 1.3s ease-out 75ms;
+     animation: sonarEffect 1.3s ease-out 75ms;
+}
+ .service-icon a:hover{
+     background: rgba(251, 183, 20, 1);
 }
