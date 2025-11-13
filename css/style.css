@@ -2319,5 +2319,12 @@
     }
      100% {
          box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #b0b435, 0 0 0 10px rgba(0, 53, 68, 0.5);
+         -webkit-transform: scale(1.5);
+         opacity: 0;
+    }
+}
+ @-moz-keyframes sonarEffect {
+     0% {
+         opacity: 0.3;
 }
 }
