@@ -2293,4 +2293,10 @@
      opacity: 0;
      -webkit-transform: scale(0.9);
      -moz-transform: scale(0.9);
+     -ms-transform: scale(0.9);
+     transform: scale(0.9);
+}
+ .service-icon a:hover::after{
+     -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+     -moz-animation: sonarEffect 1.3s ease-out 75ms;
 }
