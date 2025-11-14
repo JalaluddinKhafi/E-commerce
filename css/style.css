@@ -2368,4 +2368,6 @@
 }
  .contact-info-left{
      padding: 20px;
+     background: url(../images/contact-bg.jpg) no-repeat center;
+	 background-size: cover;
 }
