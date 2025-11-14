@@ -2348,5 +2348,11 @@
      100% {
          box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(0, 53, 68, 0.5);
          transform: scale(1.5);
+         opacity: 0;
+    }
 }
+ .add-pr a{
+     padding: 10px 20px;
+     font-weight: 700;
+     color: #ffffff;
 }
