@@ -2371,3 +2371,7 @@
      background: url(../images/contact-bg.jpg) no-repeat center;
 	 background-size: cover;
 }
+ .contact-info-left h2{
+     font-size: 22px;
+     font-weight: 700;
+}
