@@ -2381,3 +2381,6 @@
  .contact-info-left ul li{
      margin-bottom: 12px;
 }
+ .contact-info-left ul li p{
+     font-size: 16px;
+}
