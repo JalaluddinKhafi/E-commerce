@@ -2413,3 +2413,7 @@
  .contact-form-right .form-group .form-control::-moz-placeholder{
      color: #999999;
 }
+ .contact-form-right .form-group .form-control{
+     border-radius: 0px;
+     min-height: 40px;
+}
