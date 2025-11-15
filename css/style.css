@@ -2421,3 +2421,6 @@
      margin-bottom: 30px;
      position: relative;
 }
+ .contact-form-right .form-group .form-control:focus{
+     border: 1px solid #b0b435;
+}
