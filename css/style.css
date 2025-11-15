@@ -2423,4 +2423,9 @@
 }
  .contact-form-right .form-group .form-control:focus{
      border: 1px solid #b0b435;
+     box-shadow: none;
+}
+ .submit-button button{
+     padding: 10px 20px;
+     font-weight: 700;
 }
