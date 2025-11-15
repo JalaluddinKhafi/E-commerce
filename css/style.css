@@ -2417,3 +2417,6 @@
      border-radius: 0px;
      min-height: 40px;
 }
+ .contact-form-right .form-group {
+     margin-bottom: 30px;
+}
