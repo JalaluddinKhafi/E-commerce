@@ -2387,4 +2387,9 @@
      font-weight: 300;
      padding-right: 16px;
      padding-left: 25px;
+     line-height: 24px;
+     position: relative;
+}
+ .contact-info-left ul li p i{
+     position: absolute;
 }
