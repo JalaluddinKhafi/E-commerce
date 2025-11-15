@@ -2384,4 +2384,6 @@
  .contact-info-left ul li p{
      font-size: 16px;
      color: #222222;
+     font-weight: 300;
+     padding-right: 16px;
 }
