@@ -2397,3 +2397,6 @@
      padding-right: 6px;
      color: #b0b435;
 }
+ .contact-info-left ul li p a:hover{
+     color: #b0b435;
+}
