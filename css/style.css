@@ -2407,3 +2407,9 @@
      font-size: 24px;
      font-weight: 700;
 }
+ .contact-form-right p{
+     margin-bottom: 15px;
+}
+ .contact-form-right .form-group .form-control::-moz-placeholder{
+     color: #999999;
+}
