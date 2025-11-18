@@ -2429,4 +2429,8 @@
      padding: 10px 20px;
      font-weight: 700;
      color: #ffffff;
+     border: none;
+}
+ .help-block.with-errors{
+     position: absolute;
 }
