@@ -2452,3 +2452,7 @@
      background-image: none;
      top: 40%;
 }
+ .single-product-slider .carousel-control-next {
+     bottom: auto;
+     background: #111111;
+}
