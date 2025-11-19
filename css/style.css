@@ -2490,3 +2490,12 @@
      font-size: 13px;
      color: #666;
 }
+ .available-stock span {
+     font-size: 15px;
+}
+ .available-stock span a {
+     color: #b0b435;
+}
+ .single-product-details h4{
+     font-size: 18px;
+}
