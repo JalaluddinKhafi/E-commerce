@@ -2460,3 +2460,6 @@
      background-image: none;
      top: 40%;
 }
+ .single-product-slider .carousel-indicators li img {
+     opacity: 0.5;
+}
