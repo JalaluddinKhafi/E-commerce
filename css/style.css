@@ -2471,3 +2471,6 @@
      bottom: 0;
      background: #000000;
 }
+ .carousel-indicators li{
+     width: 30%;
+}
