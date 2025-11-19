@@ -2474,4 +2474,5 @@
  .carousel-indicators li{
      width: 30%;
      height: 100%;
+     cursor: pointer;
 }
