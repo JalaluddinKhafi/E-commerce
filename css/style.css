@@ -2463,3 +2463,6 @@
  .single-product-slider .carousel-indicators li img {
      opacity: 0.5;
 }
+ .single-product-slider .carousel-indicators li.active img {
+     opacity: 1;
+}
