@@ -2486,3 +2486,6 @@
      font-weight: 700;
      font-size: 18px;
 }
+ .single-product-details h5 del {
+     font-size: 13px;
+}
