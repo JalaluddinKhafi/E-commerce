@@ -2468,4 +2468,6 @@
 }
  .carousel-indicators{
      position: relative;
+     bottom: 0;
+     background: #000000;
 }
