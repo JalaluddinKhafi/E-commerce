@@ -2476,3 +2476,7 @@
      height: 100%;
      cursor: pointer;
 }
+ .single-product-details h2{
+     color: #000000;
+     font-weight: 700;
+}
