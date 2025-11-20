@@ -2507,4 +2507,6 @@
 }
  .single-product-details ul{
      display: inline-block;
+     width: 100%;
+     border: 1px #000000 dashed;
 }
