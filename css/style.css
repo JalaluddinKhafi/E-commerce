@@ -2519,4 +2519,9 @@
  .size-st .bootstrap-select > .dropdown-toggle.btn-light{
      background: #000000;
      border: none;
+     border-radius: 0px;
+     color: #ffffff;
+}
+ .quantity-box input{
+     width: 100%;
 }
