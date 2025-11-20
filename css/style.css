@@ -2525,3 +2525,6 @@
  .quantity-box input{
      width: 100%;
 }
+ .price-box-bar{
+     margin-bottom: 30px;
+}
