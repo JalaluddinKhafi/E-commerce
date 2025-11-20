@@ -2540,3 +2540,6 @@
  .add-to-btn .share-bar {
      float: right;
 }
+ .add-comp a{
+     padding: 10px 20px;
+}
