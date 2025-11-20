@@ -2516,3 +2516,7 @@
      float: left;
      padding: 0px 15px;
 }
+ .size-st .bootstrap-select > .dropdown-toggle.btn-light{
+     background: #000000;
+     border: none;
+}
