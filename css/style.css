@@ -2528,3 +2528,6 @@
  .price-box-bar{
      margin-bottom: 30px;
 }
+ .price-box-bar a{
+     padding: 10px 20px;
+}
