@@ -2511,3 +2511,6 @@
      border: 1px #000000 dashed;
      margin-bottom: 30px;
 }
+ .single-product-details ul li{
+     width: 50%;
+}
