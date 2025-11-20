@@ -2503,4 +2503,8 @@
 }
  .single-product-details p{
      font-size: 16px;
+     margin-bottom: 20px;
+}
+ .single-product-details ul{
+     display: inline-block;
 }
