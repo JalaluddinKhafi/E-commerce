@@ -2513,4 +2513,6 @@
 }
  .single-product-details ul li{
      width: 50%;
+     float: left;
+     padding: 0px 15px;
 }
