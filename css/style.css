@@ -2537,3 +2537,6 @@
  .add-to-btn .add-comp {
      float: left;
 }
+ .add-to-btn .share-bar {
+     float: right;
+}
