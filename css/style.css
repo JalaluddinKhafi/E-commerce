@@ -2556,3 +2556,10 @@
      width: 34px;
      text-align: center;
 }
+ .share-bar a {
+}
+ .featured-products-box{
+}
+ .featured-products-box .owl-nav{
+     position: absolute;
+}
