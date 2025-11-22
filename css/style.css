@@ -2563,4 +2563,5 @@
  .featured-products-box .owl-nav{
      position: absolute;
      margin: 0 auto;
+     left: 0;
 }
