@@ -2568,3 +2568,6 @@
      bottom: -20px;
      text-align: center;
 }
+ .featured-products-box .owl-nav button.owl-prev{
+     background: #000000;
+}
