@@ -2551,4 +2551,6 @@
  .share-bar a {
      background: #b0b435;
      color: #ffffff;
+     padding: 5px 10px;
+     display: inline-block;
 }
