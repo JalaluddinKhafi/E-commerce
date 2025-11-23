@@ -2572,4 +2572,9 @@
      background: #000000;
      color: #ffffff;
      width: 38px;
+     height: 38px;
+     text-align: center;
+}
+ .featured-products-box .owl-nav button.owl-next{
+     background: #000000;
 }
