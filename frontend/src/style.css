@@ -16,3 +16,6 @@
   margin-block: 32px 0;
   flex-wrap: wrap;
 }
+.pagination span {
+  color: var(--muted);
+}
