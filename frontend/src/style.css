@@ -30,3 +30,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+.button {
+  border: 1px solid var(--green);
+}
