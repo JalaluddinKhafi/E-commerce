@@ -39,4 +39,6 @@ textarea {
 button,
 .button {
   border: 1px solid var(--green);
+  background: var(--green);
+  color: #fff;
 }
