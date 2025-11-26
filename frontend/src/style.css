@@ -8,3 +8,9 @@
   --line: #e2e5db;
   --cream: #f1f1e7;
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
