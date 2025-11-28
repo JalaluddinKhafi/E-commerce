@@ -54,3 +54,7 @@ button,
     background 0.15s,
     transform 0.15s;
 }
+button:hover,
+.button:hover {
+  background: #316447;
+}
