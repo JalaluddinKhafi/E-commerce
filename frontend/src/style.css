@@ -41,4 +41,5 @@ button,
   border: 1px solid var(--green);
   background: var(--green);
   color: #fff;
+  padding: 12px 21px;
 }
