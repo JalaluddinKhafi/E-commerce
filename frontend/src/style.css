@@ -44,4 +44,6 @@ button,
   padding: 12px 21px;
   border-radius: 7px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
 }
