@@ -46,4 +46,7 @@ button,
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-weight: 600;
 }
