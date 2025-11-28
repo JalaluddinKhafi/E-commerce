@@ -49,4 +49,5 @@ button,
   justify-content: center;
   gap: 12px;
   font-weight: 600;
+  line-height: 1.7;
 }
