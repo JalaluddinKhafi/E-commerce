@@ -42,4 +42,5 @@ button,
   background: var(--green);
   color: #fff;
   padding: 12px 21px;
+  border-radius: 7px;
 }
