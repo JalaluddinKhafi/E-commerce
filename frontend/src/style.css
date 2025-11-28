@@ -50,4 +50,7 @@ button,
   gap: 12px;
   font-weight: 600;
   line-height: 1.7;
+  transition:
+    background 0.15s,
+    transform 0.15s;
 }
