@@ -79,4 +79,8 @@ textarea {
   padding: 12px 14px;
   color: #25382d;
   width: 100%;
+  min-width: 0;
+}
+textarea {
+  resize: vertical;
 }
