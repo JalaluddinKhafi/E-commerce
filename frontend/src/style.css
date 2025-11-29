@@ -129,3 +129,6 @@ img {
   width: calc(100% - 88px);
   margin-inline: auto;
 }
+.announcement {
+  background: var(--green);
+}
