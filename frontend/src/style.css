@@ -89,4 +89,5 @@ label {
   flex-direction: column;
   gap: 9px;
   margin-bottom: 18px;
+  line-height: 1.7;
 }
