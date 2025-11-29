@@ -132,4 +132,6 @@ img {
 .announcement {
   background: var(--green);
   color: #f8f7e9;
+  padding: 12px 44px;
+  font-size: 12px;
 }
