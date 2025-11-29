@@ -124,3 +124,6 @@ img {
   max-width: 100%;
   display: block;
 }
+.shell {
+  max-width: 1240px;
+}
