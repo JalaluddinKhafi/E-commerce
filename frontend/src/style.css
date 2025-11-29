@@ -90,4 +90,14 @@ label {
   gap: 9px;
   margin-bottom: 18px;
   line-height: 1.7;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1 {
+  font-size: 38px;
 }
