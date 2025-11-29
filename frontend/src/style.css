@@ -100,4 +100,10 @@ p {
 }
 h1 {
   font-size: 38px;
+  line-height: 1.6;
+  letter-spacing: -1px;
+  margin-bottom: 22px;
+}
+h2 {
+  font-size: 27px;
 }
