@@ -60,4 +60,18 @@ button:hover,
 }
 button:disabled {
   opacity: 0.5;
+  cursor: not-allowed;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #c09237;
+  outline-offset: 4px;
+}
+input,
+select,
+textarea {
+  border: 1px solid #d9ded3;
 }
