@@ -126,4 +126,6 @@ img {
 }
 .shell {
   max-width: 1240px;
+  width: calc(100% - 88px);
+  margin-inline: auto;
 }
