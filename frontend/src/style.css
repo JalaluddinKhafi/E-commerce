@@ -88,4 +88,5 @@ label {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  margin-bottom: 18px;
 }
