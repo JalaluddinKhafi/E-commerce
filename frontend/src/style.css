@@ -145,3 +145,7 @@ header {
   background: #fcfbf7;
   border-bottom: 1px solid var(--line);
 }
+.header-inner {
+  display: flex;
+  align-items: center;
+}
