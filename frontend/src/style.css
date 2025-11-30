@@ -154,4 +154,6 @@ header {
 }
 .brand {
   display: flex;
+  align-items: center;
+  gap: 9px;
 }
