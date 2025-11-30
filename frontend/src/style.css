@@ -139,4 +139,5 @@ img {
 }
 .announcement span {
   margin-inline-start: 55px;
+  opacity: 0.8;
 }
