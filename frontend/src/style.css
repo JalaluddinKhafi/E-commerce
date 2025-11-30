@@ -149,4 +149,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 28px;
+  min-height: 105px;
+}
+.brand {
+  display: flex;
 }
