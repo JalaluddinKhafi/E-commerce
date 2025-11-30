@@ -135,4 +135,8 @@ img {
   padding: 12px 44px;
   font-size: 12px;
   text-align: center;
+  line-height: 1.8;
+}
+.announcement span {
+  margin-inline-start: 55px;
 }
