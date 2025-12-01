@@ -167,3 +167,12 @@ header {
   color: var(--muted);
   margin-top: 5px;
 }
+.brand-mark {
+  font: 54px Georgia;
+  color: var(--green);
+  line-height: 1;
+}
+nav,
+.header-actions {
+  display: flex;
+}
