@@ -160,3 +160,8 @@ header {
   font-size: 25px;
   font-weight: 700;
 }
+.brand small {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
