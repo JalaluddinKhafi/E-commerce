@@ -175,4 +175,5 @@ header {
 nav,
 .header-actions {
   display: flex;
+  align-items: center;
 }
