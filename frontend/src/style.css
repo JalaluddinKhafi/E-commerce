@@ -213,3 +213,6 @@ nav a {
 main {
   min-height: 60vh;
 }
+.hero {
+  display: grid;
+}
