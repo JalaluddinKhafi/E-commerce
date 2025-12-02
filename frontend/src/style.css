@@ -195,3 +195,6 @@ nav a {
 .quiet:hover {
   background: #e9ede4;
 }
+.count {
+  display: inline-flex;
+}
