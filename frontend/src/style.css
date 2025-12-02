@@ -190,4 +190,5 @@ nav a {
   color: var(--green);
   border: 0;
   padding: 8px;
+  font-size: 12px;
 }
