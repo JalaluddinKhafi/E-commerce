@@ -199,4 +199,6 @@ nav a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  min-width: 20px;
+  height: 20px;
 }
