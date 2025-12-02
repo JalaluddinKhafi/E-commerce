@@ -205,4 +205,11 @@ nav a {
   border-radius: 50%;
   font-size: 10px;
   vertical-align: middle;
+  margin-inline-start: 4px;
+}
+.cart-link {
+  white-space: nowrap;
+}
+main {
+  min-height: 60vh;
 }
