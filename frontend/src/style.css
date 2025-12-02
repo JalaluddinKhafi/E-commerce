@@ -217,4 +217,12 @@ main {
   display: grid;
   grid-template-columns: 1fr 1.05fr;
   gap: 65px;
+  align-items: center;
+  padding-block: 54px 60px;
+}
+.hero-copy {
+  padding-block: 20px;
+}
+.eyebrow {
+  font-size: 11px;
 }
