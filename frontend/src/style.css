@@ -201,4 +201,8 @@ nav a {
   justify-content: center;
   min-width: 20px;
   height: 20px;
+  background: #e9eee3;
+  border-radius: 50%;
+  font-size: 10px;
+  vertical-align: middle;
 }
