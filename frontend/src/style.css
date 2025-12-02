@@ -189,4 +189,5 @@ nav a {
   background: transparent;
   color: var(--green);
   border: 0;
+  padding: 8px;
 }
