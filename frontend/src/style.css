@@ -192,3 +192,6 @@ nav a {
   padding: 8px;
   font-size: 12px;
 }
+.quiet:hover {
+  background: #e9ede4;
+}
