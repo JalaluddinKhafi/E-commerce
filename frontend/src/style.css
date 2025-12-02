@@ -182,3 +182,9 @@ nav,
 nav a {
   padding-block: 10px;
 }
+.header-actions {
+  gap: 18px;
+}
+.quiet {
+  background: transparent;
+}
