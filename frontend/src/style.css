@@ -187,4 +187,6 @@ nav a {
 }
 .quiet {
   background: transparent;
+  color: var(--green);
+  border: 0;
 }
