@@ -239,4 +239,8 @@ main {
 }
 .hero em {
   font-style: normal;
+  color: #6b7e42;
+}
+.hero p {
+  max-width: 425px;
 }
