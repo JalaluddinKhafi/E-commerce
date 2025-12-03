@@ -251,3 +251,6 @@ main {
 .hero .button {
   padding-inline: 28px;
 }
+.hero .button span {
+  margin-inline-start: 20px;
+}
