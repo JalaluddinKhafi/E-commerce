@@ -237,3 +237,6 @@ main {
   margin-bottom: 20px;
   letter-spacing: -2px;
 }
+.hero em {
+  font-style: normal;
+}
