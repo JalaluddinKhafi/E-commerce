@@ -244,4 +244,7 @@ main {
 .hero p {
   max-width: 425px;
   color: #6d786d;
+  font-size: 14px;
+  line-height: 2.1;
+  margin-bottom: 25px;
 }
