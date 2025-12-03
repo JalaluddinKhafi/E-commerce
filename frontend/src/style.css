@@ -248,3 +248,6 @@ main {
   line-height: 2.1;
   margin-bottom: 25px;
 }
+.hero .button {
+  padding-inline: 28px;
+}
