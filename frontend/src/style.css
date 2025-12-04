@@ -288,4 +288,5 @@ main {
   height: 125px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
