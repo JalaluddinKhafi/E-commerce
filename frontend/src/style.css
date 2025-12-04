@@ -292,4 +292,5 @@ main {
   text-align: center;
   font-size: 14px;
   line-height: 1.9;
+  transform: rotate(9deg);
 }
