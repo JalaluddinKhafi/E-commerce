@@ -265,4 +265,12 @@ main {
 }
 .tiny-leaf {
   font: 30px Georgia;
+  color: #798c5a;
+}
+.hero-visual {
+  position: relative;
+  min-width: 0;
+}
+.hero-visual > img {
+  width: 100%;
 }
