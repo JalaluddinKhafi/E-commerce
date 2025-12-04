@@ -281,4 +281,5 @@ main {
 .hero-stamp {
   position: absolute;
   bottom: 25px;
+  right: -28px;
 }
