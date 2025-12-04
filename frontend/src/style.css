@@ -259,4 +259,7 @@ main {
   font-size: 11px;
   color: var(--muted);
   margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
