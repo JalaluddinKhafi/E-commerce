@@ -255,3 +255,6 @@ main {
   margin-inline-start: 20px;
   font-size: 23px;
 }
+.hero-caption {
+  font-size: 11px;
+}
