@@ -290,4 +290,6 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: 14px;
+  line-height: 1.9;
 }
