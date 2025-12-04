@@ -278,3 +278,6 @@ main {
   border-radius: 160px 12px 12px 12px;
   filter: saturate(0.85);
 }
+.hero-stamp {
+  position: absolute;
+}
