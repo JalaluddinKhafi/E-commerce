@@ -318,3 +318,6 @@ main {
 .benefits > div:last-child {
   border: 0;
 }
+.benefits span {
+  position: absolute;
+}
