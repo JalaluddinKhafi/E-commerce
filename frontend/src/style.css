@@ -312,4 +312,9 @@ main {
 }
 .benefits > div {
   position: relative;
+  padding-inline: 60px 25px;
+  border-inline-end: 1px solid var(--line);
+}
+.benefits > div:last-child {
+  border: 0;
 }
