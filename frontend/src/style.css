@@ -320,4 +320,6 @@ main {
 }
 .benefits span {
   position: absolute;
+  right: 18px;
+  top: 3px;
 }
