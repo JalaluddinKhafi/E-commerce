@@ -298,3 +298,6 @@ main {
 .hero-stamp strong {
   font-size: 23px;
 }
+.hero-stamp span {
+  font: 7px Georgia;
+}
