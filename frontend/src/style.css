@@ -293,4 +293,8 @@ main {
   font-size: 14px;
   line-height: 1.9;
   transform: rotate(9deg);
+  box-shadow: 0 4px 20px #203c2614;
+}
+.hero-stamp strong {
+  font-size: 23px;
 }
