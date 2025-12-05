@@ -301,4 +301,8 @@ main {
 .hero-stamp span {
   font: 7px Georgia;
   letter-spacing: 1px;
+  margin-top: 7px;
+}
+.benefits {
+  display: grid;
 }
