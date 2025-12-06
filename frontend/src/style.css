@@ -373,4 +373,5 @@ main {
 }
 .tabs button.active {
   background: #e8eddd;
+  color: var(--green);
 }
