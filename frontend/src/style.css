@@ -371,3 +371,6 @@ main {
   border-radius: 30px;
   white-space: nowrap;
 }
+.tabs button.active {
+  background: #e8eddd;
+}
