@@ -350,3 +350,7 @@ main {
   color: var(--muted);
   margin-bottom: 0;
 }
+.toolbar {
+  display: flex;
+  align-items: center;
+}
