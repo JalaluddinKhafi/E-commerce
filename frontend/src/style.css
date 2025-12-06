@@ -355,4 +355,8 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  margin-block: 28px;
+}
+.tabs {
+  display: flex;
 }
