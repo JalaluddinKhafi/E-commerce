@@ -365,4 +365,9 @@ main {
 .tabs button {
   background: transparent;
   color: #677164;
+  border: 1px solid transparent;
+  font-size: 12px;
+  padding: 9px 15px;
+  border-radius: 30px;
+  white-space: nowrap;
 }
