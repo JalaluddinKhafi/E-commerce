@@ -376,3 +376,15 @@ main {
   color: var(--green);
   border-color: #d9e0cd;
 }
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.filters label {
+  margin: 0;
+}
+.filters input,
+.filters select {
+  font-size: 12px;
+}
