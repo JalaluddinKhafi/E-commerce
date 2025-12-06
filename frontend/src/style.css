@@ -328,3 +328,6 @@ main {
 .benefits strong {
   font-size: 14px;
 }
+.benefits p {
+  font-size: 11px;
+}
