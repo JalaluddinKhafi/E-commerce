@@ -330,4 +330,5 @@ main {
 }
 .benefits p {
   font-size: 11px;
+  color: var(--muted);
 }
