@@ -333,3 +333,9 @@ main {
   color: var(--muted);
   margin: 5px 0 0;
 }
+.catalog {
+  padding-block: 70px;
+}
+.section-heading {
+  display: flex;
+}
