@@ -359,4 +359,6 @@ main {
 }
 .tabs {
   display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
 }
