@@ -325,3 +325,6 @@ main {
   color: #95a278;
   font: 21px Georgia;
 }
+.benefits strong {
+  font-size: 14px;
+}
