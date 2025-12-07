@@ -411,4 +411,8 @@ main {
 }
 .product-image {
   position: relative;
+  background: #f3f4ec;
+}
+.product-image img {
+  width: 100%;
 }
