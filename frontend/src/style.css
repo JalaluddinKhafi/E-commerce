@@ -422,3 +422,7 @@ main {
 .product-card:hover .product-image img {
   transform: scale(1.025);
 }
+.favorite {
+  position: absolute;
+  left: 12px;
+}
