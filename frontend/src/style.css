@@ -387,4 +387,9 @@ main {
 .filters input,
 .filters select {
   font-size: 12px;
+  background: transparent;
+  padding: 11px 14px;
+}
+.search {
+  max-width: 200px;
 }
