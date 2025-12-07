@@ -402,4 +402,13 @@ main {
   border: 1px solid var(--line);
   border-radius: 10px;
   overflow: hidden;
+  background: #fff;
+  min-width: 0;
+  transition: box-shadow 0.2s;
+}
+.product-card:hover {
+  box-shadow: 0 10px 32px #29452e0d;
+}
+.product-image {
+  position: relative;
 }
