@@ -393,3 +393,6 @@ main {
 .search {
   max-width: 200px;
 }
+.product-grid {
+  display: grid;
+}
