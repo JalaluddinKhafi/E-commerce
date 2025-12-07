@@ -417,4 +417,5 @@ main {
   width: 100%;
   aspect-ratio: 1.05;
   object-fit: cover;
+  transition: transform 0.25s;
 }
