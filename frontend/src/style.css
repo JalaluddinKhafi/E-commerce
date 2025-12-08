@@ -430,4 +430,6 @@ main {
   height: 33px;
   border-radius: 50%;
   background: #fff;
+  border: 0;
+  color: #36563a;
 }
