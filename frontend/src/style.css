@@ -444,3 +444,13 @@ main {
 .favorite.selected {
   color: #a24538;
 }
+.product-body {
+  padding: 20px 17px;
+}
+.product-body .eyebrow {
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.product-body h3 {
+  font-size: 16px;
+}
