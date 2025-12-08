@@ -461,3 +461,6 @@ main {
   min-height: 44px;
   margin-bottom: 16px;
 }
+.product-bottom {
+  display: flex;
+}
