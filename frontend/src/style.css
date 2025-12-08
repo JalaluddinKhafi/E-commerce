@@ -427,4 +427,6 @@ main {
   left: 12px;
   top: 12px;
   width: 33px;
+  height: 33px;
+  border-radius: 50%;
 }
