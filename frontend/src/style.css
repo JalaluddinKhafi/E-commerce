@@ -433,4 +433,14 @@ main {
   border: 0;
   color: #36563a;
   font-size: 24px;
+  font-family: Arial;
+  padding: 0;
+  box-shadow: 0 2px 8px #0000000d;
+}
+.favorite:hover,
+.favorite.selected {
+  background: #e4ead8;
+}
+.favorite.selected {
+  color: #a24538;
 }
