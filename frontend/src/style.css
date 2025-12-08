@@ -455,3 +455,6 @@ main {
   font-size: 16px;
   margin-bottom: 8px;
 }
+.product-body p {
+  font-size: 11px;
+}
