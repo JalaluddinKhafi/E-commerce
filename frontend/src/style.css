@@ -458,4 +458,6 @@ main {
 .product-body p {
   font-size: 11px;
   color: var(--muted);
+  min-height: 44px;
+  margin-bottom: 16px;
 }
