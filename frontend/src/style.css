@@ -509,4 +509,6 @@ main {
   position: absolute;
   font: 350px Georgia;
   left: 6%;
+  top: -65px;
+  opacity: 0.13;
 }
