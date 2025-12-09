@@ -521,3 +521,6 @@ main {
   font-size: 13px;
   color: var(--muted);
 }
+.light {
+  background: #fcfbf7;
+}
