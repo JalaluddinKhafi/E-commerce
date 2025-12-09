@@ -480,3 +480,7 @@ main {
 .product-bottom button:hover {
   background: #dce6cb;
 }
+.badge {
+  background: #e5edda;
+  color: var(--green);
+}
