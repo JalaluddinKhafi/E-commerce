@@ -523,4 +523,5 @@ main {
 }
 .light {
   background: #fcfbf7;
+  color: var(--green);
 }
