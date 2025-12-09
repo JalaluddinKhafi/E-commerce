@@ -484,4 +484,11 @@ main {
   background: #e5edda;
   color: var(--green);
   border-radius: 30px;
+  font-size: 11px;
+  padding: 7px 14px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.stock-badge {
+  position: absolute;
 }
