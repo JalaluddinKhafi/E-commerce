@@ -477,3 +477,6 @@ main {
   color: var(--green);
   border: 0;
 }
+.product-bottom button:hover {
+  background: #dce6cb;
+}
