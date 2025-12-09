@@ -512,4 +512,12 @@ main {
   top: -65px;
   opacity: 0.13;
   color: var(--green);
+  pointer-events: none;
+}
+.seasonal h2 {
+  font-size: 32px;
+}
+.seasonal p {
+  font-size: 13px;
+  color: var(--muted);
 }
