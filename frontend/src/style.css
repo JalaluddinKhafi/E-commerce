@@ -467,3 +467,6 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+.product-bottom strong {
+  font-size: 16px;
+}
