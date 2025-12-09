@@ -494,4 +494,8 @@ main {
   bottom: 12px;
   right: 12px;
   background: #f4e5d5;
+  color: #8e6533;
+}
+.seasonal {
+  border-radius: 12px;
 }
