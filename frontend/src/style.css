@@ -499,4 +499,6 @@ main {
 .seasonal {
   border-radius: 12px;
   background: #e9ecdf;
+  padding: 45px 55px;
+  margin-bottom: 70px;
 }
