@@ -507,4 +507,6 @@ main {
 .seasonal:after {
   content: '❧';
   position: absolute;
+  font: 350px Georgia;
+  left: 6%;
 }
