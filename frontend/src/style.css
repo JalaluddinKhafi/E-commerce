@@ -504,3 +504,6 @@ main {
   position: relative;
   overflow: hidden;
 }
+.seasonal:after {
+  content: '❧';
+}
