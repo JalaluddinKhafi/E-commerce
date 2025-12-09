@@ -491,4 +491,6 @@ main {
 }
 .stock-badge {
   position: absolute;
+  bottom: 12px;
+  right: 12px;
 }
