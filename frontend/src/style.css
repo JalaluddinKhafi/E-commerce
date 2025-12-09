@@ -506,4 +506,5 @@ main {
 }
 .seasonal:after {
   content: '❧';
+  position: absolute;
 }
