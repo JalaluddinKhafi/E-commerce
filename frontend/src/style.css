@@ -502,4 +502,5 @@ main {
   padding: 45px 55px;
   margin-bottom: 70px;
   position: relative;
+  overflow: hidden;
 }
