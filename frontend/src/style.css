@@ -475,4 +475,5 @@ main {
   font-size: 11px;
   background: #edf1e4;
   color: var(--green);
+  border: 0;
 }
