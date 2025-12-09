@@ -470,3 +470,9 @@ main {
 .product-bottom strong {
   font-size: 16px;
 }
+.product-bottom button {
+  padding: 7px 10px;
+  font-size: 11px;
+  background: #edf1e4;
+  color: var(--green);
+}
