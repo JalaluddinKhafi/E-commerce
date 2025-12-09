@@ -511,4 +511,5 @@ main {
   left: 6%;
   top: -65px;
   opacity: 0.13;
+  color: var(--green);
 }
