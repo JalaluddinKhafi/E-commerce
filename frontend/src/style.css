@@ -568,3 +568,6 @@ main {
 .back:hover {
   text-decoration: underline;
 }
+.outline {
+  background: transparent;
+}
