@@ -565,3 +565,6 @@ main {
   display: block;
   margin-block: 16px;
 }
+.back:hover {
+  text-decoration: underline;
+}
