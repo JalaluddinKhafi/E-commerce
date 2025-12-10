@@ -538,3 +538,6 @@ main {
   border-radius: 10px;
   padding: 27px;
 }
+.empty {
+  text-align: center;
+}
