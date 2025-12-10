@@ -540,4 +540,6 @@ main {
 }
 .empty {
   text-align: center;
+  padding: 75px 25px;
+  border: 1px dashed #d3dac8;
 }
