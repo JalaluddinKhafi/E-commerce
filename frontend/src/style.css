@@ -532,3 +532,6 @@ main {
 .page {
   padding-block: 50px 80px;
 }
+.panel {
+  background: #fff;
+}
