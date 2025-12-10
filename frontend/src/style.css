@@ -524,4 +524,11 @@ main {
 .light {
   background: #fcfbf7;
   color: var(--green);
+  border-color: #fcfbf7;
+}
+.light:hover {
+  color: #fff;
+}
+.page {
+  padding-block: 50px 80px;
 }
