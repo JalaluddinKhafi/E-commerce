@@ -549,3 +549,6 @@ main {
   color: var(--muted);
   font-size: 14px;
 }
+.empty h2 {
+  font-size: 24px;
+}
