@@ -557,4 +557,9 @@ main {
 }
 .muted {
   color: var(--muted);
+  font-size: 12px;
+}
+.back {
+  font-size: 12px;
+  color: var(--muted);
 }
