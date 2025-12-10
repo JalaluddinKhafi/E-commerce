@@ -555,3 +555,6 @@ main {
 .empty .button {
   margin-top: 8px;
 }
+.muted {
+  color: var(--muted);
+}
