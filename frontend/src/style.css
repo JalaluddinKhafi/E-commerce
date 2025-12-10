@@ -552,3 +552,6 @@ main {
 .empty h2 {
   font-size: 24px;
 }
+.empty .button {
+  margin-top: 8px;
+}
