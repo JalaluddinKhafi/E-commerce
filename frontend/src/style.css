@@ -570,4 +570,6 @@ main {
 }
 .outline {
   background: transparent;
+  color: var(--green);
+  border-color: #cdd9c8;
 }
