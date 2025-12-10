@@ -535,4 +535,6 @@ main {
 .panel {
   background: #fff;
   border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 27px;
 }
