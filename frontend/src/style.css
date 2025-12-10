@@ -542,4 +542,10 @@ main {
   text-align: center;
   padding: 75px 25px;
   border: 1px dashed #d3dac8;
+  border-radius: 10px;
+  margin-block: 25px;
+}
+.empty p {
+  color: var(--muted);
+  font-size: 14px;
 }
