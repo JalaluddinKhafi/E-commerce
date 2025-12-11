@@ -596,3 +596,7 @@ main {
   background: transparent;
   text-decoration: underline;
 }
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
