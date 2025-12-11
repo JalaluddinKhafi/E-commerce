@@ -599,4 +599,10 @@ main {
 .detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 35px;
+}
+.detail > img {
+  width: 100%;
 }
