@@ -606,4 +606,6 @@ main {
 .detail > img {
   width: 100%;
   border-radius: 14px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
