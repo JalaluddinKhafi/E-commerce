@@ -587,4 +587,8 @@ main {
 }
 .text-button {
   border: 0;
+  background: transparent;
+  color: #a25a46;
+  font-size: 12px;
+  padding: 4px 0;
 }
