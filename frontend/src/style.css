@@ -576,3 +576,6 @@ main {
 .outline:hover {
   background: #e9eee2;
 }
+.wide {
+  width: 100%;
+}
