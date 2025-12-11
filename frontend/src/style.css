@@ -573,3 +573,6 @@ main {
   color: var(--green);
   border-color: #cdd9c8;
 }
+.outline:hover {
+  background: #e9eee2;
+}
