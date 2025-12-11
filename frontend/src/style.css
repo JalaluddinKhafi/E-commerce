@@ -614,3 +614,6 @@ main {
   display: block;
   margin-block: 25px;
 }
+.detail p {
+  color: var(--muted);
+}
