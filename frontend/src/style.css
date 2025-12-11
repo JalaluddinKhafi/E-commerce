@@ -579,3 +579,7 @@ main {
 .wide {
   width: 100%;
 }
+.actions {
+  display: flex;
+  gap: 10px;
+}
