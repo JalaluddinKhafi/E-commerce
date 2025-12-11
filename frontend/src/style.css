@@ -592,3 +592,6 @@ main {
   font-size: 12px;
   padding: 4px 0;
 }
+.text-button:hover {
+  background: transparent;
+}
