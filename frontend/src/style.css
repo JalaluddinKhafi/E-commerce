@@ -594,4 +594,5 @@ main {
 }
 .text-button:hover {
   background: transparent;
+  text-decoration: underline;
 }
