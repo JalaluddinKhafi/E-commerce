@@ -609,3 +609,8 @@ main {
   aspect-ratio: 1;
   object-fit: cover;
 }
+.detail-price {
+  font-size: 30px;
+  display: block;
+  margin-block: 25px;
+}
