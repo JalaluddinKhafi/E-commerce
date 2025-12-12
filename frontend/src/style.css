@@ -632,4 +632,8 @@ main {
   gap: 18px;
   align-items: center;
   padding-block: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.cart-row:last-child {
+  border: 0;
 }
