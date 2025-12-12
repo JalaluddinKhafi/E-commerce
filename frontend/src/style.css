@@ -646,3 +646,6 @@ main {
 .cart-row > div:nth-child(2) {
   flex: 1;
 }
+.cart-row h3 {
+  font-size: 14px;
+}
