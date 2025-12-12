@@ -627,3 +627,6 @@ main {
 .cart-items {
   padding: 5px 24px;
 }
+.cart-row {
+  display: flex;
+}
