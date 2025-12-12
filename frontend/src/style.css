@@ -643,3 +643,6 @@ main {
   object-fit: cover;
   border-radius: 8px;
 }
+.cart-row > div:nth-child(2) {
+  flex: 1;
+}
