@@ -641,4 +641,5 @@ main {
   width: 82px;
   height: 82px;
   object-fit: cover;
+  border-radius: 8px;
 }
