@@ -660,4 +660,5 @@ main {
 }
 .quantity {
   display: flex;
+  direction: ltr;
 }
