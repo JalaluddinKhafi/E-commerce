@@ -656,4 +656,8 @@ main {
 }
 .cart-row > strong {
   font-size: 14px;
+  white-space: nowrap;
+}
+.quantity {
+  display: flex;
 }
