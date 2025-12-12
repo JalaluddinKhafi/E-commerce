@@ -631,4 +631,5 @@ main {
   display: flex;
   gap: 18px;
   align-items: center;
+  padding-block: 24px;
 }
