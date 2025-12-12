@@ -616,4 +616,10 @@ main {
 }
 .detail p {
   color: var(--muted);
+  font-size: 14px;
+}
+.cart-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 30px;
 }
