@@ -624,3 +624,6 @@ main {
   gap: 30px;
   align-items: start;
 }
+.cart-items {
+  padding: 5px 24px;
+}
