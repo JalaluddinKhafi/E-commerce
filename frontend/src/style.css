@@ -637,3 +637,6 @@ main {
 .cart-row:last-child {
   border: 0;
 }
+.cart-row img {
+  width: 82px;
+}
