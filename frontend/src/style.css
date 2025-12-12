@@ -654,3 +654,6 @@ main {
   margin-bottom: 5px;
   font-size: 11px;
 }
+.cart-row > strong {
+  font-size: 14px;
+}
