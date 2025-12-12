@@ -639,4 +639,6 @@ main {
 }
 .cart-row img {
   width: 82px;
+  height: 82px;
+  object-fit: cover;
 }
