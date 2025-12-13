@@ -676,4 +676,6 @@ main {
 }
 .quantity output {
   min-width: 18px;
+  text-align: center;
+  font-size: 13px;
 }
