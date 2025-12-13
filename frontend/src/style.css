@@ -662,4 +662,6 @@ main {
   display: flex;
   direction: ltr;
   gap: 8px;
+  align-items: center;
+  border: 1px solid var(--line);
 }
