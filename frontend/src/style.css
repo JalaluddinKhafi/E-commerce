@@ -672,4 +672,8 @@ main {
   background: transparent;
   color: var(--green);
   padding: 2px 7px;
+  font-size: 16px;
+}
+.quantity output {
+  min-width: 18px;
 }
