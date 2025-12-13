@@ -661,4 +661,5 @@ main {
 .quantity {
   display: flex;
   direction: ltr;
+  gap: 8px;
 }
