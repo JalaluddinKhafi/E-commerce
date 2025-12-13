@@ -664,4 +664,6 @@ main {
   gap: 8px;
   align-items: center;
   border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 3px;
 }
