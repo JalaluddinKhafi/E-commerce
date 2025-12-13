@@ -679,3 +679,6 @@ main {
   text-align: center;
   font-size: 13px;
 }
+.summary {
+  position: sticky;
+}
