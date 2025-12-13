@@ -667,3 +667,7 @@ main {
   border-radius: 5px;
   padding: 3px;
 }
+.quantity button {
+  border: 0;
+  background: transparent;
+}
