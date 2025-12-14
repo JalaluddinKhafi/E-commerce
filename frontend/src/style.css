@@ -705,3 +705,6 @@ main {
 .summary .back {
   text-align: center;
 }
+.payment {
+  padding: 20px;
+}
