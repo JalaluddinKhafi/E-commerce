@@ -694,4 +694,5 @@ main {
   justify-content: space-between;
   gap: 12px;
   font-size: 13px;
+  margin-block: 17px;
 }
