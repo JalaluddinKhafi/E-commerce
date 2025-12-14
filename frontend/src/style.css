@@ -696,3 +696,6 @@ main {
   font-size: 13px;
   margin-block: 17px;
 }
+.summary .summary-total {
+  font-size: 17px;
+}
