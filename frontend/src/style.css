@@ -681,4 +681,8 @@ main {
 }
 .summary {
   position: sticky;
+  top: 25px;
+}
+.summary h2 {
+  font-size: 20px;
 }
