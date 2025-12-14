@@ -689,3 +689,6 @@ main {
   padding-bottom: 20px;
   margin-bottom: 22px;
 }
+.summary > div {
+  display: flex;
+}
