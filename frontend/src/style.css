@@ -686,4 +686,5 @@ main {
 .summary h2 {
   font-size: 20px;
   border-bottom: 1px solid var(--line);
+  padding-bottom: 20px;
 }
