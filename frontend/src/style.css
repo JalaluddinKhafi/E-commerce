@@ -702,3 +702,6 @@ main {
   padding-top: 23px;
   margin-top: 23px;
 }
+.summary .back {
+  text-align: center;
+}
