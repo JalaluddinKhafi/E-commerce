@@ -691,4 +691,5 @@ main {
 }
 .summary > div {
   display: flex;
+  justify-content: space-between;
 }
