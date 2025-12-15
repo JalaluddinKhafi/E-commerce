@@ -730,3 +730,9 @@ main {
   align-items: center;
   min-height: 650px;
 }
+.auth-intro h1 {
+  font-size: 39px;
+}
+.auth-intro p {
+  font-size: 14px;
+}
