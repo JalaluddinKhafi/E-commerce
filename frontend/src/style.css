@@ -764,3 +764,9 @@ main {
   gap: 25px;
   max-width: 920px;
 }
+.order-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+}
