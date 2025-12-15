@@ -750,3 +750,6 @@ main {
   font-size: 25px;
   margin-bottom: 27px;
 }
+.auth-form > p {
+  font-size: 12px;
+}
