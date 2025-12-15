@@ -746,3 +746,7 @@ main {
 .auth-form {
   padding: 38px;
 }
+.auth-form h2 {
+  font-size: 25px;
+  margin-bottom: 27px;
+}
