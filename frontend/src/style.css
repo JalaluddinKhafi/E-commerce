@@ -762,4 +762,5 @@ main {
 .order-list {
   display: grid;
   gap: 25px;
+  max-width: 920px;
 }
