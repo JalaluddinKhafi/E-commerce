@@ -740,4 +740,9 @@ main {
 }
 .auth-leaf {
   font: 150px Georgia;
+  color: #728654;
+  line-height: 1;
+}
+.auth-form {
+  padding: 38px;
 }
