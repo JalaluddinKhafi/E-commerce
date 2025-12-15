@@ -757,4 +757,9 @@ main {
 }
 .auth-form a {
   text-decoration: underline;
+  color: var(--green);
+}
+.order-list {
+  display: grid;
+  gap: 25px;
 }
