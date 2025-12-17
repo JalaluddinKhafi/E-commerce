@@ -792,4 +792,5 @@ main {
 }
 .order-line span {
   flex: 1;
+  font-size: 14px;
 }
