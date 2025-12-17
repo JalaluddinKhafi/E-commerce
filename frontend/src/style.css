@@ -801,3 +801,6 @@ main {
 .order-line strong {
   font-size: 14px;
 }
+.order-footer {
+  display: flex;
+}
