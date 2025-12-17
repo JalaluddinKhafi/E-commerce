@@ -775,3 +775,9 @@ main {
   margin: 5px 0 0;
   font-size: 11px;
 }
+.order-items {
+  padding-block: 5px;
+}
+.order-line {
+  display: flex;
+}
