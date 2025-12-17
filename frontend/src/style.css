@@ -794,3 +794,7 @@ main {
   flex: 1;
   font-size: 14px;
 }
+.order-line small {
+  color: var(--muted);
+  margin-top: 4px;
+}
