@@ -780,4 +780,5 @@ main {
 }
 .order-line {
   display: flex;
+  align-items: center;
 }
