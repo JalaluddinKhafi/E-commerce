@@ -798,3 +798,6 @@ main {
   color: var(--muted);
   margin-top: 4px;
 }
+.order-line strong {
+  font-size: 14px;
+}
