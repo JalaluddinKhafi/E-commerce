@@ -807,4 +807,5 @@ main {
   gap: 30px;
   border-top: 1px solid var(--line);
   padding-top: 18px;
+  font-size: 12px;
 }
