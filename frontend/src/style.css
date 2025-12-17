@@ -790,3 +790,6 @@ main {
   object-fit: cover;
   border-radius: 5px;
 }
+.order-line span {
+  flex: 1;
+}
