@@ -781,4 +781,9 @@ main {
 .order-line {
   display: flex;
   align-items: center;
+  gap: 15px;
+  padding-block: 14px;
+}
+.order-line img {
+  width: 48px;
 }
