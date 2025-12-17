@@ -809,3 +809,9 @@ main {
   padding-top: 18px;
   font-size: 12px;
 }
+.order-footer p {
+  margin-bottom: 5px;
+}
+.order-footer strong {
+  font-size: 16px;
+}
