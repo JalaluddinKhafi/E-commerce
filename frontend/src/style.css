@@ -769,4 +769,8 @@ main {
   justify-content: space-between;
   align-items: start;
   border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+.order-heading p {
+  margin: 5px 0 0;
 }
