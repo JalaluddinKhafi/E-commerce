@@ -846,3 +846,6 @@ main {
 .stats strong {
   font-size: 28px;
 }
+.table-scroll {
+  overflow: auto;
+}
