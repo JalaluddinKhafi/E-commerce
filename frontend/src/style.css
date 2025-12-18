@@ -826,3 +826,6 @@ main {
 .status-delivered {
   background: #d8e8d9;
 }
+.order-actions {
+  border-top: 1px solid var(--line);
+}
