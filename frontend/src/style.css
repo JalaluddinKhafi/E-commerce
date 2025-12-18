@@ -815,3 +815,7 @@ main {
 .order-footer strong {
   font-size: 16px;
 }
+.order-footer small {
+  color: var(--muted);
+  margin-top: 7px;
+}
