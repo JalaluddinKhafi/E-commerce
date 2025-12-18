@@ -857,3 +857,6 @@ table {
   text-align: right;
   font-size: 13px;
 }
+th {
+  background: #f2f4eb;
+}
