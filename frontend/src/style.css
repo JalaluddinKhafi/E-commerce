@@ -828,4 +828,5 @@ main {
 }
 .order-actions {
   border-top: 1px solid var(--line);
+  padding-top: 20px;
 }
