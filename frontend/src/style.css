@@ -841,4 +841,8 @@ main {
   display: block;
   font-size: 12px;
   color: var(--muted);
+  margin-bottom: 15px;
+}
+.stats strong {
+  font-size: 28px;
 }
