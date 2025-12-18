@@ -848,4 +848,5 @@ main {
 }
 .table-scroll {
   overflow: auto;
+  padding: 0;
 }
