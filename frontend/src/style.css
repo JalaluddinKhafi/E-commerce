@@ -864,3 +864,7 @@ th {
   font-weight: 400;
   padding: 18px 20px;
 }
+td {
+  padding: 18px 20px;
+  border-top: 1px solid var(--line);
+}
