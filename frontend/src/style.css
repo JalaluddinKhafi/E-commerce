@@ -882,4 +882,13 @@ td button {
   width: 45px;
   height: 45px;
   object-fit: cover;
+  border-radius: 6px;
+}
+.table-product small {
+  color: var(--muted);
+  margin-top: 5px;
+}
+.danger {
+  background: #9e4e3b;
+  border-color: #9e4e3b;
 }
