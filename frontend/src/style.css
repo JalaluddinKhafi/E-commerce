@@ -898,3 +898,6 @@ td button {
 .product-form .section-heading {
   margin-bottom: 25px;
 }
+.form-grid {
+  display: grid;
+}
