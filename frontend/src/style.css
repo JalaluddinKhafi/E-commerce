@@ -907,3 +907,9 @@ td button {
   flex-direction: row;
   align-items: center;
 }
+.checkbox input {
+  width: auto;
+}
+.notice {
+  position: fixed;
+}
