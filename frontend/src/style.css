@@ -872,3 +872,12 @@ td button {
   font-size: 11px;
   padding: 7px 11px;
 }
+.table-product {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 190px;
+}
+.table-product img {
+  width: 45px;
+}
