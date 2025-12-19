@@ -895,3 +895,6 @@ td button {
 .product-form {
   margin-top: 25px;
 }
+.product-form .section-heading {
+  margin-bottom: 25px;
+}
