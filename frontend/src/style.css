@@ -868,3 +868,6 @@ td {
   padding: 18px 20px;
   border-top: 1px solid var(--line);
 }
+td button {
+  font-size: 11px;
+}
