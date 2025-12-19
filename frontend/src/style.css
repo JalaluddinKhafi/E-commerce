@@ -912,4 +912,5 @@ td button {
 }
 .notice {
   position: fixed;
+  left: 25px;
 }
