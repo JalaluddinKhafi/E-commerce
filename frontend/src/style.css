@@ -924,4 +924,6 @@ td button {
   align-items: center;
   gap: 25px;
   max-width: min(90vw, 600px);
+  font-size: 13px;
+  line-height: 1.9;
 }
