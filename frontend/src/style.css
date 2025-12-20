@@ -915,4 +915,6 @@ td button {
   left: 25px;
   bottom: 25px;
   z-index: 100;
+  background: var(--green);
+  color: #fff;
 }
