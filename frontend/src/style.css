@@ -927,3 +927,6 @@ td button {
   font-size: 13px;
   line-height: 1.9;
 }
+.notice.error {
+  background: #8e4434;
+}
