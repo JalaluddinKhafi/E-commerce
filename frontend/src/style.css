@@ -930,3 +930,6 @@ td button {
 .notice.error {
   background: #8e4434;
 }
+.notice button {
+  padding: 0;
+}
