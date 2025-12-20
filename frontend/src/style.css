@@ -917,4 +917,8 @@ td button {
   z-index: 100;
   background: var(--green);
   color: #fff;
+  padding: 16px 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 35px #0002;
+  display: flex;
 }
