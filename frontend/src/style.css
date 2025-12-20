@@ -922,4 +922,5 @@ td button {
   box-shadow: 0 5px 35px #0002;
   display: flex;
   align-items: center;
+  gap: 25px;
 }
