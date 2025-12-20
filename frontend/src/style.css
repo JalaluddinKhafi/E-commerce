@@ -933,4 +933,13 @@ td button {
 .notice button {
   padding: 0;
   border: 0;
+  background: transparent;
+  font-size: 24px;
+}
+.text-error {
+  color: #a3513d !important;
+}
+footer {
+  background: #f0f1e8;
+  border-top: 1px solid var(--line);
 }
