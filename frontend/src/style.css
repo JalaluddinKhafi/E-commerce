@@ -932,4 +932,5 @@ td button {
 }
 .notice button {
   padding: 0;
+  border: 0;
 }
