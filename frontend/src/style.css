@@ -994,3 +994,13 @@ footer {
 .skip:focus {
   top: 15px;
 }
+@media (min-width: 1500px) {
+  .hero-visual > img {
+    height: 500px;
+  }
+}
+@media (max-width: 1100px) {
+  .shell {
+    width: calc(100% - 48px);
+}
+}
