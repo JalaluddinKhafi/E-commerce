@@ -976,3 +976,6 @@ footer {
   padding-top: 20px;
   line-height: 1.8;
 }
+.sr-only {
+  position: absolute;
+}
