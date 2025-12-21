@@ -959,4 +959,6 @@ footer {
 }
 .footer-inner > div:last-child {
   display: flex;
+  gap: 25px;
+  align-items: start;
 }
