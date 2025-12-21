@@ -991,3 +991,6 @@ footer {
   background: white;
   padding: 15px;
 }
+.skip:focus {
+  top: 15px;
+}
