@@ -961,4 +961,6 @@ footer {
   display: flex;
   gap: 25px;
   align-items: start;
+  font-size: 12px;
+  flex-wrap: wrap;
 }
