@@ -949,3 +949,6 @@ footer {
   justify-content: space-between;
   gap: 30px;
 }
+.footer-inner strong {
+  font-size: 23px;
+}
