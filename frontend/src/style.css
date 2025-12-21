@@ -964,3 +964,7 @@ footer {
   font-size: 12px;
   flex-wrap: wrap;
 }
+.footer-inner span {
+  color: var(--muted);
+  font-size: 11px;
+}
