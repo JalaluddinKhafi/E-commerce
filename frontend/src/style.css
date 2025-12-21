@@ -968,3 +968,7 @@ footer {
   color: var(--muted);
   font-size: 11px;
 }
+.footer-note {
+  font-size: 10px;
+  color: #85907d;
+}
