@@ -1050,5 +1050,8 @@ footer {
   }
   .header-actions {
     margin-inline-start: auto;
+  }
+  .announcement span {
+    margin-inline-start: 20px;
 }
 }
