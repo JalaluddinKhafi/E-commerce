@@ -1008,5 +1008,9 @@ footer {
     flex-wrap: wrap;
     padding-block: 20px;
     min-height: auto;
+  }
+  .header-inner nav {
+    order: 3;
+    width: 100%;
 }
 }
