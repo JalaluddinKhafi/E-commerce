@@ -1071,5 +1071,8 @@ footer {
   }
   .brand-mark {
     font-size: 43px;
+  }
+  .header-inner {
+    gap: 15px;
 }
 }
