@@ -1019,5 +1019,8 @@ footer {
   }
   .hero {
     gap: 35px;
+  }
+  .hero-visual > img {
+    height: 420px;
 }
 }
