@@ -1031,5 +1031,8 @@ footer {
   }
   .toolbar {
     flex-wrap: wrap;
+  }
+  .cart-layout {
+    grid-template-columns: 1fr 290px;
 }
 }
