@@ -1025,5 +1025,8 @@ footer {
   }
   .hero h1 {
     font-size: 42px;
+  }
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 }
