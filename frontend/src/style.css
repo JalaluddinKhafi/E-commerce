@@ -1043,5 +1043,9 @@ footer {
   .cart-row img {
     width: 60px;
     height: 60px;
+  }
+  .auth-layout {
+    gap: 40px;
+    grid-template-columns: 1fr 400px;
 }
 }
