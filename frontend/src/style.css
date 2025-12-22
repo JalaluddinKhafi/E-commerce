@@ -1065,5 +1065,11 @@ footer {
   }
   .announcement span {
     display: none;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .brand-mark {
+    font-size: 43px;
 }
 }
