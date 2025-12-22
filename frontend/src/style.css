@@ -1062,5 +1062,8 @@ footer {
   .announcement {
     padding: 8px 16px;
     font-size: 10px;
+  }
+  .announcement span {
+    display: none;
 }
 }
