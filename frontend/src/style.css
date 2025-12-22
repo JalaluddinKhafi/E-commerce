@@ -1047,5 +1047,8 @@ footer {
   .auth-layout {
     gap: 40px;
     grid-template-columns: 1fr 400px;
+  }
+  .header-actions {
+    margin-inline-start: auto;
 }
 }
