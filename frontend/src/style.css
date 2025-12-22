@@ -1006,5 +1006,7 @@ footer {
   .header-inner {
     gap: 20px;
     flex-wrap: wrap;
+    padding-block: 20px;
+    min-height: auto;
 }
 }
