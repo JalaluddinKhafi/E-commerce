@@ -1015,5 +1015,9 @@ footer {
     justify-content: center;
     gap: 28px;
     padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .hero {
+    gap: 35px;
 }
 }
