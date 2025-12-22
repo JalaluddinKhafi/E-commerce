@@ -1035,5 +1035,9 @@ footer {
   .cart-layout {
     grid-template-columns: 1fr 290px;
     gap: 20px;
+  }
+  .cart-row {
+    flex-wrap: wrap;
+    gap: 12px;
 }
 }
