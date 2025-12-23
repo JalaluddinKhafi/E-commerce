@@ -1090,5 +1090,6 @@ footer {
     gap: 20px;
     overflow: auto;
     white-space: nowrap;
+    font-size: 12px;
 }
 }
