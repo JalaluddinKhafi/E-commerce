@@ -1074,5 +1074,9 @@ footer {
   }
   .header-inner {
     gap: 15px;
+  }
+  .header-actions {
+    font-size: 11px;
+    gap: 8px;
 }
 }
