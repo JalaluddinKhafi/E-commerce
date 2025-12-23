@@ -1102,5 +1102,8 @@ footer {
   }
   .hero h1 {
     font-size: 40px;
+  }
+  .hero p {
+    font-size: 13px;
 }
 }
