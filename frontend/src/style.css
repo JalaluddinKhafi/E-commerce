@@ -1099,5 +1099,8 @@ footer {
   }
   .hero-copy {
     padding-top: 5px;
+  }
+  .hero h1 {
+    font-size: 40px;
 }
 }
