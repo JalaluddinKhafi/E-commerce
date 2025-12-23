@@ -1078,5 +1078,8 @@ footer {
   .header-actions {
     font-size: 11px;
     gap: 8px;
+  }
+  .header-actions .quiet {
+    max-width: 140px;
 }
 }
