@@ -1088,5 +1088,7 @@ footer {
   .header-inner nav {
     justify-content: flex-start;
     gap: 20px;
+    overflow: auto;
+    white-space: nowrap;
 }
 }
