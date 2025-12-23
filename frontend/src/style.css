@@ -1095,5 +1095,6 @@ footer {
   .hero {
     grid-template-columns: 1fr;
     gap: 10px;
+    padding-block: 30px 35px;
 }
 }
