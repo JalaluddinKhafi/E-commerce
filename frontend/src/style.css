@@ -1084,5 +1084,9 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .header-inner nav {
+    justify-content: flex-start;
+    gap: 20px;
 }
 }
