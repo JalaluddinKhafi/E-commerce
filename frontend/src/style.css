@@ -1091,5 +1091,8 @@ footer {
     overflow: auto;
     white-space: nowrap;
     font-size: 12px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
 }
 }
