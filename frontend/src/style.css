@@ -1117,5 +1117,8 @@ footer {
   .hero-visual > img {
     height: 300px;
     border-top-right-radius: 100px;
+  }
+  .hero-stamp {
+    right: -15px;
 }
 }
