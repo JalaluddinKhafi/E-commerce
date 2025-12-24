@@ -1105,5 +1105,6 @@ footer {
   }
   .hero p {
     font-size: 13px;
+    max-width: 95%;
 }
 }
