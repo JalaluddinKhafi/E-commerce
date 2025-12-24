@@ -1106,5 +1106,11 @@ footer {
   .hero p {
     font-size: 13px;
     max-width: 95%;
+  }
+  .hero-caption {
+    margin-top: 20px;
+  }
+  .hero-visual {
+    margin-top: 15px;
 }
 }
