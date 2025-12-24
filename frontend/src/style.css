@@ -1113,5 +1113,8 @@ footer {
   .hero-visual {
     margin-top: 15px;
     margin-right: 15px;
+  }
+  .hero-visual > img {
+    height: 300px;
 }
 }
