@@ -1126,5 +1126,11 @@ footer {
   }
   .hero-stamp strong {
     font-size: 20px;
+  }
+  .hero-stamp span {
+    font-size: 6px;
+  }
+  .benefits {
+    gap: 12px;
 }
 }
