@@ -1123,5 +1123,8 @@ footer {
     width: 100px;
     height: 100px;
     font-size: 12px;
+  }
+  .hero-stamp strong {
+    font-size: 20px;
 }
 }
