@@ -1142,5 +1142,11 @@ footer {
     font-size: 15px;
     display: block;
     margin-bottom: 10px;
+  }
+  .benefits strong {
+    font-size: 11px;
+  }
+  .benefits p {
+    font-size: 9px;
 }
 }
