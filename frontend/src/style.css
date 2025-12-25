@@ -1172,5 +1172,9 @@ footer {
   .filters .search {
     flex: 1;
     max-width: none;
+  }
+  .filters input,
+  .filters select {
+    font-size: 11px;
 }
 }
