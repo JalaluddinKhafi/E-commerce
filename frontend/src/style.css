@@ -1148,5 +1148,8 @@ footer {
   }
   .benefits p {
     font-size: 9px;
+  }
+  .catalog {
+    padding-block: 45px;
 }
 }
