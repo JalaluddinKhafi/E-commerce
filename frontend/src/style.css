@@ -1200,5 +1200,8 @@ footer {
   }
   .product-bottom button {
     font-size: 10px;
+  }
+  .favorite {
+    width: 29px;
 }
 }
