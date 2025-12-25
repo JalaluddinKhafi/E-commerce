@@ -1132,5 +1132,9 @@ footer {
   }
   .benefits {
     gap: 12px;
+    padding-block: 22px;
+  }
+  .benefits > div {
+    padding: 0 0 0 10px;
 }
 }
