@@ -1186,5 +1186,8 @@ footer {
   }
   .product-body h3 {
     font-size: 14px;
+  }
+  .product-body p {
+    font-size: 10px;
 }
 }
