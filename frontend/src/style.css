@@ -1197,5 +1197,8 @@ footer {
   }
   .product-bottom strong {
     font-size: 15px;
+  }
+  .product-bottom button {
+    font-size: 10px;
 }
 }
