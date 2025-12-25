@@ -1194,5 +1194,8 @@ footer {
   .product-bottom {
     flex-wrap: wrap;
     gap: 12px;
+  }
+  .product-bottom strong {
+    font-size: 15px;
 }
 }
