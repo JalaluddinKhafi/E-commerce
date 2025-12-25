@@ -1190,5 +1190,9 @@ footer {
   .product-body p {
     font-size: 10px;
     min-height: 55px;
+  }
+  .product-bottom {
+    flex-wrap: wrap;
+    gap: 12px;
 }
 }
