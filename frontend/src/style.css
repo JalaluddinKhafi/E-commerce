@@ -1163,5 +1163,6 @@ footer {
   }
   .toolbar {
     margin-block: 20px;
+    gap: 15px;
 }
 }
