@@ -1140,5 +1140,6 @@ footer {
   .benefits span {
     position: static;
     font-size: 15px;
+    display: block;
 }
 }
