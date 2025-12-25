@@ -1168,5 +1168,8 @@ footer {
   .filters {
     width: 100%;
     gap: 10px;
+  }
+  .filters .search {
+    flex: 1;
 }
 }
