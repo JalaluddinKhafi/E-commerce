@@ -1176,5 +1176,8 @@ footer {
   .filters input,
   .filters select {
     font-size: 11px;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
