@@ -1234,5 +1234,8 @@ footer {
   .detail {
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+  .summary {
+    position: static;
 }
 }
