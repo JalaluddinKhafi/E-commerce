@@ -1246,5 +1246,11 @@ footer {
   }
   .cart-row > div:nth-child(2) {
     min-width: calc(100% - 90px);
+  }
+  .cart-row .quantity {
+    margin-right: 72px;
+  }
+  .cart-row > strong {
+    margin-inline-start: auto;
 }
 }
