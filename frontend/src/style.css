@@ -1217,5 +1217,10 @@ footer {
   }
   .seasonal:after {
     left: -25%;
+    font-size: 280px;
+  }
+  .seasonal > * {
+    position: relative;
+    z-index: 1;
 }
 }
