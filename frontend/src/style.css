@@ -1237,5 +1237,8 @@ footer {
   }
   .summary {
     position: static;
+  }
+  .cart-items {
+    padding-inline: 15px;
 }
 }
