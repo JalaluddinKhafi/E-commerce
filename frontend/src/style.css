@@ -1228,5 +1228,10 @@ footer {
   }
   h1 {
     font-size: 30px;
+  }
+  .cart-layout,
+  .auth-layout,
+  .detail {
+    grid-template-columns: 1fr;
 }
 }
