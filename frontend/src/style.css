@@ -1258,5 +1258,11 @@ footer {
   }
   .cart-items {
     padding: 5px 15px;
+  }
+  .auth-intro {
+    display: none;
+  }
+  .auth-layout {
+    min-height: auto;
 }
 }
