@@ -1240,5 +1240,11 @@ footer {
   }
   .cart-items {
     padding-inline: 15px;
+  }
+  .cart-row > strong {
+    font-size: 13px;
+  }
+  .cart-row > div:nth-child(2) {
+    min-width: calc(100% - 90px);
 }
 }
