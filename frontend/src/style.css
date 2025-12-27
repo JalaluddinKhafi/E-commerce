@@ -1255,5 +1255,8 @@ footer {
   }
   .panel {
     padding: 23px;
+  }
+  .cart-items {
+    padding: 5px 15px;
 }
 }
