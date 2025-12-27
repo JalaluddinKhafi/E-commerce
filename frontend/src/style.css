@@ -1207,5 +1207,8 @@ footer {
     font-size: 21px;
     top: 8px;
     left: 8px;
+  }
+  .seasonal {
+    padding: 30px 25px;
 }
 }
