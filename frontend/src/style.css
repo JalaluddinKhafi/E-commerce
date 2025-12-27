@@ -1252,5 +1252,8 @@ footer {
   }
   .cart-row > strong {
     margin-inline-start: auto;
+  }
+  .panel {
+    padding: 23px;
 }
 }
