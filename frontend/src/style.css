@@ -1222,5 +1222,11 @@ footer {
   .seasonal > * {
     position: relative;
     z-index: 1;
+  }
+  .page {
+    padding-block: 35px 50px;
+  }
+  h1 {
+    font-size: 30px;
 }
 }
