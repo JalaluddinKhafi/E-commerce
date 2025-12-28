@@ -1275,5 +1275,22 @@ footer {
   }
   .detail > img {
     max-height: 400px;
+  }
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .stats .panel {
+    padding: 20px;
+  }
+  .stats > div:last-child {
+    grid-column: 1/-1;
+  }
+  .stats strong {
+    font-size: 24px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
 }
 }
