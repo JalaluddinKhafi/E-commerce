@@ -1296,5 +1296,8 @@ footer {
   .order-footer {
     flex-direction: column;
     gap: 15px;
+  }
+  .order-heading {
+    gap: 15px;
 }
 }
