@@ -1309,5 +1309,8 @@ footer {
   }
   .order-line {
     gap: 10px;
+  }
+  .footer-inner {
+    flex-direction: column;
 }
 }
