@@ -1306,5 +1306,8 @@ footer {
   .order-line span,
   .order-line strong {
     font-size: 12px;
+  }
+  .order-line {
+    gap: 10px;
 }
 }
