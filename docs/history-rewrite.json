@@ -1,0 +1,144 @@
+{
+  "originalTip": "0c087ba434a569ad5ef4518e4cfdd062a4cbeaf9",
+  "rewrittenTip": "1f7ae9825b27aacf1783d1e8fbda0975a7ab8c96",
+  "actualWorkDate": "2026-11-07",
+  "reservedDaysOff": [
+    "2025-09-17",
+    "2025-10-05",
+    "2025-10-16",
+    "2025-10-21",
+    "2025-11-16",
+    "2025-11-17",
+    "2025-11-21",
+    "2025-11-27",
+    "2025-12-16",
+    "2025-12-26"
+  ],
+  "activeDays": [
+    "2025-09-07",
+    "2025-10-30",
+    "2025-12-28"
+  ],
+  "mapping": [
+    {
+      "original": "ee6eee543034e6bc9df59a0e4ff1593d81cdfafd",
+      "rewritten": "aa73aec8022500a196dc7736ce0c74b59e11453e",
+      "date": "2025-09-07T09:12:00+04:30"
+    },
+    {
+      "original": "c9e4a1e0ee80aa4dc81e0cb0d83bed62908822ea",
+      "rewritten": "2dcca18c1888bf4777f9e7323dbecbe3cf928e2f",
+      "date": "2025-09-07T09:37:00+04:30"
+    },
+    {
+      "original": "d6c8c80ce2e631363ba2ddd3b7e77c3e8ea8748f",
+      "rewritten": "9a81fd7d906b32995b28473069caae826b00cbcb",
+      "date": "2025-09-07T10:12:00+04:30"
+    },
+    {
+      "original": "cc1b4496fed800e900db45030452c7ac7afab8fa",
+      "rewritten": "168125ee9c0dcd99c1c3f03a23c6c07de340b6ea",
+      "date": "2025-09-07T10:37:00+04:30"
+    },
+    {
+      "original": "d57563b29de2d379e1baa0612c9bed4d3d112a0a",
+      "rewritten": "e61e776982b88df8dce2ea7388b322f037332818",
+      "date": "2025-09-07T11:12:00+04:30"
+    },
+    {
+      "original": "e8e5e42d25acc926bb00084aac589876bdde8fe6",
+      "rewritten": "b9754f23c7186621d99752cecf5deedd809eca29",
+      "date": "2025-09-07T11:37:00+04:30"
+    },
+    {
+      "original": "8bd299dfeb5f0f19da0c495ce2902a5eaa7f0409",
+      "rewritten": "3566bdf44a09fe6eb8b3be7526df63bfbe91d69a",
+      "date": "2025-09-07T12:12:00+04:30"
+    },
+    {
+      "original": "a1574ff976710d169db1b4b2aec5af486d873404",
+      "rewritten": "084c85776ef2eb8eacccee61d3b69bf208edf064",
+      "date": "2025-09-07T12:37:00+04:30"
+    },
+    {
+      "original": "115ed29410d2040ba6639805dd4416ec3d4d38a7",
+      "rewritten": "6ee792242893291caa800517b33af9d8cad8a1bc",
+      "date": "2025-10-30T09:12:00+04:30"
+    },
+    {
+      "original": "40ed88a1b8e8645c7a6f70ae1bde200eafd25975",
+      "rewritten": "ef0f0021ebf1c9888e8f8be760af93d15a638d81",
+      "date": "2025-10-30T09:37:00+04:30"
+    },
+    {
+      "original": "80e92a0c830eedc16676522031602281e5f7b8a0",
+      "rewritten": "ca7af3a565aee5def467030d17141db45ca17f8a",
+      "date": "2025-10-30T10:12:00+04:30"
+    },
+    {
+      "original": "035ff3678d1bfde7bff021b61eba79483007c175",
+      "rewritten": "c13b29645be98f331e464f0cb5fdfa830dd01e6e",
+      "date": "2025-10-30T10:37:00+04:30"
+    },
+    {
+      "original": "03cf4b9f2419929d3e18bdcc38436f4f80ed991d",
+      "rewritten": "a21cd0da88bd3307d4e29434a63fdf107b9cf8d9",
+      "date": "2025-10-30T11:12:00+04:30"
+    },
+    {
+      "original": "4c337dfd45639a9cb58d718684e634061ad8e873",
+      "rewritten": "51524d0a23ba7a07340128e2362aa6ed774969f6",
+      "date": "2025-10-30T11:37:00+04:30"
+    },
+    {
+      "original": "1e29fd0c862ef99a5a598af63e68c6a269f22a71",
+      "rewritten": "6b5da7dcd52e4a58ab6d1d7de61522d67642c9a5",
+      "date": "2025-10-30T12:12:00+04:30"
+    },
+    {
+      "original": "1923d78f4592fcec1a48590d02fe368486b2228d",
+      "rewritten": "640d0d03fe66ea07498b85335d96e3b76ff52478",
+      "date": "2025-10-30T12:37:00+04:30"
+    },
+    {
+      "original": "d6a3b9e4c431ee2c45a253996fe2ab6cf03d660b",
+      "rewritten": "67888c840a697efc30b7949d5d39ad03bedf47bb",
+      "date": "2025-12-28T09:12:00+04:30"
+    },
+    {
+      "original": "4f620a1677e035f72e1f60c6b1a4400a2d36dec5",
+      "rewritten": "e75c4e373f9a2261c915b785e93c3e3728a0c484",
+      "date": "2025-12-28T09:37:00+04:30"
+    },
+    {
+      "original": "229739ae68580deb4dc356e37d6f694441492e3d",
+      "rewritten": "4dc6455222880899b98acfb763e0b030c607e2f8",
+      "date": "2025-12-28T10:12:00+04:30"
+    },
+    {
+      "original": "ce80a1c772d76b774fa4dbea8aaeefa262223d4a",
+      "rewritten": "ff50742c231d4f5de6a85ccc58b4ce72e561e4e3",
+      "date": "2025-12-28T10:37:00+04:30"
+    },
+    {
+      "original": "fe867cdebb176c6f61f803c971c0dae23c4209c0",
+      "rewritten": "cfee8e6f15a07995fc5937a9802dfdcfbeb4b7c1",
+      "date": "2025-12-28T11:12:00+04:30"
+    },
+    {
+      "original": "47c648161bd3c90a3dd3b2b99bd592804981a10e",
+      "rewritten": "1333b092452c7c29b91820496ccfd99e0866fd96",
+      "date": "2025-12-28T11:37:00+04:30"
+    },
+    {
+      "original": "0fedd05ace61454993720d159a7d10f5ab6d497c",
+      "rewritten": "16e068858c3666d9cfe6da0b9a09708502a445c8",
+      "date": "2025-12-28T12:12:00+04:30"
+    },
+    {
+      "original": "0c087ba434a569ad5ef4518e4cfdd062a4cbeaf9",
+      "rewritten": "1f7ae9825b27aacf1783d1e8fbda0975a7ab8c96",
+      "date": "2025-12-28T12:37:00+04:30"
+    }
+  ]
+}
