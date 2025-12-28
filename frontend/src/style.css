@@ -1313,5 +1313,8 @@ footer {
   .footer-inner {
     flex-direction: column;
     gap: 15px;
+  }
+  .footer-inner > div:last-child {
+    gap: 15px;
 }
 }
