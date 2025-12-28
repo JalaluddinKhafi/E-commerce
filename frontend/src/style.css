@@ -1324,5 +1324,12 @@ footer {
   }
   .product-form .section-heading h2 {
     font-size: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    scroll-behavior: auto !important;
 }
 }
