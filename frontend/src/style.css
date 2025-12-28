@@ -1316,5 +1316,9 @@ footer {
   }
   .footer-inner > div:last-child {
     gap: 15px;
+  }
+  .notice {
+    left: 18px;
+    bottom: 18px;
 }
 }
