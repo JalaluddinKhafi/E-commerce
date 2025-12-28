@@ -1299,5 +1299,12 @@ footer {
   }
   .order-heading {
     gap: 15px;
+  }
+  .order-heading strong {
+    font-size: 14px;
+  }
+  .order-line span,
+  .order-line strong {
+    font-size: 12px;
 }
 }
