@@ -1272,5 +1272,8 @@ footer {
   }
   .detail {
     gap: 25px;
+  }
+  .detail > img {
+    max-height: 400px;
 }
 }
