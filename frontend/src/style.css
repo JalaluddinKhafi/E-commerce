@@ -1320,5 +1320,9 @@ footer {
   .notice {
     left: 18px;
     bottom: 18px;
+    max-width: calc(100vw - 36px);
+  }
+  .product-form .section-heading h2 {
+    font-size: 20px;
 }
 }
