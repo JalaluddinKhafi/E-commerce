@@ -33,3 +33,6 @@ class AddressController {
         Customer customer = customers.lock(id).orElseThrow();
         if (addresses.countByCustomerId(id) >= 10)
             throw new ResponseStatusException(HttpStatus.CONFLICT, "An account can save at most ten addresses");
+        var entry = new DeliveryAddress(); entry.customer = customer;
+        assign(entry, input);
+        selectDefault(id, entry, input.isDefault());
