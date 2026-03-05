@@ -13,3 +13,4 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController @RequestMapping("/api/account/addresses")
 class AddressController {
     record Input(@NotBlank @Size(max = 40) String label,
+                 @NotBlank @Size(max = 100) String recipient,
