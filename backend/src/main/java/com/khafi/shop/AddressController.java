@@ -14,3 +14,4 @@ import org.springframework.web.server.ResponseStatusException;
 class AddressController {
     record Input(@NotBlank @Size(max = 40) String label,
                  @NotBlank @Size(max = 100) String recipient,
+                 @NotBlank @Size(min = 5, max = 40) String phone,
