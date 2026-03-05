@@ -36,3 +36,4 @@ class AddressController {
         var entry = new DeliveryAddress(); entry.customer = customer;
         assign(entry, input);
         selectDefault(id, entry, input.isDefault());
+        return View.of(addresses.saveAndFlush(entry));
