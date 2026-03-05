@@ -28,3 +28,4 @@ class AddressController {
         return addresses.findByCustomerIdOrderByIdAsc(Long.valueOf(jwt.getSubject())).stream().map(View::of).toList();
     }
     @PostMapping @ResponseStatus(HttpStatus.CREATED) @Transactional
+    View create(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody Input input) {
