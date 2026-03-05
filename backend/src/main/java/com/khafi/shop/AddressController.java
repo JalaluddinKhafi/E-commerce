@@ -29,3 +29,4 @@ class AddressController {
     }
     @PostMapping @ResponseStatus(HttpStatus.CREATED) @Transactional
     View create(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody Input input) {
+        Long id = Long.valueOf(jwt.getSubject());
