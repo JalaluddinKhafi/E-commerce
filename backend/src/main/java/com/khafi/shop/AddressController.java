@@ -20,3 +20,4 @@ class AddressController {
         static View of(DeliveryAddress a) { return new View(a.id, a.label, a.recipient, a.phone, a.address, a.isDefault); }
     }
     private final Customers customers;
+    private final DeliveryAddresses addresses;
