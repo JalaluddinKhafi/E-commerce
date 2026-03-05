@@ -31,3 +31,5 @@ class AddressController {
     View create(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody Input input) {
         Long id = Long.valueOf(jwt.getSubject());
         Customer customer = customers.lock(id).orElseThrow();
+        if (addresses.countByCustomerId(id) >= 10)
+            throw new ResponseStatusException(HttpStatus.CONFLICT, "An account can save at most ten addresses");
