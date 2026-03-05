@@ -21,3 +21,10 @@ class AddressController {
     }
     private final Customers customers;
     private final DeliveryAddresses addresses;
+    AddressController(Customers customers, DeliveryAddresses addresses) { this.customers = customers; this.addresses = addresses; }
+
+    @GetMapping @Transactional(readOnly = true)
+    List<View> list(@AuthenticationPrincipal Jwt jwt) {
+        return addresses.findByCustomerIdOrderByIdAsc(Long.valueOf(jwt.getSubject())).stream().map(View::of).toList();
+    }
+    @PostMapping @ResponseStatus(HttpStatus.CREATED) @Transactional
