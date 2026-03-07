@@ -51,3 +51,6 @@ class AddressController {
     void delete(@AuthenticationPrincipal Jwt jwt, @PathVariable Long addressId) {
         Long id = Long.valueOf(jwt.getSubject());
         customers.lock(id).orElseThrow();
+        DeliveryAddress entry = owned(addressId, id);
+        boolean wasDefault = entry.isDefault;
+        addresses.delete(entry); addresses.flush();
