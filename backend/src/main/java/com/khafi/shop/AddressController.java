@@ -43,3 +43,4 @@ class AddressController {
         Long id = Long.valueOf(jwt.getSubject());
         customers.lock(id).orElseThrow();
         DeliveryAddress entry = owned(addressId, id);
+        assign(entry, input);
