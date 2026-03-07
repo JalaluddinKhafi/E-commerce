@@ -64,3 +64,4 @@ class AddressController {
         var existing = addresses.findByCustomerIdOrderByIdAsc(customerId);
         if (requested || target.isDefault || existing.isEmpty()) {
             existing.forEach(a -> a.isDefault = false);
+            target.isDefault = true;
