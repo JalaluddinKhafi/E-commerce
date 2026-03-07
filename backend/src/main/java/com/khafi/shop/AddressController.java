@@ -44,3 +44,4 @@ class AddressController {
         customers.lock(id).orElseThrow();
         DeliveryAddress entry = owned(addressId, id);
         assign(entry, input);
+        selectDefault(id, entry, input.isDefault());
