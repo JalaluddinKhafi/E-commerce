@@ -45,3 +45,4 @@ class AddressController {
         DeliveryAddress entry = owned(addressId, id);
         assign(entry, input);
         selectDefault(id, entry, input.isDefault());
+        return View.of(entry);
