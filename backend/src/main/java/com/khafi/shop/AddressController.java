@@ -46,3 +46,5 @@ class AddressController {
         assign(entry, input);
         selectDefault(id, entry, input.isDefault());
         return View.of(entry);
+    }
+    @DeleteMapping("/{addressId}") @ResponseStatus(HttpStatus.NO_CONTENT) @Transactional
