@@ -65,3 +65,6 @@ class AddressController {
         if (requested || target.isDefault || existing.isEmpty()) {
             existing.forEach(a -> a.isDefault = false);
             target.isDefault = true;
+        }
+    }
+    private void assign(DeliveryAddress entry, Input input) {
