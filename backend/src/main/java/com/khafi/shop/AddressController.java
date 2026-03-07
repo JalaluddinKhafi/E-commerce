@@ -63,3 +63,4 @@ class AddressController {
     private void selectDefault(Long customerId, DeliveryAddress target, boolean requested) {
         var existing = addresses.findByCustomerIdOrderByIdAsc(customerId);
         if (requested || target.isDefault || existing.isEmpty()) {
+            existing.forEach(a -> a.isDefault = false);
