@@ -68,3 +68,4 @@ class AddressController {
         }
     }
     private void assign(DeliveryAddress entry, Input input) {
+        if (input.phone().strip().length() < 5)
