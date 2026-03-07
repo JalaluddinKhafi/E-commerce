@@ -59,3 +59,5 @@ class AddressController {
     private DeliveryAddress owned(Long addressId, Long customerId) {
         return addresses.findByIdAndCustomerId(addressId, customerId).orElseThrow(
             () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Address not found"));
+    }
+    private void selectDefault(Long customerId, DeliveryAddress target, boolean requested) {
