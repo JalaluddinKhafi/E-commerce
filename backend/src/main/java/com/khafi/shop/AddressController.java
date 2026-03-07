@@ -54,3 +54,4 @@ class AddressController {
         DeliveryAddress entry = owned(addressId, id);
         boolean wasDefault = entry.isDefault;
         addresses.delete(entry); addresses.flush();
+        if (wasDefault) addresses.findByCustomerIdOrderByIdAsc(id).stream().findFirst().ifPresent(a -> a.isDefault = true);
