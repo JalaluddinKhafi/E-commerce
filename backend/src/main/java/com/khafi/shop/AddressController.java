@@ -42,3 +42,4 @@ class AddressController {
     View update(@AuthenticationPrincipal Jwt jwt, @PathVariable Long addressId, @Valid @RequestBody Input input) {
         Long id = Long.valueOf(jwt.getSubject());
         customers.lock(id).orElseThrow();
+        DeliveryAddress entry = owned(addressId, id);
