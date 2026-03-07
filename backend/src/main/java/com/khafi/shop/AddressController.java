@@ -37,3 +37,5 @@ class AddressController {
         assign(entry, input);
         selectDefault(id, entry, input.isDefault());
         return View.of(addresses.saveAndFlush(entry));
+    }
+    @PutMapping("/{addressId}") @Transactional
