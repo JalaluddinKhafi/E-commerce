@@ -41,3 +41,4 @@ class AddressController {
     @PutMapping("/{addressId}") @Transactional
     View update(@AuthenticationPrincipal Jwt jwt, @PathVariable Long addressId, @Valid @RequestBody Input input) {
         Long id = Long.valueOf(jwt.getSubject());
+        customers.lock(id).orElseThrow();
