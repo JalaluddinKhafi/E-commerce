@@ -57,3 +57,4 @@ class AddressController {
         if (wasDefault) addresses.findByCustomerIdOrderByIdAsc(id).stream().findFirst().ifPresent(a -> a.isDefault = true);
     }
     private DeliveryAddress owned(Long addressId, Long customerId) {
+        return addresses.findByIdAndCustomerId(addressId, customerId).orElseThrow(
