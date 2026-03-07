@@ -48,3 +48,5 @@ class AddressController {
         return View.of(entry);
     }
     @DeleteMapping("/{addressId}") @ResponseStatus(HttpStatus.NO_CONTENT) @Transactional
+    void delete(@AuthenticationPrincipal Jwt jwt, @PathVariable Long addressId) {
+        Long id = Long.valueOf(jwt.getSubject());
