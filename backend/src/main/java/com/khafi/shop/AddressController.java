@@ -39,3 +39,4 @@ class AddressController {
         return View.of(addresses.saveAndFlush(entry));
     }
     @PutMapping("/{addressId}") @Transactional
+    View update(@AuthenticationPrincipal Jwt jwt, @PathVariable Long addressId, @Valid @RequestBody Input input) {
