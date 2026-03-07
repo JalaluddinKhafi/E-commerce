@@ -61,3 +61,4 @@ class AddressController {
             () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Address not found"));
     }
     private void selectDefault(Long customerId, DeliveryAddress target, boolean requested) {
+        var existing = addresses.findByCustomerIdOrderByIdAsc(customerId);
