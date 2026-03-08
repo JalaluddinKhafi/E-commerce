@@ -71,3 +71,6 @@ class AddressController {
         if (input.phone().strip().length() < 5)
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Phone must contain at least five characters");
         entry.label = input.label().strip(); entry.recipient = input.recipient().strip();
+        entry.phone = input.phone().strip(); entry.address = input.address().strip();
+    }
+}
