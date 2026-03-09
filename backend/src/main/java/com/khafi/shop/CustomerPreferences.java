@@ -9,3 +9,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 class SavedProduct {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
     @ManyToOne(optional = false, fetch = FetchType.LAZY) Customer customer;
+    @ManyToOne(optional = false) Product product;
