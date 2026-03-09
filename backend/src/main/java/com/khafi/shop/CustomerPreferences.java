@@ -13,3 +13,5 @@ class SavedProduct {
 }
 
 @Entity
+class DeliveryAddress {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
