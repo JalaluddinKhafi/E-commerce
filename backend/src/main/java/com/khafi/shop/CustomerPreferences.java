@@ -19,3 +19,4 @@ class DeliveryAddress {
     @Column(nullable = false, length = 40) String label;
     @Column(nullable = false, length = 100) String recipient;
     @Column(nullable = false, length = 40) String phone;
+    @Column(nullable = false, length = 500) String address;
