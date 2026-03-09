@@ -18,3 +18,4 @@ class DeliveryAddress {
     @ManyToOne(optional = false, fetch = FetchType.LAZY) Customer customer;
     @Column(nullable = false, length = 40) String label;
     @Column(nullable = false, length = 100) String recipient;
+    @Column(nullable = false, length = 40) String phone;
