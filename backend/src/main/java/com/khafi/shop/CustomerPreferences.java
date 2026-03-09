@@ -17,3 +17,4 @@ class DeliveryAddress {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
     @ManyToOne(optional = false, fetch = FetchType.LAZY) Customer customer;
     @Column(nullable = false, length = 40) String label;
+    @Column(nullable = false, length = 100) String recipient;
