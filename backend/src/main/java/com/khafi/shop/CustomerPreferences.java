@@ -26,3 +26,4 @@ class DeliveryAddress {
 interface SavedProducts extends JpaRepository<SavedProduct, Long> {
     List<SavedProduct> findByCustomerIdOrderByIdAsc(Long customerId);
     Optional<SavedProduct> findByCustomerIdAndProductId(Long customerId, Long productId);
+    long countByCustomerId(Long customerId);
