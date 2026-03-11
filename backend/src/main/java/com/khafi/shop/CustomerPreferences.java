@@ -32,3 +32,5 @@ interface SavedProducts extends JpaRepository<SavedProduct, Long> {
 interface DeliveryAddresses extends JpaRepository<DeliveryAddress, Long> {
     List<DeliveryAddress> findByCustomerIdOrderByIdAsc(Long customerId);
     Optional<DeliveryAddress> findByIdAndCustomerId(Long id, Long customerId);
+    long countByCustomerId(Long customerId);
+}
