@@ -45,6 +45,7 @@ class ShopOrder {
     @Column(nullable = false) String status = "PLACED";
     @Column(nullable = false, length = 500) String address;
     @Column(nullable = false, length = 40) String phone;
+    @Column(length = 100) String recipient;
     int subtotalCents;
     int shippingCents;
     int totalCents;
