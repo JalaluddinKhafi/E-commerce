@@ -20,7 +20,7 @@ class OrderController {
                     @NotNull UUID requestKey, @Min(0) Integer expectedTotalCents, @Size(max=100) String recipient) {}
     record Status(@NotBlank String status) {}
     record LineView(Long productId, String name, String image, int priceCents, int quantity) {}
-    record OrderView(Long id, Instant createdAt, String status, String address, String phone,
+    record OrderView(Long id, Instant createdAt, String status, String address, String phone, String recipient,
                      int subtotalCents, int shippingCents, int totalCents, List<LineView> items) {
         static OrderView of(ShopOrder o) {
             return new OrderView(o.id, o.createdAt, o.status, o.address, o.phone, o.subtotalCents, o.shippingCents,
