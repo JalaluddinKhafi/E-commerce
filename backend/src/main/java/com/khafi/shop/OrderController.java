@@ -23,7 +23,7 @@ class OrderController {
     record OrderView(Long id, Instant createdAt, String status, String address, String phone, String recipient,
                      int subtotalCents, int shippingCents, int totalCents, List<LineView> items) {
         static OrderView of(ShopOrder o) {
-            return new OrderView(o.id, o.createdAt, o.status, o.address, o.phone, o.subtotalCents, o.shippingCents,
+            return new OrderView(o.id, o.createdAt, o.status, o.address, o.phone, o.recipient, o.subtotalCents, o.shippingCents,
                 o.totalCents, o.items.stream().map(i -> new LineView(i.productId, i.name, i.image, i.priceCents, i.quantity)).toList());
         }
     }
@@ -51,6 +51,7 @@ class OrderController {
         ShopOrder order = new ShopOrder();
         order.customer=user; order.requestKey=data.requestKey().toString();
         order.address=data.address().strip(); order.phone=data.phone().strip();
+        order.recipient=data.recipient() == null || data.recipient().isBlank() ? user.name : data.recipient().strip();
         long subtotal = 0;
         for (CartItem item : sorted) {
             Product p = products.lock(item.product.id).orElseThrow();
