@@ -17,7 +17,7 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController @RequestMapping("/api")
 class OrderController {
     record Checkout(@NotBlank @Size(max=500) String address, @NotBlank @Size(min=5, max=40) String phone,
-                    @NotNull UUID requestKey, @Min(0) Integer expectedTotalCents) {}
+                    @NotNull UUID requestKey, @Min(0) Integer expectedTotalCents, @Size(max=100) String recipient) {}
     record Status(@NotBlank String status) {}
     record LineView(Long productId, String name, String image, int priceCents, int quantity) {}
     record OrderView(Long id, Instant createdAt, String status, String address, String phone,
