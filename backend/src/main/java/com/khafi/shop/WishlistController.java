@@ -20,3 +20,6 @@ class WishlistController {
 
     WishlistController(Customers customers, Products products, SavedProducts saved) {
         this.customers = customers; this.products = products; this.saved = saved;
+    }
+    @GetMapping @Transactional(readOnly = true)
+    List<CatalogController.ProductView> get(@AuthenticationPrincipal Jwt jwt) {
