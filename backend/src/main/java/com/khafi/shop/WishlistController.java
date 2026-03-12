@@ -17,3 +17,6 @@ class WishlistController {
     private final Customers customers;
     private final Products products;
     private final SavedProducts saved;
+
+    WishlistController(Customers customers, Products products, SavedProducts saved) {
+        this.customers = customers; this.products = products; this.saved = saved;
