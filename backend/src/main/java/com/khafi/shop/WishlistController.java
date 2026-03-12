@@ -13,3 +13,4 @@ import org.springframework.web.server.ResponseStatusException;
 
 @RestController @RequestMapping("/api/wishlist")
 class WishlistController {
+    record Import(@NotNull @Size(max = 100) List<@NotNull @Positive Long> productIds) {}
