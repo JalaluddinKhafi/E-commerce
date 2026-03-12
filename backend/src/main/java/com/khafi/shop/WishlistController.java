@@ -23,3 +23,4 @@ class WishlistController {
     }
     @GetMapping @Transactional(readOnly = true)
     List<CatalogController.ProductView> get(@AuthenticationPrincipal Jwt jwt) {
+        return views(Long.valueOf(jwt.getSubject()));
