@@ -16,3 +16,4 @@ class WishlistController {
     record Import(@NotNull @Size(max = 100) List<@NotNull @Positive Long> productIds) {}
     private final Customers customers;
     private final Products products;
+    private final SavedProducts saved;
