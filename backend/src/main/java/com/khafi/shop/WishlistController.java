@@ -5,3 +5,4 @@ import jakarta.validation.constraints.*;
 import java.util.HashSet;
 import java.util.List;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
