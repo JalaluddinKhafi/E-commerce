@@ -28,3 +28,6 @@ class WishlistController {
     @PutMapping("/{productId}") @Transactional
     List<CatalogController.ProductView> add(@AuthenticationPrincipal Jwt jwt, @PathVariable Long productId) {
         Long id = Long.valueOf(jwt.getSubject());
+        Customer customer = customers.lock(id).orElseThrow();
+        if (saved.findByCustomerIdAndProductId(id, productId).isEmpty()) {
+            Product product = products.findById(productId).filter(p -> p.active).orElseThrow(
