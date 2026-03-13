@@ -38,3 +38,6 @@ class WishlistController {
         return views(id);
     }
     @DeleteMapping("/{productId}") @Transactional
+    List<CatalogController.ProductView> remove(@AuthenticationPrincipal Jwt jwt, @PathVariable Long productId) {
+        Long id = Long.valueOf(jwt.getSubject());
+        customers.lock(id).orElseThrow();
