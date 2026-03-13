@@ -41,3 +41,6 @@ class WishlistController {
     List<CatalogController.ProductView> remove(@AuthenticationPrincipal Jwt jwt, @PathVariable Long productId) {
         Long id = Long.valueOf(jwt.getSubject());
         customers.lock(id).orElseThrow();
+        saved.findByCustomerIdAndProductId(id, productId).ifPresent(saved::delete);
+        saved.flush();
+        return views(id);
