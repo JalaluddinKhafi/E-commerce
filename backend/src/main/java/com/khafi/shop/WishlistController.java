@@ -31,3 +31,4 @@ class WishlistController {
         Customer customer = customers.lock(id).orElseThrow();
         if (saved.findByCustomerIdAndProductId(id, productId).isEmpty()) {
             Product product = products.findById(productId).filter(p -> p.active).orElseThrow(
+                () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found"));
