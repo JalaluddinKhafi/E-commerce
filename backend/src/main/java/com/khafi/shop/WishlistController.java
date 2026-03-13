@@ -27,3 +27,4 @@ class WishlistController {
     }
     @PutMapping("/{productId}") @Transactional
     List<CatalogController.ProductView> add(@AuthenticationPrincipal Jwt jwt, @PathVariable Long productId) {
+        Long id = Long.valueOf(jwt.getSubject());
