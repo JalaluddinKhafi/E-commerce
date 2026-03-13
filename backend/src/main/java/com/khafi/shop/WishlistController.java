@@ -34,3 +34,5 @@ class WishlistController {
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found"));
             if (saved.countByCustomerId(id) >= 100) throw limit();
             save(customer, product);
+        }
+        return views(id);
