@@ -36,3 +36,5 @@ class WishlistController {
             save(customer, product);
         }
         return views(id);
+    }
+    @DeleteMapping("/{productId}") @Transactional
