@@ -44,3 +44,6 @@ class WishlistController {
         saved.findByCustomerIdAndProductId(id, productId).ifPresent(saved::delete);
         saved.flush();
         return views(id);
+    }
+    @PostMapping("/import") @Transactional
+    List<CatalogController.ProductView> merge(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody Import data) {
