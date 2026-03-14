@@ -65,3 +65,8 @@ class WishlistController {
     private List<CatalogController.ProductView> views(Long customerId) {
         return saved.findByCustomerIdOrderByIdAsc(customerId).stream()
             .map(item -> CatalogController.ProductView.of(item.product)).toList();
+    }
+    private ResponseStatusException limit() {
+        return new ResponseStatusException(HttpStatus.CONFLICT, "A wishlist can contain at most 100 products");
+    }
+}
