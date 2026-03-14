@@ -26,6 +26,8 @@ class ShopIntegrationTest {
     @Autowired Products products;
     @Autowired Carts carts;
     @Autowired Orders orders;
+    @Autowired SavedProducts saved;
+    @Autowired DeliveryAddresses addresses;
     @Autowired PasswordEncoder passwords;
     Product product;
 
