@@ -60,3 +60,6 @@ class WishlistController {
     }
     private void save(Customer customer, Product product) {
         var entry = new SavedProduct(); entry.customer = customer; entry.product = product;
+        saved.saveAndFlush(entry);
+    }
+    private List<CatalogController.ProductView> views(Long customerId) {
