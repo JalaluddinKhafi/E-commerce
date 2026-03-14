@@ -49,3 +49,4 @@ class WishlistController {
     List<CatalogController.ProductView> merge(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody Import data) {
         Long id = Long.valueOf(jwt.getSubject());
         Customer customer = customers.lock(id).orElseThrow();
+        var existing = saved.findByCustomerIdOrderByIdAsc(id);
