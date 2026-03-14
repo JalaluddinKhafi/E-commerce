@@ -56,3 +56,4 @@ class WishlistController {
             .filter(p -> p.active && !ids.contains(p.id)).toList();
         if (existing.size() + additions.size() > 100) throw limit();
         additions.forEach(p -> save(customer, p));
+        return views(id);
