@@ -63,3 +63,4 @@ class WishlistController {
         saved.saveAndFlush(entry);
     }
     private List<CatalogController.ProductView> views(Long customerId) {
+        return saved.findByCustomerIdOrderByIdAsc(customerId).stream()
