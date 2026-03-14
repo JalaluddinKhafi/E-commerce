@@ -53,3 +53,4 @@ class WishlistController {
         var ids = new HashSet<Long>();
         existing.forEach(item -> ids.add(item.product.id));
         var additions = products.findAllById(new HashSet<>(data.productIds())).stream()
+            .filter(p -> p.active && !ids.contains(p.id)).toList();
