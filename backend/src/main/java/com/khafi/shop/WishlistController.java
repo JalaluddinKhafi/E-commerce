@@ -59,3 +59,4 @@ class WishlistController {
         return views(id);
     }
     private void save(Customer customer, Product product) {
+        var entry = new SavedProduct(); entry.customer = customer; entry.product = product;
