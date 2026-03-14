@@ -67,6 +67,7 @@ class ShopIntegrationTest {
     Map<String, Object> checkout(UUID key) { return Map.of("address", "Kabul, Test Street 10", "phone", "+93700000000", "requestKey", key.toString()); }
 
     Map<String, Object> delivery(String label, boolean isDefault) {
+        return Map.of("label", label, "recipient", "Recipient A", "phone", "+93700000000", "address", "Street 10, Kabul", "isDefault", isDefault);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
