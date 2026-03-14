@@ -68,6 +68,9 @@ class ShopIntegrationTest {
 
     Map<String, Object> delivery(String label, boolean isDefault) {
         return Map.of("label", label, "recipient", "Recipient A", "phone", "+93700000000", "address", "Street 10, Kabul", "isDefault", isDefault);
+    }
+    @Test void wishlistsArePrivatePersistentAndIdempotent() throws Exception {
+        assertThat(call("GET", "/api/wishlist", null, null).getResponse().getStatus()).isEqualTo(401);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
