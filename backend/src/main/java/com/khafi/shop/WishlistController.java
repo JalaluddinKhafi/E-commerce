@@ -57,3 +57,5 @@ class WishlistController {
         if (existing.size() + additions.size() > 100) throw limit();
         additions.forEach(p -> save(customer, p));
         return views(id);
+    }
+    private void save(Customer customer, Product product) {
