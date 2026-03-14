@@ -64,3 +64,4 @@ class WishlistController {
     }
     private List<CatalogController.ProductView> views(Long customerId) {
         return saved.findByCustomerIdOrderByIdAsc(customerId).stream()
+            .map(item -> CatalogController.ProductView.of(item.product)).toList();
