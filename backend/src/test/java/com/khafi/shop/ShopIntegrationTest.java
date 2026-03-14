@@ -32,7 +32,7 @@ class ShopIntegrationTest {
     Product product;
 
     @BeforeEach void fixtures() {
-        carts.deleteAll(); orders.deleteAll(); customers.deleteAll(); products.deleteAll();
+        saved.deleteAll(); addresses.deleteAll(); carts.deleteAll(); orders.deleteAll(); customers.deleteAll(); products.deleteAll();
         product = product("Carrots", 399, 10);
     }
     Product product(String name, int price, int stock) {
