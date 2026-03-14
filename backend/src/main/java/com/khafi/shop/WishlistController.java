@@ -50,3 +50,5 @@ class WishlistController {
         Long id = Long.valueOf(jwt.getSubject());
         Customer customer = customers.lock(id).orElseThrow();
         var existing = saved.findByCustomerIdOrderByIdAsc(id);
+        var ids = new HashSet<Long>();
+        existing.forEach(item -> ids.add(item.product.id));
