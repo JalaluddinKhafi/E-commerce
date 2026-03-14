@@ -52,3 +52,4 @@ class WishlistController {
         var existing = saved.findByCustomerIdOrderByIdAsc(id);
         var ids = new HashSet<Long>();
         existing.forEach(item -> ids.add(item.product.id));
+        var additions = products.findAllById(new HashSet<>(data.productIds())).stream()
