@@ -76,6 +76,8 @@ class ShopIntegrationTest {
         assertThat(saved.count()).isEqualTo(1);
         assertThat(body(call("GET", "/api/wishlist", one, null)).get(0).get("name").asText()).isEqualTo("Carrots");
         assertThat(body(call("GET", "/api/wishlist", two, null)).size()).isZero();
+        call("DELETE", "/api/wishlist/"+product.id, two, null);
+        assertThat(saved.count()).isEqualTo(1);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
