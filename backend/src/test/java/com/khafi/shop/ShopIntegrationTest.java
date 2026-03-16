@@ -93,6 +93,7 @@ class ShopIntegrationTest {
         var data=Map.of("productIds", List.of(product.id,product.id,other.id,hidden.id,999999L));
         assertThat(body(call("POST", "/api/wishlist/import", user, data)).size()).isEqualTo(2);
         assertThat(body(call("POST", "/api/wishlist/import", user, data)).size()).isEqualTo(2);
+        assertThat(call("POST", "/api/wishlist/import", user, Map.of("productIds", List.of(-1))).getResponse().getStatus()).isEqualTo(400);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
