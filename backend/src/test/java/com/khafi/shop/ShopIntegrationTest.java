@@ -80,6 +80,7 @@ class ShopIntegrationTest {
         assertThat(saved.count()).isEqualTo(1);
         String login=body(call("POST", "/api/auth/login", null, Map.of("email", "one@example.test", "password", "Long-test-password1!"))).get("token").asText();
         assertThat(body(call("GET", "/api/wishlist", login, null)).size()).isEqualTo(1);
+        product.active=false; products.save(product);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
