@@ -82,6 +82,7 @@ class ShopIntegrationTest {
         assertThat(body(call("GET", "/api/wishlist", login, null)).size()).isEqualTo(1);
         product.active=false; products.save(product);
         assertThat(body(call("GET", "/api/wishlist", login, null)).get(0).get("active").asBoolean()).isFalse();
+        for (int i=0;i<2;i++) assertThat(call("DELETE", "/api/wishlist/"+product.id, login, null).getResponse().getStatus()).isEqualTo(200);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
