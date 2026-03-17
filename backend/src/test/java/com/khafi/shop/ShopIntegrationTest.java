@@ -102,6 +102,7 @@ class ShopIntegrationTest {
         String user=register("user@example.test"); Customer customer=customers.findByEmail("user@example.test").orElseThrow();
         List<SavedProduct> entries=new ArrayList<>();
         for(int i=0;i<100;i++) {
+            Product p=i==0?product:product("Saved "+i,100,5);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
