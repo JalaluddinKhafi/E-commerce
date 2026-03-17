@@ -109,6 +109,7 @@ class ShopIntegrationTest {
         Product extra=product("Extra",300,1);
         assertThat(call("PUT", "/api/wishlist/"+extra.id, user, null).getResponse().getStatus()).isEqualTo(409);
         assertThat(call("POST", "/api/wishlist/import", user, Map.of("productIds", List.of(extra.id))).getResponse().getStatus()).isEqualTo(409);
+        assertThat(saved.count()).isEqualTo(100);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
