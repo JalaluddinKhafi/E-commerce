@@ -104,6 +104,9 @@ class ShopIntegrationTest {
         for(int i=0;i<100;i++) {
             Product p=i==0?product:product("Saved "+i,100,5);
             var entry=new SavedProduct(); entry.customer=customer; entry.product=p; entries.add(entry);
+        }
+        saved.saveAllAndFlush(entries);
+        Product extra=product("Extra",300,1);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
