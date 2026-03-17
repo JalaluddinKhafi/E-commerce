@@ -112,6 +112,10 @@ class ShopIntegrationTest {
         assertThat(saved.count()).isEqualTo(100);
         call("DELETE", "/api/wishlist/"+product.id, user, null);
         assertThat(call("PUT", "/api/wishlist/"+extra.id, user, null).getResponse().getStatus()).isEqualTo(200);
+    }
+    @Test void deliveryAddressesAreOwnedByAuthenticatedAccount() throws Exception {
+        assertThat(call("GET", "/api/account/addresses", null, null).getResponse().getStatus()).isEqualTo(401);
+        String owner=register("owner@example.test"), other=register("other@example.test");
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
