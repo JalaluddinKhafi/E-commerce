@@ -100,6 +100,7 @@ class ShopIntegrationTest {
     }
     @Test void wishlistCapacityIsEnforcedWithoutPartialImports() throws Exception {
         String user=register("user@example.test"); Customer customer=customers.findByEmail("user@example.test").orElseThrow();
+        List<SavedProduct> entries=new ArrayList<>();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
