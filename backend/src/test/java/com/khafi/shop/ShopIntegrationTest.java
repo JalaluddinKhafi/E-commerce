@@ -130,6 +130,7 @@ class ShopIntegrationTest {
         long first=body(call("POST", "/api/account/addresses", user, delivery("Home",false))).get("id").asLong();
         long second=body(call("POST", "/api/account/addresses", user, delivery("Office",true))).get("id").asLong();
         var list=body(call("GET", "/api/account/addresses", user, null));
+        assertThat(list.get(0).get("isDefault").asBoolean()).isFalse();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
