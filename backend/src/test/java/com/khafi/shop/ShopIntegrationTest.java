@@ -117,6 +117,8 @@ class ShopIntegrationTest {
         assertThat(call("GET", "/api/account/addresses", null, null).getResponse().getStatus()).isEqualTo(401);
         String owner=register("owner@example.test"), other=register("other@example.test");
         var result=call("POST", "/api/account/addresses", owner, delivery("Home",false));
+        assertThat(result.getResponse().getStatus()).isEqualTo(201);
+        long id=body(result).get("id").asLong();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
