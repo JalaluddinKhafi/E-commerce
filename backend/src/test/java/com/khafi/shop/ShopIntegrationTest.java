@@ -138,6 +138,8 @@ class ShopIntegrationTest {
         assertThat(body(call("GET", "/api/account/addresses", user, null)).get(0).get("isDefault").asBoolean()).isTrue();
         call("DELETE", "/api/account/addresses/"+first, user, null);
         assertThat(body(call("GET", "/api/account/addresses", user, null)).size()).isZero();
+    }
+    @Test void addressLimitsAndInputValidationProtectTheAccount() throws Exception {
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
