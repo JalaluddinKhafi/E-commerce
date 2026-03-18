@@ -123,6 +123,10 @@ class ShopIntegrationTest {
         assertThat(body(call("GET", "/api/account/addresses", other, null)).size()).isZero();
         assertThat(call("PUT", "/api/account/addresses/"+id, other, delivery("Stolen",true)).getResponse().getStatus()).isEqualTo(404);
         assertThat(call("DELETE", "/api/account/addresses/"+id, other, null).getResponse().getStatus()).isEqualTo(404);
+        assertThat(addresses.count()).isEqualTo(1);
+    }
+    @Test void addressDefaultIsUniqueAndPromotedOnDeletion() throws Exception {
+        String user=register("user@example.test");
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
