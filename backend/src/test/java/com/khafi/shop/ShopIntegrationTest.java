@@ -121,6 +121,8 @@ class ShopIntegrationTest {
         long id=body(result).get("id").asLong();
         assertThat(body(result).get("isDefault").asBoolean()).isTrue();
         assertThat(body(call("GET", "/api/account/addresses", other, null)).size()).isZero();
+        assertThat(call("PUT", "/api/account/addresses/"+id, other, delivery("Stolen",true)).getResponse().getStatus()).isEqualTo(404);
+        assertThat(call("DELETE", "/api/account/addresses/"+id, other, null).getResponse().getStatus()).isEqualTo(404);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
