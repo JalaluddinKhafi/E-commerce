@@ -127,6 +127,8 @@ class ShopIntegrationTest {
     }
     @Test void addressDefaultIsUniqueAndPromotedOnDeletion() throws Exception {
         String user=register("user@example.test");
+        long first=body(call("POST", "/api/account/addresses", user, delivery("Home",false))).get("id").asLong();
+        long second=body(call("POST", "/api/account/addresses", user, delivery("Office",true))).get("id").asLong();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
