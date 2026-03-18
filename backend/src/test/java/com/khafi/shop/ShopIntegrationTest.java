@@ -133,6 +133,8 @@ class ShopIntegrationTest {
         assertThat(list.get(0).get("isDefault").asBoolean()).isFalse();
         assertThat(list.get(1).get("isDefault").asBoolean()).isTrue();
         var update=call("PUT", "/api/account/addresses/"+second, user, delivery("Office updated",false));
+        assertThat(body(update).get("isDefault").asBoolean()).isTrue();
+        assertThat(call("DELETE", "/api/account/addresses/"+second, user, null).getResponse().getStatus()).isEqualTo(204);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
