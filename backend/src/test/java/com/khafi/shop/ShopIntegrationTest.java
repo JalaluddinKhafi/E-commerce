@@ -132,6 +132,7 @@ class ShopIntegrationTest {
         var list=body(call("GET", "/api/account/addresses", user, null));
         assertThat(list.get(0).get("isDefault").asBoolean()).isFalse();
         assertThat(list.get(1).get("isDefault").asBoolean()).isTrue();
+        var update=call("PUT", "/api/account/addresses/"+second, user, delivery("Office updated",false));
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
