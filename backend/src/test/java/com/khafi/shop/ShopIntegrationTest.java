@@ -151,6 +151,9 @@ class ShopIntegrationTest {
         for(int i=0;i<10;i++) assertThat(call("POST", "/api/account/addresses", user, delivery("Address "+i,false)).getResponse().getStatus()).isEqualTo(201);
         assertThat(call("POST", "/api/account/addresses", user, delivery("Extra",false)).getResponse().getStatus()).isEqualTo(409);
         assertThat(addresses.count()).isEqualTo(10);
+    }
+    @Test void concurrentPreferenceWritesKeepSingleDefaultAndSingleFavorite() throws Exception {
+        String user=register("user@example.test"); ExecutorService pool=Executors.newFixedThreadPool(2);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
