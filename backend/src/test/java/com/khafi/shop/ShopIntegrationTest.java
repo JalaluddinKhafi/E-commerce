@@ -156,6 +156,7 @@ class ShopIntegrationTest {
         String user=register("user@example.test"); ExecutorService pool=Executors.newFixedThreadPool(2);
         try {
             var gate=new CountDownLatch(1);
+            Callable<Integer> create=() -> { gate.await(); return call("POST", "/api/account/addresses", user, delivery("Concurrent",true)).getResponse().getStatus(); };
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
