@@ -160,6 +160,7 @@ class ShopIntegrationTest {
             var one=pool.submit(create); var two=pool.submit(create); gate.countDown();
             assertThat(one.get(20,TimeUnit.SECONDS)).isEqualTo(201); assertThat(two.get(20,TimeUnit.SECONDS)).isEqualTo(201);
             assertThat(addresses.findAll().stream().filter(a -> a.isDefault).count()).isEqualTo(1);
+            Callable<Integer> save=() -> call("PUT", "/api/wishlist/"+product.id, user, null).getResponse().getStatus();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
