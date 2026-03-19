@@ -143,6 +143,7 @@ class ShopIntegrationTest {
         String user=register("user@example.test");
         var invalid=new HashMap<String,Object>(delivery("Home",true)); invalid.put("phone"," 1  ");
         assertThat(call("POST", "/api/account/addresses", user, invalid).getResponse().getStatus()).isEqualTo(400);
+        invalid=new HashMap<>(delivery("Home",true)); invalid.put("customerId",123);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
