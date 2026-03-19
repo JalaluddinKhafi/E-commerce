@@ -149,6 +149,7 @@ class ShopIntegrationTest {
         assertThat(call("POST", "/api/account/addresses", user, invalid).getResponse().getStatus()).isEqualTo(400);
         assertThat(addresses.count()).isZero();
         for(int i=0;i<10;i++) assertThat(call("POST", "/api/account/addresses", user, delivery("Address "+i,false)).getResponse().getStatus()).isEqualTo(201);
+        assertThat(call("POST", "/api/account/addresses", user, delivery("Extra",false)).getResponse().getStatus()).isEqualTo(409);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
