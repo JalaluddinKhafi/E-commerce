@@ -269,6 +269,9 @@ export function AccountProfile() {
           <p>نشانی خانه و محل کار را برای خریدهای بعدی ذخیره کنید.</p>
         </div>
         <Link className="button outline" to="/addresses">
+          مدیریت نشانی‌ها
+        </Link>
+      </section>
       <div className="form-grid">
         <form className="panel" onSubmit={saveProfile} aria-labelledby="profile-title">
           <h2 id="profile-title">اطلاعات شخصی</h2>
