@@ -265,6 +265,7 @@ export function AccountProfile() {
       <h1>حساب من</h1>
       <section className="account-shortcut">
         <div>
+          <strong>نشانی‌های تحویل</strong>
       <div className="form-grid">
         <form className="panel" onSubmit={saveProfile} aria-labelledby="profile-title">
           <h2 id="profile-title">اطلاعات شخصی</h2>
