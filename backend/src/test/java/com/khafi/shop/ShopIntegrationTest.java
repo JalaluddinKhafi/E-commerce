@@ -176,6 +176,8 @@ class ShopIntegrationTest {
         call("DELETE", "/api/account/addresses/"+id, user, null);
         var order=body(call("GET", "/api/orders", user, null)).get(0);
         assertThat(order.get("recipient").asText()).isEqualTo("Original recipient");
+        assertThat(order.get("address").asText()).isEqualTo("Kabul, Test Street 10");
+    }
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
