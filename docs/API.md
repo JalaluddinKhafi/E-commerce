@@ -13,6 +13,14 @@ Base path: `/api`. JSON request/response bodies. Protected routes require `Autho
 | PUT | `/account/profile` | Customer | `{name}` edits only the current account's display name |
 | POST | `/account/password` | Customer | `{currentPassword, newPassword}` changes credentials and revokes every old token; 204 |
 | POST | `/account/logout-all` | Customer | Revoke every current token for this account; 204 |
+| GET | `/wishlist` | Customer | Current account's saved products, including archived entries |
+| PUT | `/wishlist/{productId}` | Customer | Idempotently save an active product; return updated list |
+| DELETE | `/wishlist/{productId}` | Customer | Idempotently remove a product; return updated list |
+| POST | `/wishlist/import` | Customer | Explicitly merge `{productIds: [...]}`; return updated list |
+| GET | `/account/addresses` | Customer | Only this account's saved delivery addresses |
+| POST | `/account/addresses` | Customer | Create address; 201 and address view |
+| PUT | `/account/addresses/{id}` | Customer | Update an owned address |
+| DELETE | `/account/addresses/{id}` | Customer | Delete owned address; 204 |
 | GET | `/products` | Public | Active products |
 | GET | `/catalog` | Public | Database-filtered, paginated catalog with category facets |
 | GET | `/products/{id}` | Public | Active product detail |
@@ -59,6 +67,14 @@ The React storefront stores `q`, `category`, `sort` and `page` in the URL. Reloa
 Responses also contain `id`. Allowed image paths: `/images/` plus a simple filename with jpg/jpeg/png/webp extension. Image upload is not provided. Price: 1–1,000,000 cents. Stock: 0–100,000. Names: up to 120 characters, categories: 60, descriptions: 2,000.
 
 ## Cart and order
+
+### Wishlists and saved addresses
+
+Wishlists are scoped to the bearer account and limited to 100 products. Saving an already-saved product and removing a missing product are idempotent. Archived entries remain visible so they can be removed; new saves of archived products return 404. Import accepts at most 100 positive product IDs, deduplicates them, skips missing or archived products, and merges with existing entries. If the result would exceed capacity, the whole import returns 409 without partial writes. A customer row lock serializes concurrent changes. Guest browser choices are never automatically imported on login and never receive a copy of account-only entries on logout.
+
+Address input is `{label, recipient, phone, address, isDefault}`. All text fields are required: label up to 40 characters, recipient 100, phone 5–40 after trimming, and address 500. A customer can save ten addresses. First creation becomes default automatically. Choosing another default clears the previous default under the customer row lock. An existing default remains default when an update supplies false; choose another address to transfer the default. Deleting the default promotes the oldest remaining entry. Address views add `id` and do not disclose the owning customer ID. Editing or deleting another customer's ID returns 404; unknown JSON fields, including injected `customerId`, return 400.
+
+Checkout accepts an optional `recipient` of up to 100 characters, falling back to the current account's name when omitted or blank. Order responses include the recipient snapshot. A saved address picker fills recipient, phone and address in the client; the customer can edit them before confirming. Order delivery details are stored separately from the address book, so later edits or deletion do not alter receipts. Existing orders without a recipient remain readable.
 
 Cart responses contain `items: [{product, quantity}]`, `subtotalCents`, `shippingCents`, `totalCents`. Quantity is an integer from 0 to 99. The total limit is 100,000,000 cents before shipping. Shipping is 500 cents, waived for subtotals of at least 5,000 cents; empty carts have zero shipping.
 
