@@ -165,6 +165,8 @@ class ShopIntegrationTest {
             assertThat(one.get(20,TimeUnit.SECONDS)).isEqualTo(200); assertThat(two.get(20,TimeUnit.SECONDS)).isEqualTo(200);
             assertThat(saved.count()).isEqualTo(1);
         } finally { pool.shutdownNow(); }
+    }
+    @Test void savedAddressChangesDoNotMutatePlacedOrderSnapshots() throws Exception {
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
