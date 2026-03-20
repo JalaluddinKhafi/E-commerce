@@ -171,6 +171,7 @@ class ShopIntegrationTest {
         long id=body(call("POST", "/api/account/addresses", user, delivery("Home",true))).get("id").asLong();
         cart(user,product,1);
         var data=new HashMap<String,Object>(checkout(UUID.randomUUID())); data.put("recipient","Original recipient");
+        assertThat(call("POST", "/api/orders", user, data).getResponse().getStatus()).isEqualTo(201);
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
