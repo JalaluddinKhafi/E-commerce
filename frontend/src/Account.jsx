@@ -263,6 +263,7 @@ export function AccountProfile() {
     <section className="shell page">
       <span className="eyebrow">اطلاعات و امنیت حساب</span>
       <h1>حساب من</h1>
+      <section className="account-shortcut">
       <div className="form-grid">
         <form className="panel" onSubmit={saveProfile} aria-labelledby="profile-title">
           <h2 id="profile-title">اطلاعات شخصی</h2>
