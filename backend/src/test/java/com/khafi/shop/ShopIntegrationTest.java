@@ -168,6 +168,7 @@ class ShopIntegrationTest {
     }
     @Test void savedAddressChangesDoNotMutatePlacedOrderSnapshots() throws Exception {
         String user=register("user@example.test");
+        long id=body(call("POST", "/api/account/addresses", user, delivery("Home",true))).get("id").asLong();
     @Test void catalogFiltersAndPaginatesOnTheServer() throws Exception {
         Product apple=product("Apple",500,4); apple.category="Fruit"; products.save(apple);
         Product grape=product("Grape",700,4); grape.category="Fruit"; products.save(grape);
