@@ -134,6 +134,7 @@ export function OrderCard({ order, children }) {
       </div>
       <div className="order-footer">
         <div>
+          {order.recipient && <p>گیرنده: {order.recipient}</p>}
           <p>نشانی: {order.address}</p>
           <p>
             تلفن: <bdi>{order.phone}</bdi>
