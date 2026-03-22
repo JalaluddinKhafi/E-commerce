@@ -5,3 +5,4 @@ import { LoadState, useLoad, useShop } from './App';
 
 const blank = { label: '', recipient: '', phone: '', address: '', isDefault: false };
 const payload = (entry) => ({
+  label: entry.label,
