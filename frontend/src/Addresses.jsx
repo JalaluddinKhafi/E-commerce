@@ -21,3 +21,5 @@ export function AddressesPage() {
   const entries = resource.data || [];
   function edit(entry) {
     setConfirmDelete(null);
+    setForm({ ...entry });
+    setEditing(entry.id || 'new');
