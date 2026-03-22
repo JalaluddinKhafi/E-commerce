@@ -10,3 +10,6 @@ const payload = (entry) => ({
   phone: entry.phone,
   address: entry.address,
   isDefault: entry.isDefault,
+});
+
+export function AddressesPage() {
