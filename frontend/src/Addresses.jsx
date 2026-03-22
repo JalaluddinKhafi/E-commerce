@@ -17,3 +17,4 @@ export function AddressesPage() {
   const resource = useLoad('/account/addresses', revision);
   const [editing, setEditing] = useState(null);
   const [form, setForm] = useState(blank);
+  const [confirmDelete, setConfirmDelete] = useState(null);
