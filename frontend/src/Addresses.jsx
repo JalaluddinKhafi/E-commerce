@@ -18,3 +18,4 @@ export function AddressesPage() {
   const [editing, setEditing] = useState(null);
   const [form, setForm] = useState(blank);
   const [confirmDelete, setConfirmDelete] = useState(null);
+  const entries = resource.data || [];
