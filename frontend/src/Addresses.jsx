@@ -28,3 +28,4 @@ export function AddressesPage() {
     setForm((previous) => ({ ...previous, [key]: value }));
   }
   async function save(event) {
+    event.preventDefault();
