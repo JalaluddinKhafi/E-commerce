@@ -23,3 +23,8 @@ export function AddressesPage() {
     setConfirmDelete(null);
     setForm({ ...entry });
     setEditing(entry.id || 'new');
+  }
+  function field(key, value) {
+    setForm((previous) => ({ ...previous, [key]: value }));
+  }
+  async function save(event) {
