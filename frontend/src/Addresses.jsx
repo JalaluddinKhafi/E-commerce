@@ -7,3 +7,4 @@ const blank = { label: '', recipient: '', phone: '', address: '', isDefault: fal
 const payload = (entry) => ({
   label: entry.label,
   recipient: entry.recipient,
+  phone: entry.phone,
