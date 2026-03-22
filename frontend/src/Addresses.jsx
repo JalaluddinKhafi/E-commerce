@@ -15,3 +15,4 @@ const payload = (entry) => ({
 export function AddressesPage() {
   const { revision, refresh, task, busy } = useShop();
   const resource = useLoad('/account/addresses', revision);
+  const [editing, setEditing] = useState(null);
