@@ -29,3 +29,5 @@ export function AddressesPage() {
   }
   async function save(event) {
     event.preventDefault();
+    await task(async () => {
+      await api(editing === 'new' ? '/account/addresses' : `/account/addresses/${editing}`, {
