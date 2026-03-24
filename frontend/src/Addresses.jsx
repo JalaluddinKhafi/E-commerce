@@ -37,3 +37,5 @@ export function AddressesPage() {
       setEditing(null);
       refresh();
     }, 'نشانی ذخیره شد.');
+  }
+  async function remove(entry) {
