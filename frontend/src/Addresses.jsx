@@ -33,3 +33,5 @@ export function AddressesPage() {
       await api(editing === 'new' ? '/account/addresses' : `/account/addresses/${editing}`, {
         method: editing === 'new' ? 'POST' : 'PUT',
         body: payload(form),
+      });
+      setEditing(null);
