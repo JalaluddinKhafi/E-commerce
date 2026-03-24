@@ -40,3 +40,5 @@ export function AddressesPage() {
   }
   async function remove(entry) {
     await task(async () => {
+      try {
+        await api(`/account/addresses/${entry.id}`, { method: 'DELETE' });
