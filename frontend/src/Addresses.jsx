@@ -39,3 +39,4 @@ export function AddressesPage() {
     }, 'نشانی ذخیره شد.');
   }
   async function remove(entry) {
+    await task(async () => {
