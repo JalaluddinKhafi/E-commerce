@@ -35,3 +35,4 @@ export function AddressesPage() {
         body: payload(form),
       });
       setEditing(null);
+      refresh();
