@@ -32,3 +32,4 @@ export function AddressesPage() {
     await task(async () => {
       await api(editing === 'new' ? '/account/addresses' : `/account/addresses/${editing}`, {
         method: editing === 'new' ? 'POST' : 'PUT',
+        body: payload(form),
