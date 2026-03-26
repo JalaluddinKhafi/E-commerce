@@ -66,3 +66,4 @@ export function AddressesPage() {
       <div className="address-heading">
         <div>
           <span className="eyebrow">تحویل راحت‌تر، خرید سریع‌تر</span>
+          <h1>نشانی‌های من</h1>
