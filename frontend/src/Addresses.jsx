@@ -42,3 +42,4 @@ export function AddressesPage() {
     await task(async () => {
       try {
         await api(`/account/addresses/${entry.id}`, { method: 'DELETE' });
+        setConfirmDelete(null);
