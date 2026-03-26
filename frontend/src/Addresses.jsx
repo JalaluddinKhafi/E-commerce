@@ -54,3 +54,8 @@ export function AddressesPage() {
       await api(`/account/addresses/${entry.id}`, {
         method: 'PUT',
         body: { ...payload(entry), isDefault: true },
+      });
+      refresh();
+    }, 'نشانی پیش‌فرض تغییر کرد.');
+  }
+  return (
