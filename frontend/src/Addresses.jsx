@@ -50,3 +50,4 @@ export function AddressesPage() {
     }, 'نشانی حذف شد.');
   }
   async function makeDefault(entry) {
+    await task(async () => {
