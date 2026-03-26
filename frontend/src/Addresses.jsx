@@ -45,3 +45,4 @@ export function AddressesPage() {
         setConfirmDelete(null);
         if (editing === entry.id) setEditing(null);
       } finally {
+        refresh();
