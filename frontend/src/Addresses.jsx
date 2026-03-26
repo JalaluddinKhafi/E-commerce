@@ -60,3 +60,4 @@ export function AddressesPage() {
   }
   return (
     <section className="shell page address-page">
+      <Link className="back" to="/account">
