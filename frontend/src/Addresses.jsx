@@ -43,3 +43,4 @@ export function AddressesPage() {
       try {
         await api(`/account/addresses/${entry.id}`, { method: 'DELETE' });
         setConfirmDelete(null);
+        if (editing === entry.id) setEditing(null);
