@@ -53,3 +53,4 @@ export function AddressesPage() {
     await task(async () => {
       await api(`/account/addresses/${entry.id}`, {
         method: 'PUT',
+        body: { ...payload(entry), isDefault: true },
