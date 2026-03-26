@@ -46,3 +46,5 @@ export function AddressesPage() {
         if (editing === entry.id) setEditing(null);
       } finally {
         refresh();
+      }
+    }, 'نشانی حذف شد.');
