@@ -51,3 +51,4 @@ export function AddressesPage() {
   }
   async function makeDefault(entry) {
     await task(async () => {
+      await api(`/account/addresses/${entry.id}`, {
