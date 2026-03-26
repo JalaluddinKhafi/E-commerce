@@ -48,3 +48,5 @@ export function AddressesPage() {
         refresh();
       }
     }, 'نشانی حذف شد.');
+  }
+  async function makeDefault(entry) {
