@@ -59,3 +59,4 @@ export function AddressesPage() {
     }, 'نشانی پیش‌فرض تغییر کرد.');
   }
   return (
+    <section className="shell page address-page">
