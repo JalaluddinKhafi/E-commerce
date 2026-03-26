@@ -62,3 +62,6 @@ export function AddressesPage() {
     <section className="shell page address-page">
       <Link className="back" to="/account">
         ← بازگشت به حساب من
+      </Link>
+      <div className="address-heading">
+        <div>
