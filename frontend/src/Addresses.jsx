@@ -65,3 +65,4 @@ export function AddressesPage() {
       </Link>
       <div className="address-heading">
         <div>
+          <span className="eyebrow">تحویل راحت‌تر، خرید سریع‌تر</span>
