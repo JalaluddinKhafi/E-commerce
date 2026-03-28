@@ -84,3 +84,4 @@ export function AddressesPage() {
           <div className="address-grid">
             {entries.map((entry) => (
               <article
+                className={`address-card ${entry.isDefault ? 'is-default' : ''}`}
