@@ -68,3 +68,4 @@ export function AddressesPage() {
           <span className="eyebrow">تحویل راحت‌تر، خرید سریع‌تر</span>
           <h1>نشانی‌های من</h1>
           <p className="muted">
+            حداکثر ۱۰ نشانی در حساب شما ذخیره می‌شود. تغییر آن‌ها، نشانی سفارش‌های قبلی را عوض
