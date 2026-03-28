@@ -82,3 +82,4 @@ export function AddressesPage() {
       <LoadState resource={resource}>
         {entries.length ? (
           <div className="address-grid">
+            {entries.map((entry) => (
