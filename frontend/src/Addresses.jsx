@@ -89,3 +89,6 @@ export function AddressesPage() {
               >
                 <div className="address-card-heading">
                   <h2>{entry.label}</h2>
+                  {entry.isDefault && <span className="badge">پیش‌فرض</span>}
+                </div>
+                <strong className="address-recipient">{entry.recipient}</strong>
