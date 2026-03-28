@@ -88,3 +88,4 @@ export function AddressesPage() {
                 key={entry.id}
               >
                 <div className="address-card-heading">
+                  <h2>{entry.label}</h2>
