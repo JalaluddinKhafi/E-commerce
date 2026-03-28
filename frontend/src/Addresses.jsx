@@ -83,3 +83,4 @@ export function AddressesPage() {
         {entries.length ? (
           <div className="address-grid">
             {entries.map((entry) => (
+              <article
