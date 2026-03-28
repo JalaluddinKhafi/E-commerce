@@ -92,3 +92,4 @@ export function AddressesPage() {
                   {entry.isDefault && <span className="badge">پیش‌فرض</span>}
                 </div>
                 <strong className="address-recipient">{entry.recipient}</strong>
+                <p className="address-text">{entry.address}</p>
