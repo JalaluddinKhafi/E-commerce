@@ -77,3 +77,6 @@ export function AddressesPage() {
           onClick={() => edit(blank)}
         >
           نشانی جدید +
+        </button>
+      </div>
+      <LoadState resource={resource}>
