@@ -85,3 +85,6 @@ export function AddressesPage() {
             {entries.map((entry) => (
               <article
                 className={`address-card ${entry.isDefault ? 'is-default' : ''}`}
+                key={entry.id}
+              >
+                <div className="address-card-heading">
