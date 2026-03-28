@@ -73,3 +73,5 @@ export function AddressesPage() {
           </p>
         </div>
         <button
+          disabled={busy || resource.loading || entries.length >= 10}
+          onClick={() => edit(blank)}
