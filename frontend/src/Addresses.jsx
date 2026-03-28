@@ -81,3 +81,4 @@ export function AddressesPage() {
       </div>
       <LoadState resource={resource}>
         {entries.length ? (
+          <div className="address-grid">
