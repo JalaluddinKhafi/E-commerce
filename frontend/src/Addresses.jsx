@@ -70,3 +70,6 @@ export function AddressesPage() {
           <p className="muted">
             حداکثر ۱۰ نشانی در حساب شما ذخیره می‌شود. تغییر آن‌ها، نشانی سفارش‌های قبلی را عوض
             نمی‌کند.
+          </p>
+        </div>
+        <button
