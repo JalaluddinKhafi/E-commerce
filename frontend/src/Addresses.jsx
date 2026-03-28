@@ -93,3 +93,4 @@ export function AddressesPage() {
                 </div>
                 <strong className="address-recipient">{entry.recipient}</strong>
                 <p className="address-text">{entry.address}</p>
+                <p className="address-phone">
