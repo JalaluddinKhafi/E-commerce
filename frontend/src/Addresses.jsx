@@ -107,3 +107,4 @@ export function AddressesPage() {
                     </button>
                   )}
                   <button
+                    className="text-button"
