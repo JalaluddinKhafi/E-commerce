@@ -109,3 +109,6 @@ export function AddressesPage() {
                   <button
                     className="text-button"
                     disabled={busy}
+                    onClick={() => setConfirmDelete(entry.id)}
+                  >
+                    حذف {entry.label}
