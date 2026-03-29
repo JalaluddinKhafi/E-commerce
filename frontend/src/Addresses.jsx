@@ -99,3 +99,4 @@ export function AddressesPage() {
                 </p>
                 <div className="address-actions">
                   <button className="outline" disabled={busy} onClick={() => edit(entry)}>
+                    ویرایش {entry.label}
