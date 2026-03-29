@@ -96,3 +96,5 @@ export function AddressesPage() {
                 <p className="address-phone">
                   <span>تلفن تحویل</span>
                   <bdi>{entry.phone}</bdi>
+                </p>
+                <div className="address-actions">
