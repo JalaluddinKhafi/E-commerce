@@ -102,3 +102,4 @@ export function AddressesPage() {
                     ویرایش {entry.label}
                   </button>
                   {!entry.isDefault && (
+                    <button className="quiet" disabled={busy} onClick={() => makeDefault(entry)}>
