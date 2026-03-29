@@ -108,3 +108,4 @@ export function AddressesPage() {
                   )}
                   <button
                     className="text-button"
+                    disabled={busy}
