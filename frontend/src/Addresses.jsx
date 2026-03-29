@@ -98,3 +98,4 @@ export function AddressesPage() {
                   <bdi>{entry.phone}</bdi>
                 </p>
                 <div className="address-actions">
+                  <button className="outline" disabled={busy} onClick={() => edit(entry)}>
