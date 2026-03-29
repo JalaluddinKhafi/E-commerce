@@ -104,3 +104,6 @@ export function AddressesPage() {
                   {!entry.isDefault && (
                     <button className="quiet" disabled={busy} onClick={() => makeDefault(entry)}>
                       پیش‌فرض کردن {entry.label}
+                    </button>
+                  )}
+                  <button
