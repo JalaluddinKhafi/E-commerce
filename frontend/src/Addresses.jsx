@@ -139,3 +139,4 @@ export function AddressesPage() {
             ))}
           </div>
         ) : (
+          <div className="address-empty">
