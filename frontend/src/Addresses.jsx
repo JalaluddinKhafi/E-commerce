@@ -116,3 +116,5 @@ export function AddressesPage() {
                 </div>
                 {confirmDelete === entry.id && (
                   <div
+                    className="address-confirm"
+                    role="group"
