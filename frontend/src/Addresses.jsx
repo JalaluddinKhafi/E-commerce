@@ -123,3 +123,4 @@ export function AddressesPage() {
                     <p>نشانی «{entry.label}» حذف شود؟</p>
                     <div className="actions">
                       <button className="danger" disabled={busy} onClick={() => remove(entry)}>
+                        تأیید حذف {entry.label}
