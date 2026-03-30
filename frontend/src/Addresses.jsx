@@ -121,3 +121,4 @@ export function AddressesPage() {
                     aria-label={`تأیید حذف ${entry.label}`}
                   >
                     <p>نشانی «{entry.label}» حذف شود؟</p>
+                    <div className="actions">
