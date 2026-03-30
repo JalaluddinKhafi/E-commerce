@@ -145,3 +145,5 @@ export function AddressesPage() {
             <p>
               خانه، محل کار یا نشانی دیگری را اضافه کنید تا هنگام خرید دوباره نیاز به نوشتن آن
               نباشد.
+            </p>
+            <button disabled={busy} onClick={() => edit(blank)}>
