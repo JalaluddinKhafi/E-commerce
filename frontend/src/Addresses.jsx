@@ -124,3 +124,5 @@ export function AddressesPage() {
                     <div className="actions">
                       <button className="danger" disabled={busy} onClick={() => remove(entry)}>
                         تأیید حذف {entry.label}
+                      </button>
+                      <button
