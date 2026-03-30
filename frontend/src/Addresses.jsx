@@ -131,3 +131,11 @@ export function AddressesPage() {
                         onClick={() => setConfirmDelete(null)}
                       >
                         انصراف از حذف
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </article>
+            ))}
+          </div>
+        ) : (
