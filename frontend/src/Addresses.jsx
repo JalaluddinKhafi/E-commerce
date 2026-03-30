@@ -118,3 +118,4 @@ export function AddressesPage() {
                   <div
                     className="address-confirm"
                     role="group"
+                    aria-label={`تأیید حذف ${entry.label}`}
