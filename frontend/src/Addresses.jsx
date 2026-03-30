@@ -115,3 +115,4 @@ export function AddressesPage() {
                   </button>
                 </div>
                 {confirmDelete === entry.id && (
+                  <div
