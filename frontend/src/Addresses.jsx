@@ -128,3 +128,4 @@ export function AddressesPage() {
                       <button
                         className="outline"
                         disabled={busy}
+                        onClick={() => setConfirmDelete(null)}
