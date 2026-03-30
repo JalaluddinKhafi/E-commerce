@@ -142,3 +142,4 @@ export function AddressesPage() {
           <div className="address-empty">
             <span aria-hidden="true">⌂</span>
             <h2>نشانی تحویل را یک بار ذخیره کنید</h2>
+            <p>
