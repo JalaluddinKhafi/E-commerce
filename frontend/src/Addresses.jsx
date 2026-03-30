@@ -127,3 +127,4 @@ export function AddressesPage() {
                       </button>
                       <button
                         className="outline"
+                        disabled={busy}
