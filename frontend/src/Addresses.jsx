@@ -129,3 +129,5 @@ export function AddressesPage() {
                         className="outline"
                         disabled={busy}
                         onClick={() => setConfirmDelete(null)}
+                      >
+                        انصراف از حذف
