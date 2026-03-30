@@ -119,3 +119,5 @@ export function AddressesPage() {
                     className="address-confirm"
                     role="group"
                     aria-label={`تأیید حذف ${entry.label}`}
+                  >
+                    <p>نشانی «{entry.label}» حذف شود؟</p>
