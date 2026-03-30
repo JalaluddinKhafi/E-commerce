@@ -126,3 +126,4 @@ export function AddressesPage() {
                         تأیید حذف {entry.label}
                       </button>
                       <button
+                        className="outline"
