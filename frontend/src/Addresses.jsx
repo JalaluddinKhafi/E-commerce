@@ -112,3 +112,6 @@ export function AddressesPage() {
                     onClick={() => setConfirmDelete(entry.id)}
                   >
                     حذف {entry.label}
+                  </button>
+                </div>
+                {confirmDelete === entry.id && (
