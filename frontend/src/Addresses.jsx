@@ -148,3 +148,8 @@ export function AddressesPage() {
             </p>
             <button disabled={busy} onClick={() => edit(blank)}>
               افزودن اولین نشانی
+            </button>
+          </div>
+        )}
+      </LoadState>
+      {editing && (
