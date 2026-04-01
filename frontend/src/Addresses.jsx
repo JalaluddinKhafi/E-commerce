@@ -172,3 +172,5 @@ export function AddressesPage() {
                 autoFocus
                 required
                 maxLength={40}
+                value={form.label}
+                onChange={(e) => field('label', e.target.value)}
