@@ -161,3 +161,8 @@ export function AddressesPage() {
               type="button"
               disabled={busy}
               onClick={() => setEditing(null)}
+            >
+              بستن فرم ×
+            </button>
+          </div>
+          <div className="form-grid">
