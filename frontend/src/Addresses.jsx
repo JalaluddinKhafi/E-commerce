@@ -147,3 +147,4 @@ export function AddressesPage() {
               نباشد.
             </p>
             <button disabled={busy} onClick={() => edit(blank)}>
+              افزودن اولین نشانی
