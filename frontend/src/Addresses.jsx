@@ -169,3 +169,5 @@ export function AddressesPage() {
             <label>
               عنوان نشانی
               <input
+                autoFocus
+                required
