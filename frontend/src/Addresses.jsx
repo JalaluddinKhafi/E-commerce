@@ -154,3 +154,4 @@ export function AddressesPage() {
       </LoadState>
       {editing && (
         <form className="panel address-form" onSubmit={save} aria-labelledby="address-form-title">
+          <div className="address-card-heading">
