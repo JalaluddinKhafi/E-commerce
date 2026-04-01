@@ -174,3 +174,4 @@ export function AddressesPage() {
                 maxLength={40}
                 value={form.label}
                 onChange={(e) => field('label', e.target.value)}
+                placeholder="برای نمونه: خانه یا محل کار"
