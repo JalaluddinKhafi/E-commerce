@@ -171,3 +171,4 @@ export function AddressesPage() {
               <input
                 autoFocus
                 required
+                maxLength={40}
