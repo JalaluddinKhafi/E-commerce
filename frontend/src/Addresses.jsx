@@ -157,3 +157,5 @@ export function AddressesPage() {
           <div className="address-card-heading">
             <h2 id="address-form-title">{editing === 'new' ? 'افزودن نشانی' : 'ویرایش نشانی'}</h2>
             <button
+              className="quiet"
+              type="button"
