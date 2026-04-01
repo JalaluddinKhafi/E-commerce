@@ -160,3 +160,4 @@ export function AddressesPage() {
               className="quiet"
               type="button"
               disabled={busy}
+              onClick={() => setEditing(null)}
