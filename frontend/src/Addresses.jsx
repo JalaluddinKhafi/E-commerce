@@ -159,3 +159,4 @@ export function AddressesPage() {
             <button
               className="quiet"
               type="button"
+              disabled={busy}
