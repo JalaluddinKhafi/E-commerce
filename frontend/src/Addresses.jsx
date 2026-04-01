@@ -175,3 +175,6 @@ export function AddressesPage() {
                 value={form.label}
                 onChange={(e) => field('label', e.target.value)}
                 placeholder="برای نمونه: خانه یا محل کار"
+              />
+            </label>
+            <label>
