@@ -184,3 +184,4 @@ export function AddressesPage() {
                 maxLength={100}
                 autoComplete="name"
                 value={form.recipient}
+                onChange={(e) => field('recipient', e.target.value)}
