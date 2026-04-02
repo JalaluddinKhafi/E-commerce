@@ -193,3 +193,4 @@ export function AddressesPage() {
             <input
               type="tel"
               dir="ltr"
+              required
