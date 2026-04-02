@@ -192,3 +192,4 @@ export function AddressesPage() {
             شماره تماس تحویل
             <input
               type="tel"
+              dir="ltr"
