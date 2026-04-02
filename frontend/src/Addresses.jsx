@@ -191,3 +191,4 @@ export function AddressesPage() {
           <label>
             شماره تماس تحویل
             <input
+              type="tel"
