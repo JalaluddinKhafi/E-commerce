@@ -185,3 +185,7 @@ export function AddressesPage() {
                 autoComplete="name"
                 value={form.recipient}
                 onChange={(e) => field('recipient', e.target.value)}
+              />
+            </label>
+          </div>
+          <label>
