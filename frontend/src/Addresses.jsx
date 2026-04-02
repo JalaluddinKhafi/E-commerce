@@ -205,3 +205,4 @@ export function AddressesPage() {
             نشانی کامل تحویل
             <textarea
               rows={4}
+              required
