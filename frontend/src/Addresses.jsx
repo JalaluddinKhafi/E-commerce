@@ -196,3 +196,4 @@ export function AddressesPage() {
               required
               minLength={5}
               maxLength={40}
+              autoComplete="tel"
