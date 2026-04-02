@@ -198,3 +198,7 @@ export function AddressesPage() {
               maxLength={40}
               autoComplete="tel"
               value={form.phone}
+              onChange={(e) => field('phone', e.target.value)}
+            />
+          </label>
+          <label>
