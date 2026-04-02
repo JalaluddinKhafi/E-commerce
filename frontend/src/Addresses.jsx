@@ -194,3 +194,5 @@ export function AddressesPage() {
               type="tel"
               dir="ltr"
               required
+              minLength={5}
+              maxLength={40}
