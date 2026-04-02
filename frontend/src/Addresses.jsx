@@ -197,3 +197,4 @@ export function AddressesPage() {
               minLength={5}
               maxLength={40}
               autoComplete="tel"
+              value={form.phone}
