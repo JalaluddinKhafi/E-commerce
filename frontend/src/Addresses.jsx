@@ -180,3 +180,4 @@ export function AddressesPage() {
             <label>
               نام گیرنده
               <input
+                required
