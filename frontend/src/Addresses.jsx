@@ -181,3 +181,4 @@ export function AddressesPage() {
               نام گیرنده
               <input
                 required
+                maxLength={100}
