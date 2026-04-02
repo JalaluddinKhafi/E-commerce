@@ -182,3 +182,5 @@ export function AddressesPage() {
               <input
                 required
                 maxLength={100}
+                autoComplete="name"
+                value={form.recipient}
