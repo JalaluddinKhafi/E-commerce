@@ -226,3 +226,4 @@ export function AddressesPage() {
             اولین نشانی خودکار پیش‌فرض می‌شود. برای تغییر پیش‌فرض، نشانی دیگری را انتخاب کنید.
           </p>
           <div className="actions">
+            <button disabled={busy}>ذخیرهٔ نشانی</button>
