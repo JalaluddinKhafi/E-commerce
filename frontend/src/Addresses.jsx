@@ -206,3 +206,4 @@ export function AddressesPage() {
             <textarea
               rows={4}
               required
+              maxLength={500}
