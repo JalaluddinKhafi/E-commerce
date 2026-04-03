@@ -230,3 +230,7 @@ export function AddressesPage() {
             <button
               className="outline"
               type="button"
+              disabled={busy}
+              onClick={() => setEditing(null)}
+            >
+              انصراف از ویرایش
