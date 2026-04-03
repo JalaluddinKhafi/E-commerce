@@ -216,3 +216,4 @@ export function AddressesPage() {
           <label className="checkbox">
             <input
               type="checkbox"
+              checked={form.isDefault}
