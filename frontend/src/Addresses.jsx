@@ -239,3 +239,4 @@ export function AddressesPage() {
         </form>
       )}
       <aside className="address-help">
+        <strong>فقط برای همین حساب</strong>
