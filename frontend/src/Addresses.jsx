@@ -221,3 +221,5 @@ export function AddressesPage() {
               onChange={(e) => field('isDefault', e.target.checked)}
             />
             این نشانی پیش‌فرض باشد
+          </label>
+          <p className="muted">
