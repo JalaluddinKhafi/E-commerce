@@ -207,3 +207,4 @@ export function AddressesPage() {
               rows={4}
               required
               maxLength={500}
+              autoComplete="street-address"
