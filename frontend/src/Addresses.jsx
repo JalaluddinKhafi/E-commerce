@@ -215,3 +215,4 @@ export function AddressesPage() {
           </label>
           <label className="checkbox">
             <input
+              type="checkbox"
