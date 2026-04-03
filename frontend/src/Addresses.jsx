@@ -229,3 +229,4 @@ export function AddressesPage() {
             <button disabled={busy}>ذخیرهٔ نشانی</button>
             <button
               className="outline"
+              type="button"
