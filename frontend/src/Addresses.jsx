@@ -234,3 +234,8 @@ export function AddressesPage() {
               onClick={() => setEditing(null)}
             >
               انصراف از ویرایش
+            </button>
+          </div>
+        </form>
+      )}
+      <aside className="address-help">
