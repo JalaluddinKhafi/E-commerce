@@ -219,3 +219,5 @@ export function AddressesPage() {
               checked={form.isDefault}
               disabled={editing !== 'new' && entries.some((e) => e.id === editing && e.isDefault)}
               onChange={(e) => field('isDefault', e.target.checked)}
+            />
+            این نشانی پیش‌فرض باشد
