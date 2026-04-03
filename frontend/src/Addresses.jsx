@@ -227,3 +227,5 @@ export function AddressesPage() {
           </p>
           <div className="actions">
             <button disabled={busy}>ذخیرهٔ نشانی</button>
+            <button
+              className="outline"
