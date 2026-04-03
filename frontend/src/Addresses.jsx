@@ -210,3 +210,4 @@ export function AddressesPage() {
               autoComplete="street-address"
               value={form.address}
               onChange={(e) => field('address', e.target.value)}
+              placeholder="شهر، خیابان، کوچه و شمارهٔ خانه"
