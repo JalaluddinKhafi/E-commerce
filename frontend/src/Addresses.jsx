@@ -209,3 +209,4 @@ export function AddressesPage() {
               maxLength={500}
               autoComplete="street-address"
               value={form.address}
+              onChange={(e) => field('address', e.target.value)}
