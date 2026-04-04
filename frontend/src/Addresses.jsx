@@ -258,3 +258,6 @@ export function DeliveryAddressPicker({ onSelect }) {
       <div className="delivery-picker-heading">
         <strong>از نشانی‌های ذخیره‌شده انتخاب کنید</strong>
         <Link to="/addresses">مدیریت نشانی‌ها</Link>
+      </div>
+      <LoadState resource={resource}>
+        {resource.data?.length ? (
