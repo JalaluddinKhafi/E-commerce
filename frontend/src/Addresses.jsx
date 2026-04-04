@@ -252,3 +252,5 @@ export function AddressesPage() {
 
 export function DeliveryAddressPicker({ onSelect }) {
   const resource = useLoad('/account/addresses');
+  const [selected, setSelected] = useState('');
+  return (
