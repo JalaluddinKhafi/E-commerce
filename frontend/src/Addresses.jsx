@@ -255,3 +255,5 @@ export function DeliveryAddressPicker({ onSelect }) {
   const [selected, setSelected] = useState('');
   return (
     <section className="delivery-picker" aria-label="انتخاب نشانی ذخیره‌شده">
+      <div className="delivery-picker-heading">
+        <strong>از نشانی‌های ذخیره‌شده انتخاب کنید</strong>
