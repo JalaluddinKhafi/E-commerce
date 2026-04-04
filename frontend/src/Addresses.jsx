@@ -261,3 +261,5 @@ export function DeliveryAddressPicker({ onSelect }) {
       </div>
       <LoadState resource={resource}>
         {resource.data?.length ? (
+          <>
+            <label>
