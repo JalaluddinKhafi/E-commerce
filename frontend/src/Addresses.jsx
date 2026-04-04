@@ -263,3 +263,5 @@ export function DeliveryAddressPicker({ onSelect }) {
         {resource.data?.length ? (
           <>
             <label>
+              نشانی ذخیره‌شده
+              <select
