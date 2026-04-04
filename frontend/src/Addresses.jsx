@@ -257,3 +257,4 @@ export function DeliveryAddressPicker({ onSelect }) {
     <section className="delivery-picker" aria-label="انتخاب نشانی ذخیره‌شده">
       <div className="delivery-picker-heading">
         <strong>از نشانی‌های ذخیره‌شده انتخاب کنید</strong>
+        <Link to="/addresses">مدیریت نشانی‌ها</Link>
