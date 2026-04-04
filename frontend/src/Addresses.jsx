@@ -265,3 +265,4 @@ export function DeliveryAddressPicker({ onSelect }) {
             <label>
               نشانی ذخیره‌شده
               <select
+                value={selected}
