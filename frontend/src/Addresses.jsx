@@ -240,3 +240,5 @@ export function AddressesPage() {
       )}
       <aside className="address-help">
         <strong>فقط برای همین حساب</strong>
+        <p>
+          نشانی‌ها روی دستگاه‌های دیگر با ورود به حساب شما در دسترس‌اند. حذف یک نشانی روی سفارش
