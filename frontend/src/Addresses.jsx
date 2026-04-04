@@ -270,3 +270,6 @@ export function DeliveryAddressPicker({ onSelect }) {
                   const id = event.target.value;
                   setSelected(id);
                   onSelect(resource.data.find((entry) => String(entry.id) === id) || null);
+                }}
+              >
+                <option value="">ورود دستی اطلاعات تحویل</option>
