@@ -245,3 +245,10 @@ export function AddressesPage() {
           ثبت‌شده تأثیری ندارد.
         </p>
         <Link to="/cart">رفتن به سبد خرید ←</Link>
+      </aside>
+    </section>
+  );
+}
+
+export function DeliveryAddressPicker({ onSelect }) {
+  const resource = useLoad('/account/addresses');
