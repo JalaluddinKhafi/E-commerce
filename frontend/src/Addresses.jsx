@@ -266,3 +266,4 @@ export function DeliveryAddressPicker({ onSelect }) {
               نشانی ذخیره‌شده
               <select
                 value={selected}
+                onChange={(event) => {
