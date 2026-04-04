@@ -267,3 +267,6 @@ export function DeliveryAddressPicker({ onSelect }) {
               <select
                 value={selected}
                 onChange={(event) => {
+                  const id = event.target.value;
+                  setSelected(id);
+                  onSelect(resource.data.find((entry) => String(entry.id) === id) || null);
