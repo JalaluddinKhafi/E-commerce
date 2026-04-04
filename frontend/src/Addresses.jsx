@@ -254,3 +254,4 @@ export function DeliveryAddressPicker({ onSelect }) {
   const resource = useLoad('/account/addresses');
   const [selected, setSelected] = useState('');
   return (
+    <section className="delivery-picker" aria-label="انتخاب نشانی ذخیره‌شده">
