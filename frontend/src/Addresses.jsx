@@ -275,3 +275,4 @@ export function DeliveryAddressPicker({ onSelect }) {
                 <option value="">ورود دستی اطلاعات تحویل</option>
                 {resource.data.map((entry) => (
                   <option key={entry.id} value={entry.id}>
+                    {entry.label}
