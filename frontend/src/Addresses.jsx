@@ -277,3 +277,9 @@ export function DeliveryAddressPicker({ onSelect }) {
                   <option key={entry.id} value={entry.id}>
                     {entry.label}
                     {entry.isDefault ? ' · پیش‌فرض' : ''}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <small>
+              انتخاب نشانی، مشخصات گیرنده، تلفن و نشانی را پر می‌کند؛ پیش از ثبت می‌توانید آن‌ها را
