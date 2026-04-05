@@ -6,6 +6,7 @@ import { Catalog, ProductDetail, Wishlist } from './Catalog';
 import { AccountProfile, Auth, OrdersPage } from './Account';
 import { CartPage, CheckoutPage } from './Cart';
 import Admin from './Admin';
+import { useFavorites } from './useFavorites';
 
 const ShopContext = createContext(null);
 export const useShop = () => useContext(ShopContext);
