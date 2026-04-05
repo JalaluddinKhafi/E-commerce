@@ -137,17 +137,6 @@ export default function App() {
     const quantity = (cart.items.find((i) => i.product.id === product.id)?.quantity || 0) + 1;
     if (await setQuantity(product.id, quantity)) setNotice({ text: 'به سبد خرید اضافه شد.' });
   }
-  function favorite(id) {
-    setFavorites((previous) => {
-      const next = previous.includes(id) ? previous.filter((i) => i !== id) : [...previous, id];
-      try {
-        localStorage.setItem('freshshop:favorites', JSON.stringify(next));
-      } catch {
-        /* In-memory favorites still work. */
-      }
-      return next;
-    });
-  }
   const context = {
     busy,
     task,
