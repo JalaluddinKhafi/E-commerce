@@ -284,3 +284,6 @@ export function DeliveryAddressPicker({ onSelect }) {
             <small>
               انتخاب نشانی، مشخصات گیرنده، تلفن و نشانی را پر می‌کند؛ پیش از ثبت می‌توانید آن‌ها را
               ویرایش کنید.
+            </small>
+          </>
+        ) : (
