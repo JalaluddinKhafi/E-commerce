@@ -287,3 +287,9 @@ export function DeliveryAddressPicker({ onSelect }) {
             </small>
           </>
         ) : (
+          <p className="muted">هنوز نشانی ذخیره نکرده‌اید؛ اطلاعات را در فرم زیر وارد کنید.</p>
+        )}
+      </LoadState>
+    </section>
+  );
+}
