@@ -7,6 +7,7 @@ import { AccountProfile, Auth, OrdersPage } from './Account';
 import { CartPage, CheckoutPage } from './Cart';
 import Admin from './Admin';
 import { useFavorites } from './useFavorites';
+import { AddressesPage } from './Addresses';
 
 const ShopContext = createContext(null);
 export const useShop = () => useContext(ShopContext);
@@ -27,6 +28,7 @@ export function useLoad(path, revision = 0) {
   const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     let active = true;
+    if (!path) {
     setState({ loading: true, data: null, error: '' });
     api(path)
       .then((data) => active && setState({ loading: false, data, error: '' }))
