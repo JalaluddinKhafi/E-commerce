@@ -216,6 +216,7 @@ export default function App() {
           <Route path="/register" element={<Auth register />} />
           <Route
             path="/addresses"
+            element={
           <Route
             path="/account"
             element={
