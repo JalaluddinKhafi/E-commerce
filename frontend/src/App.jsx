@@ -144,8 +144,7 @@ export default function App() {
     setQuantity,
     revision,
     refresh: () => setRevision((v) => v + 1),
-    favorites,
-    favorite,
+    ...favoriteState,
     cartState,
   };
   return (
@@ -167,7 +166,7 @@ export default function App() {
           <nav aria-label="ناوبری اصلی">
             <Link to="/">فروشگاه</Link>
             <Link to="/wishlist">
-              علاقه‌مندی‌ها <span className="count">{favorites.length}</span>
+              علاقه‌مندی‌ها <span className="count">{favoriteState.favorites.length}</span>
             </Link>
             {user && <Link to="/orders">سفارش‌ها</Link>}
             {user && <Link to="/account">حساب من</Link>}
@@ -215,6 +214,8 @@ export default function App() {
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/login" element={<Auth />} />
           <Route path="/register" element={<Auth register />} />
+          <Route
+            path="/addresses"
           <Route
             path="/account"
             element={
