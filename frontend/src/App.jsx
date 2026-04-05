@@ -31,6 +31,9 @@ export function useLoad(path, revision = 0) {
     if (!path) {
       setState({ loading: false, data: null, error: '' });
       return () => {
+        active = false;
+      };
+    }
     setState({ loading: true, data: null, error: '' });
     api(path)
       .then((data) => active && setState({ loading: false, data, error: '' }))
@@ -75,14 +78,7 @@ export default function App() {
   const [busy, setBusy] = useState(false);
   const [revision, setRevision] = useState(0);
   const [cartState, setCartState] = useState({ loading: false, error: '' });
-  const [favorites, setFavorites] = useState(() => {
-    try {
-      const ids = JSON.parse(localStorage.getItem('freshshop:favorites') || '[]');
-      return Array.isArray(ids) ? ids.filter(Number.isSafeInteger) : [];
-    } catch {
-      return [];
-    }
-  });
+  const favoriteState = useFavorites({ user, task });
   useEffect(() => {
     let active = true;
     if (user) {
