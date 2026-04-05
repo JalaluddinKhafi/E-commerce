@@ -218,6 +218,10 @@ export default function App() {
             path="/addresses"
             element={
               <Protected>
+                <AddressesPage />
+              </Protected>
+            }
+          />
           <Route
             path="/account"
             element={
