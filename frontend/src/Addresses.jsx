@@ -276,3 +276,4 @@ export function DeliveryAddressPicker({ onSelect }) {
                 {resource.data.map((entry) => (
                   <option key={entry.id} value={entry.id}>
                     {entry.label}
+                    {entry.isDefault ? ' · پیش‌فرض' : ''}
