@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { api, cleared } from './store';
 import { money, useShop } from './App';
+import { DeliveryAddressPicker } from './Addresses';
 
 function Summary({ cart, children }) {
   return (
