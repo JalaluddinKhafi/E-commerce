@@ -29,6 +29,8 @@ export function useLoad(path, revision = 0) {
   useEffect(() => {
     let active = true;
     if (!path) {
+      setState({ loading: false, data: null, error: '' });
+      return () => {
     setState({ loading: true, data: null, error: '' });
     api(path)
       .then((data) => active && setState({ loading: false, data, error: '' }))
