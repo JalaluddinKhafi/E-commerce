@@ -242,7 +242,7 @@ export function Catalog() {
 }
 export function ProductDetail() {
   const { id } = useParams();
-  const { revision, add, busy, favorites, favorite } = useShop();
+  const { revision, add, busy, favorites, favorite, favoritesLoading, favoritesError } = useShop();
   const resource = useLoad(`/products/${id}`, revision);
   const p = resource.data;
   return (
