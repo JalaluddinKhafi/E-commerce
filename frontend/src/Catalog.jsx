@@ -267,6 +267,7 @@ export function ProductDetail() {
                 <button
                   className="outline"
                   aria-pressed={favorites.includes(p.id)}
+                  disabled={busy || favoritesLoading || !!favoritesError}
                   onClick={() => favorite(p.id)}
                 >
                   {favorites.includes(p.id) ? 'حذف از علاقه‌مندی' : 'ذخیره در علاقه‌مندی'}
