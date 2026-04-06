@@ -285,6 +285,7 @@ export function Wishlist() {
   const user = useSelector((s) => s.session.user);
   const {
     favorites,
+    revision,
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
