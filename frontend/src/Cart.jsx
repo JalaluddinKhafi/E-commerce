@@ -174,6 +174,8 @@ export function CheckoutPage() {
             }}
           />
           <label>
+            نام گیرنده
+            <input
           <label>
             نشانی کامل
             <textarea
