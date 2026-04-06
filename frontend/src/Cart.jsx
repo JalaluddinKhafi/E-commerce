@@ -178,6 +178,7 @@ export function CheckoutPage() {
             <input
               required
               maxLength={100}
+              autoComplete="name"
           <label>
             نشانی کامل
             <textarea
