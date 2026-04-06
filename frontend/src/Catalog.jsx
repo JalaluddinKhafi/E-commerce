@@ -14,11 +14,12 @@ function ProductCard({ product }) {
           className={`favorite ${favorites.includes(product.id) ? 'selected' : ''}`}
           aria-label={`علاقه‌مندی: ${product.name}`}
           aria-pressed={favorites.includes(product.id)}
+          disabled={busy || favoritesLoading || !!favoritesError}
           onClick={() => favorite(product.id)}
         >
           ♡
         </button>
-        {!product.stock && <span className="badge stock-badge">ناموجود</span>}
+        {(!product.active || !product.stock) && <span className="badge stock-badge">ناموجود</span>}
       </div>
       <div className="product-body">
         <span className="eyebrow">{product.category}</span>
@@ -29,7 +30,7 @@ function ProductCard({ product }) {
         <div className="product-bottom">
           <strong>{money(product.priceCents)}</strong>
           <button
-            disabled={busy || !product.stock}
+            disabled={busy || !product.stock || !product.active}
             onClick={() => add(product)}
             aria-label={`افزودن ${product.name} به سبد`}
           >
