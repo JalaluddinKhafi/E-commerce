@@ -289,6 +289,7 @@ export function Wishlist() {
     favoriteProducts,
     favoritesLoading,
     favoritesError,
+    retryFavorites,
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
