@@ -119,11 +119,13 @@ export function CartPage() {
 }
 export function CheckoutPage() {
   const cart = useSelector((s) => s.cart);
+  const user = useSelector((s) => s.session.user);
   const { busy, task, refresh, cartState } = useShop();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [address, setAddress] = useState('');
   const [phone, setPhone] = useState('');
+  const [recipient, setRecipient] = useState(user?.name || '');
   // Keep the key across failed requests, including a lost response after a successful commit.
   const [requestKey] = useState(() => crypto.randomUUID());
   const [submitted, setSubmitted] = useState(false);
