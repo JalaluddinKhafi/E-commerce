@@ -177,6 +177,7 @@ export function CheckoutPage() {
             نام گیرنده
             <input
               required
+              maxLength={100}
           <label>
             نشانی کامل
             <textarea
