@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { LoadState, money, useLoad, useShop } from './App';
 
 function ProductCard({ product }) {
-  const { add, busy, favorites, favorite } = useShop();
+  const { add, busy, favorites, favorite, favoritesLoading, favoritesError } = useShop();
   return (
     <article className="product-card">
       <div className="product-image">
