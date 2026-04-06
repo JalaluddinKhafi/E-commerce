@@ -169,6 +169,7 @@ export function CheckoutPage() {
           <DeliveryAddressPicker
             onSelect={(entry) => {
               setAddress(entry?.address || '');
+              setPhone(entry?.phone || '');
           <label>
             نشانی کامل
             <textarea
