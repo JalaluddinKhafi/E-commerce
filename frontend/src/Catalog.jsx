@@ -283,6 +283,7 @@ export function ProductDetail() {
 }
 export function Wishlist() {
   const user = useSelector((s) => s.session.user);
+  const {
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
