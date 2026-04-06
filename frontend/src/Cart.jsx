@@ -179,6 +179,10 @@ export function CheckoutPage() {
               required
               maxLength={100}
               autoComplete="name"
+              value={recipient}
+              onChange={(e) => setRecipient(e.target.value)}
+            />
+          </label>
           <label>
             نشانی کامل
             <textarea
