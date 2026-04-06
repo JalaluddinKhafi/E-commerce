@@ -166,6 +166,8 @@ export function CheckoutPage() {
       <div className="cart-layout">
         <form id="checkout" className="panel checkout-form" onSubmit={submit}>
           <h2>مشخصات تحویل</h2>
+          <DeliveryAddressPicker
+            onSelect={(entry) => {
           <label>
             نشانی کامل
             <textarea
