@@ -1,4 +1,5 @@
 import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { LoadState, money, useLoad, useShop } from './App';
 
 function ProductCard({ product }) {
