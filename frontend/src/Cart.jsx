@@ -136,7 +136,7 @@ export function CheckoutPage() {
       try {
         await api('/orders', {
           method: 'POST',
-          body: { address, phone, requestKey, expectedTotalCents: cart.totalCents },
+          body: { address, phone, recipient, requestKey, expectedTotalCents: cart.totalCents },
         });
       } catch (error) {
         refresh();
