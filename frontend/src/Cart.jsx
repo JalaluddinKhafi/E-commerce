@@ -170,6 +170,10 @@ export function CheckoutPage() {
             onSelect={(entry) => {
               setAddress(entry?.address || '');
               setPhone(entry?.phone || '');
+              setRecipient(entry?.recipient || user.name);
+            }}
+          />
+          <label>
           <label>
             نشانی کامل
             <textarea
