@@ -168,6 +168,7 @@ export function CheckoutPage() {
           <h2>مشخصات تحویل</h2>
           <DeliveryAddressPicker
             onSelect={(entry) => {
+              setAddress(entry?.address || '');
           <label>
             نشانی کامل
             <textarea
