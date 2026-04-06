@@ -282,9 +282,7 @@ export function ProductDetail() {
   );
 }
 export function Wishlist() {
-  const { favorites, revision } = useShop();
-  const resource = useLoad('/products', revision);
-  const products = (resource.data || []).filter((p) => favorites.includes(p.id));
+  const user = useSelector((s) => s.session.user);
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
