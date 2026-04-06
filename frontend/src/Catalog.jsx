@@ -286,6 +286,7 @@ export function Wishlist() {
   const {
     favorites,
     revision,
+    favoriteProducts,
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
