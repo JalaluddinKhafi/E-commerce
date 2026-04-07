@@ -297,6 +297,7 @@ export function Wishlist() {
   const guestResource = useLoad(user ? null : '/products', revision);
   const resource = user
     ? { loading: favoritesLoading, error: favoritesError, retry: retryFavorites }
+    : guestResource;
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
