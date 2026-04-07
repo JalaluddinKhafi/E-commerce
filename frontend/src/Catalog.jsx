@@ -307,6 +307,7 @@ export function Wishlist() {
       <h1>علاقه‌مندی‌ها</h1>
       <p className="muted">
         {user
+          ? 'در حساب شما ذخیره می‌شود و روی دستگاه‌های دیگر هم در دسترس است.'
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
