@@ -305,7 +305,7 @@ export function Wishlist() {
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
       <h1>علاقه‌مندی‌ها</h1>
-      <p className="muted">در همین مرورگر ذخیره می‌شود.</p>
+      <p className="muted">
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
