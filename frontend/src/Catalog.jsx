@@ -309,6 +309,8 @@ export function Wishlist() {
         {user
           ? 'در حساب شما ذخیره می‌شود و روی دستگاه‌های دیگر هم در دسترس است.'
           : 'انتخاب‌های مهمان در همین مرورگر ذخیره می‌شود.'}
+      </p>
+      {user && guestCount > 0 && (
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
