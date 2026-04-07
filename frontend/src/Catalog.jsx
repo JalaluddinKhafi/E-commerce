@@ -298,6 +298,7 @@ export function Wishlist() {
   const resource = user
     ? { loading: favoritesLoading, error: favoritesError, retry: retryFavorites }
     : guestResource;
+  const products = user
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
