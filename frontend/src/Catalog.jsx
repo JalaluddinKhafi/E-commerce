@@ -311,6 +311,7 @@ export function Wishlist() {
           : 'انتخاب‌های مهمان در همین مرورگر ذخیره می‌شود.'}
       </p>
       {user && guestCount > 0 && (
+        <aside className="wishlist-banner">
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
