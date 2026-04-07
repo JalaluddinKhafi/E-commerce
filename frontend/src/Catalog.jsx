@@ -299,6 +299,8 @@ export function Wishlist() {
     ? { loading: favoritesLoading, error: favoritesError, retry: retryFavorites }
     : guestResource;
   const products = user
+    ? favoriteProducts
+    : (guestResource.data || []).filter((p) => favorites.includes(p.id));
   return (
     <section className="shell page">
       <span className="eyebrow">انتخاب‌های شما</span>
