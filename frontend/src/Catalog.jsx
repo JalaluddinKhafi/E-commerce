@@ -306,6 +306,7 @@ export function Wishlist() {
       <span className="eyebrow">انتخاب‌های شما</span>
       <h1>علاقه‌مندی‌ها</h1>
       <p className="muted">
+        {user
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
