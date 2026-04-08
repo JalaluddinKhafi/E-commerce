@@ -26,4 +26,6 @@
 }
 .address-card {
   padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
 }
