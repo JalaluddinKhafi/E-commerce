@@ -1,3 +1,6 @@
 .address-page {
   max-width: 1100px;
 }
+.address-heading {
+  display: flex;
+}
