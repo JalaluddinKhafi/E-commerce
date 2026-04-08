@@ -319,6 +319,10 @@ export function Wishlist() {
             </p>
           </div>
           <button disabled={busy || favoritesLoading || !!favoritesError} onClick={importFavorites}>
+            انتقال علاقه‌مندی‌های مهمان به حساب
+          </button>
+        </aside>
+      )}
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
