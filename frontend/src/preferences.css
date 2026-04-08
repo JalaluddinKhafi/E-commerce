@@ -11,3 +11,10 @@
 .address-heading h1 {
   margin-bottom: 10px;
 }
+.address-heading p {
+  max-width: 650px;
+  margin-bottom: 0;
+}
+.address-heading > button {
+  flex-shrink: 0;
+}
