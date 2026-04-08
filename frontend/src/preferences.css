@@ -31,3 +31,6 @@
   background: #fff;
   min-width: 0;
 }
+.address-card.is-default {
+  border-color: #b3c79c;
+}
