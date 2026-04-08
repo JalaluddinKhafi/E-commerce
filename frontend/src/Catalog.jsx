@@ -315,6 +315,10 @@ export function Wishlist() {
           <div>
             <strong>{guestCount} انتخاب از حالت مهمان</strong>
             <p>
+              فقط با انتخاب شما به حساب <bdi>{user.email}</bdi> منتقل می‌شوند.
+            </p>
+          </div>
+          <button disabled={busy || favoritesLoading || !!favoritesError} onClick={importFavorites}>
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
