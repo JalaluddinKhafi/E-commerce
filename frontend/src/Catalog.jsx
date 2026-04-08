@@ -312,6 +312,7 @@ export function Wishlist() {
       </p>
       {user && guestCount > 0 && (
         <aside className="wishlist-banner">
+          <div>
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
