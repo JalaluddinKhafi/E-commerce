@@ -313,6 +313,8 @@ export function Wishlist() {
       {user && guestCount > 0 && (
         <aside className="wishlist-banner">
           <div>
+            <strong>{guestCount} انتخاب از حالت مهمان</strong>
+            <p>
       <LoadState resource={resource}>
         {products.length ? (
           <div className="product-grid">
