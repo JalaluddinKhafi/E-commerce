@@ -19,3 +19,6 @@
   flex-shrink: 0;
   margin-top: 24px;
 }
+.address-grid {
+  display: grid;
+}
