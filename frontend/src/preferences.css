@@ -29,4 +29,5 @@
   border: 1px solid var(--line);
   border-radius: 12px;
   background: #fff;
+  min-width: 0;
 }
