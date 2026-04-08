@@ -17,4 +17,5 @@
 }
 .address-heading > button {
   flex-shrink: 0;
+  margin-top: 24px;
 }
