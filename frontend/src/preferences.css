@@ -45,4 +45,5 @@
 .address-card-heading h2 {
   font-size: 20px;
   margin-bottom: 0;
+  overflow-wrap: anywhere;
 }
