@@ -50,3 +50,6 @@
 .address-card-heading .badge {
   flex-shrink: 0;
 }
+.address-recipient {
+  display: block;
+}
