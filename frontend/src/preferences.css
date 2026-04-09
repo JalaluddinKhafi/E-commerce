@@ -47,3 +47,6 @@
   margin-bottom: 0;
   overflow-wrap: anywhere;
 }
+.address-card-heading .badge {
+  flex-shrink: 0;
+}
