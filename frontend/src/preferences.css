@@ -72,4 +72,5 @@
   padding: 15px 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+  font-size: 12px;
 }
