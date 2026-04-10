@@ -77,3 +77,6 @@
 .address-phone span {
   color: var(--muted);
 }
+.address-phone bdi {
+  overflow-wrap: anywhere;
+}
