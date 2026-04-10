@@ -74,3 +74,6 @@
   border-bottom: 1px solid var(--line);
   font-size: 12px;
 }
+.address-phone span {
+  color: var(--muted);
+}
