@@ -60,4 +60,5 @@
   color: #687665;
   font-size: 13px;
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
