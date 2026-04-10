@@ -80,3 +80,6 @@
 .address-phone bdi {
   overflow-wrap: anywhere;
 }
+.address-actions {
+  display: flex;
+}
