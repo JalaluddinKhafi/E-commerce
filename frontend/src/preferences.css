@@ -63,3 +63,6 @@
   overflow-wrap: anywhere;
   min-height: 52px;
 }
+.address-phone {
+  display: flex;
+}
