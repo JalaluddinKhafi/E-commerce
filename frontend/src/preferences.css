@@ -136,3 +136,6 @@
 .address-form textarea {
   min-height: 120px;
 }
+.address-form .checkbox {
+  margin-top: 6px;
+}
