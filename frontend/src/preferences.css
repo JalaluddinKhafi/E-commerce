@@ -113,4 +113,6 @@
 }
 .address-empty > span {
   display: block;
+  font-size: 60px;
+  color: #7d985c;
 }
