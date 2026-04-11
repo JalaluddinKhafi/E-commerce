@@ -90,3 +90,6 @@
   font-size: 11px;
   padding: 8px 12px;
 }
+.address-actions .text-button {
+  margin-inline-start: auto;
+}
