@@ -133,3 +133,6 @@
 .address-form .form-grid {
   column-gap: 22px;
 }
+.address-form textarea {
+  min-height: 120px;
+}
