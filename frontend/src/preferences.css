@@ -98,3 +98,6 @@
   padding-top: 20px;
   border-top: 1px dashed #dbc6bb;
 }
+.address-confirm p {
+  font-size: 12px;
+}
