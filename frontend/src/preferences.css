@@ -130,3 +130,6 @@
   margin-top: 32px;
   border-color: #b8caaa;
 }
+.address-form .form-grid {
+  column-gap: 22px;
+}
