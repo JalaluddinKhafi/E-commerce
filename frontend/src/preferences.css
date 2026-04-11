@@ -123,4 +123,5 @@
 .address-empty p {
   max-width: 480px;
   margin: 0 auto 25px;
+  font-size: 13px;
 }
