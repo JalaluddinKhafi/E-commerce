@@ -101,3 +101,6 @@
 .address-confirm p {
   font-size: 12px;
 }
+.address-confirm button {
+  font-size: 11px;
+}
