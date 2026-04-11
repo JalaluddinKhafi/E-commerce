@@ -141,4 +141,6 @@
 }
 .address-help {
   border-inline-start: 3px solid #b4c39c;
+  padding: 12px 24px;
+  margin-top: 35px;
 }
