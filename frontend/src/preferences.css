@@ -120,3 +120,7 @@
 .address-empty h2 {
   font-size: 24px;
 }
+.address-empty p {
+  max-width: 480px;
+  margin: 0 auto 25px;
+}
