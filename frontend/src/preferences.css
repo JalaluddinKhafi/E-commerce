@@ -126,3 +126,6 @@
   font-size: 13px;
   color: var(--muted);
 }
+.address-form {
+  margin-top: 32px;
+}
