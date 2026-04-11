@@ -139,3 +139,6 @@
 .address-form .checkbox {
   margin-top: 6px;
 }
+.address-help {
+  border-inline-start: 3px solid #b4c39c;
+}
