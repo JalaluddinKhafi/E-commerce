@@ -107,4 +107,5 @@
 .address-empty {
   padding: 50px 30px;
   text-align: center;
+  border: 1px dashed #c5d2b5;
 }
