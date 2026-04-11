@@ -104,3 +104,6 @@
 .address-confirm button {
   font-size: 11px;
 }
+.address-empty {
+  padding: 50px 30px;
+}
