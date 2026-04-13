@@ -182,4 +182,8 @@
 .account-shortcut .button,
 .wishlist-banner button {
   flex-shrink: 0;
+  font-size: 12px;
+}
+.delivery-picker {
+  background: #f4f6ef;
 }
