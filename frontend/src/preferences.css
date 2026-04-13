@@ -168,3 +168,7 @@
   border-radius: 10px;
   margin-bottom: 28px;
 }
+.account-shortcut strong,
+.wishlist-banner strong {
+  font-size: 14px;
+}
