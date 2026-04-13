@@ -179,3 +179,7 @@
   margin: 8px 0 0;
   overflow-wrap: anywhere;
 }
+.account-shortcut .button,
+.wishlist-banner button {
+  flex-shrink: 0;
+}
