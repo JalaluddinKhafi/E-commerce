@@ -156,3 +156,8 @@
   font-size: 12px;
   text-decoration: underline;
 }
+.account-shortcut,
+.wishlist-banner {
+  display: flex;
+  align-items: center;
+}
