@@ -152,3 +152,7 @@
   color: var(--muted);
   margin: 9px 0;
 }
+.address-help a {
+  font-size: 12px;
+  text-decoration: underline;
+}
