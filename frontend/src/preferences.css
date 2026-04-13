@@ -172,3 +172,7 @@
 .wishlist-banner strong {
   font-size: 14px;
 }
+.account-shortcut p,
+.wishlist-banner p {
+  font-size: 12px;
+}
