@@ -163,4 +163,6 @@
   justify-content: space-between;
   gap: 24px;
   padding: 24px 28px;
+  background: #edf1e4;
+  border: 1px solid #dce4cf;
 }
