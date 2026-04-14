@@ -191,3 +191,6 @@
   padding: 20px;
   margin-bottom: 25px;
 }
+.delivery-picker-heading {
+  display: flex;
+}
