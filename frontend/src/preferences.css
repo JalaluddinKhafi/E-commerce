@@ -232,5 +232,8 @@
   }
   .address-card-heading h2 {
     font-size: 18px;
+  }
+  .address-form .address-card-heading {
+    align-items: flex-start;
 }
 }
