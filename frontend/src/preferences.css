@@ -235,5 +235,8 @@
   }
   .address-form .address-card-heading {
     align-items: flex-start;
+  }
+  .address-empty {
+    padding: 35px 20px;
 }
 }
