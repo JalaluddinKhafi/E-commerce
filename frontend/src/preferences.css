@@ -226,5 +226,8 @@
   .address-grid {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+  .address-card {
+    padding: 22px;
 }
 }
