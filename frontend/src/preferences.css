@@ -214,3 +214,8 @@
   padding: 25px 12px;
   margin-block: 12px;
 }
+@media (max-width: 760px) {
+  .address-heading {
+    flex-direction: column;
+}
+}
