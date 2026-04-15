@@ -212,4 +212,5 @@
 }
 .delivery-picker .empty {
   padding: 25px 12px;
+  margin-block: 12px;
 }
