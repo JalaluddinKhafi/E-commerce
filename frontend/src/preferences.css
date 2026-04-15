@@ -244,5 +244,9 @@
   }
   .address-help {
     padding-inline: 18px;
+  }
+  .account-shortcut,
+  .wishlist-banner {
+    flex-direction: column;
 }
 }
