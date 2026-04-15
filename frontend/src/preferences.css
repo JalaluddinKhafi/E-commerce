@@ -208,4 +208,5 @@
 }
 .delivery-picker small {
   color: var(--muted);
+  font-size: 10px;
 }
