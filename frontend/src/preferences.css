@@ -206,3 +206,6 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
+.delivery-picker small {
+  color: var(--muted);
+}
