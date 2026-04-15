@@ -229,5 +229,8 @@
   }
   .address-card {
     padding: 22px;
+  }
+  .address-card-heading h2 {
+    font-size: 18px;
 }
 }
