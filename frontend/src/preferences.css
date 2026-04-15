@@ -199,3 +199,9 @@
   margin-bottom: 18px;
   font-size: 12px;
 }
+.delivery-picker-heading a {
+  text-decoration: underline;
+}
+.delivery-picker label {
+  font-size: 12px;
+}
