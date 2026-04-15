@@ -251,5 +251,8 @@
     align-items: stretch;
     gap: 18px;
     padding: 22px;
-}
+  }
+  .delivery-picker {
+    padding: 17px;
+  }
 }
