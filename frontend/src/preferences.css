@@ -241,5 +241,8 @@
   }
   .address-empty h2 {
     font-size: 21px;
+  }
+  .address-help {
+    padding-inline: 18px;
 }
 }
