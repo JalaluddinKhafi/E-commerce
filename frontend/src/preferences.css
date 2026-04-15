@@ -238,5 +238,8 @@
   }
   .address-empty {
     padding: 35px 20px;
+  }
+  .address-empty h2 {
+    font-size: 21px;
 }
 }
