@@ -218,5 +218,8 @@
   .address-heading {
     flex-direction: column;
     gap: 16px;
+  }
+  .address-heading > button {
+    margin-top: 0;
 }
 }
