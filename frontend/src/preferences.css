@@ -210,3 +210,6 @@
   color: var(--muted);
   font-size: 10px;
 }
+.delivery-picker .empty {
+  padding: 25px 12px;
+}
