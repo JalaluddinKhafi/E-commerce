@@ -18,3 +18,4 @@ export function useFavorites({ user, task }) {
   const [products, setProducts] = useState([]);
   const [state, setState] = useState({ loading: false, error: '' });
   const [attempt, setAttempt] = useState(0);
+  const currentAccount = useRef(user?.id || null);
