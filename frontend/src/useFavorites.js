@@ -9,3 +9,4 @@ function readGuestIds() {
       ? [...new Set(stored.filter((id) => Number.isSafeInteger(id) && id > 0))].slice(0, 100)
       : [];
   } catch {
+    return [];
