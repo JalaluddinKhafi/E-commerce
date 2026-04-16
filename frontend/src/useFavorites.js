@@ -4,3 +4,4 @@ import { api } from './store';
 const storageKey = 'freshshop:favorites';
 function readGuestIds() {
   try {
+    const stored = JSON.parse(localStorage.getItem(storageKey) || '[]');
