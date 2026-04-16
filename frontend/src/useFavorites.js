@@ -22,3 +22,4 @@ export function useFavorites({ user, task }) {
   currentAccount.current = user?.id || null;
 
   useEffect(() => {
+    try {
