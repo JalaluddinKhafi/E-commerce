@@ -25,3 +25,9 @@ export function useFavorites({ user, task }) {
     try {
       localStorage.setItem(storageKey, JSON.stringify(guestIds));
     } catch {
+      /* Guest choices remain available in memory if storage is unavailable. */
+    }
+  }, [guestIds]);
+  useEffect(() => {
+    let active = true;
+    setProducts([]);
