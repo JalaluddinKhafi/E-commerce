@@ -3,3 +3,4 @@ import { api } from './store';
 
 const storageKey = 'freshshop:favorites';
 function readGuestIds() {
+  try {
