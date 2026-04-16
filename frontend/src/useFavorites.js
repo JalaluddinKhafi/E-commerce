@@ -31,3 +31,4 @@ export function useFavorites({ user, task }) {
   useEffect(() => {
     let active = true;
     setProducts([]);
+    if (!user) {
