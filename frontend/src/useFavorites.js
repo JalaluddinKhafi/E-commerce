@@ -23,3 +23,4 @@ export function useFavorites({ user, task }) {
 
   useEffect(() => {
     try {
+      localStorage.setItem(storageKey, JSON.stringify(guestIds));
