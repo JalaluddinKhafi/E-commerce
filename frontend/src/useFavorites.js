@@ -17,3 +17,4 @@ export function useFavorites({ user, task }) {
   const [guestIds, setGuestIds] = useState(readGuestIds);
   const [products, setProducts] = useState([]);
   const [state, setState] = useState({ loading: false, error: '' });
+  const [attempt, setAttempt] = useState(0);
