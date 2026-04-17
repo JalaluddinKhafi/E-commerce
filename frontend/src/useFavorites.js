@@ -57,3 +57,4 @@ export function useFavorites({ user, task }) {
     if (state.loading || state.error) return false;
     if (!user) {
       return task(async () => {
+        if (!guestIds.includes(productId) && guestIds.length >= 100)
