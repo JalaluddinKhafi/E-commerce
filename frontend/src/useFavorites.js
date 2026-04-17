@@ -39,3 +39,6 @@ export function useFavorites({ user, task }) {
     }
     setState({ loading: true, error: '' });
     api('/wishlist')
+      .then((data) => {
+        if (active) {
+          setProducts(data);
