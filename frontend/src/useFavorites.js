@@ -43,3 +43,6 @@ export function useFavorites({ user, task }) {
         if (active) {
           setProducts(data);
           setState({ loading: false, error: '' });
+        }
+      })
+      .catch((error) => {
