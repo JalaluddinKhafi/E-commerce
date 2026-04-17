@@ -33,3 +33,4 @@ export function useFavorites({ user, task }) {
     setProducts([]);
     if (!user) {
       setState({ loading: false, error: '' });
+      return () => {
