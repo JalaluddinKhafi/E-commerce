@@ -55,3 +55,4 @@ export function useFavorites({ user, task }) {
 
   async function favorite(productId) {
     if (state.loading || state.error) return false;
+    if (!user) {
