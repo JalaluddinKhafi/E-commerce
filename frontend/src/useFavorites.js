@@ -38,3 +38,4 @@ export function useFavorites({ user, task }) {
       };
     }
     setState({ loading: true, error: '' });
+    api('/wishlist')
