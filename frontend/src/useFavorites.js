@@ -34,3 +34,7 @@ export function useFavorites({ user, task }) {
     if (!user) {
       setState({ loading: false, error: '' });
       return () => {
+        active = false;
+      };
+    }
+    setState({ loading: true, error: '' });
