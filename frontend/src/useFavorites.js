@@ -52,3 +52,5 @@ export function useFavorites({ user, task }) {
       active = false;
     };
   }, [user?.id, attempt]);
+
+  async function favorite(productId) {
