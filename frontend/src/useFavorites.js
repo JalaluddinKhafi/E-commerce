@@ -46,3 +46,4 @@ export function useFavorites({ user, task }) {
         }
       })
       .catch((error) => {
+        if (active) setState({ loading: false, error: error.message });
