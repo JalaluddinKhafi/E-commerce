@@ -62,3 +62,4 @@ export function useFavorites({ user, task }) {
         setGuestIds((previous) =>
           previous.includes(productId)
             ? previous.filter((id) => id !== productId)
+            : [...previous, productId],
