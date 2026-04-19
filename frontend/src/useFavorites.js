@@ -58,3 +58,4 @@ export function useFavorites({ user, task }) {
     if (!user) {
       return task(async () => {
         if (!guestIds.includes(productId) && guestIds.length >= 100)
+          throw new Error('حداکثر ۱۰۰ محصول را می‌توانید ذخیره کنید.');
