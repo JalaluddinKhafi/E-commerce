@@ -68,3 +68,4 @@ export function useFavorites({ user, task }) {
     }
     const accountId = user.id;
     const alreadySaved = products.some((p) => p.id === productId);
+    return task(async () => {
