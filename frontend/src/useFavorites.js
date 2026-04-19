@@ -61,3 +61,4 @@ export function useFavorites({ user, task }) {
           throw new Error('حداکثر ۱۰۰ محصول را می‌توانید ذخیره کنید.');
         setGuestIds((previous) =>
           previous.includes(productId)
+            ? previous.filter((id) => id !== productId)
