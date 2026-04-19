@@ -70,3 +70,4 @@ export function useFavorites({ user, task }) {
     const alreadySaved = products.some((p) => p.id === productId);
     return task(async () => {
       const updated = await api(`/wishlist/${productId}`, {
+        method: alreadySaved ? 'DELETE' : 'PUT',
