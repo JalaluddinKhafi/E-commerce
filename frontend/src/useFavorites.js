@@ -80,3 +80,4 @@ export function useFavorites({ user, task }) {
     const accountId = user.id;
     return task(async () => {
       const updated = await api('/wishlist/import', {
+        method: 'POST',
