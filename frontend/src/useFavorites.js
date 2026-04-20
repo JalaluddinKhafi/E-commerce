@@ -71,3 +71,8 @@ export function useFavorites({ user, task }) {
     return task(async () => {
       const updated = await api(`/wishlist/${productId}`, {
         method: alreadySaved ? 'DELETE' : 'PUT',
+      });
+      if (currentAccount.current === accountId) setProducts(updated);
+    });
+  }
+  async function importFavorites() {
