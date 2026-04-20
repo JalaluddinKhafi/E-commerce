@@ -95,3 +95,5 @@ export function useFavorites({ user, task }) {
     favoritesLoading: state.loading,
     favoritesError: state.error,
     retryFavorites: () => setAttempt((v) => v + 1),
+    guestCount: guestIds.length,
+    importFavorites,
