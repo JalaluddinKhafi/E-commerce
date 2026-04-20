@@ -79,3 +79,4 @@ export function useFavorites({ user, task }) {
     if (!user || state.loading || !guestIds.length) return false;
     const accountId = user.id;
     return task(async () => {
+      const updated = await api('/wishlist/import', {
