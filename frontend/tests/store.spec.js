@@ -247,3 +247,4 @@ async function loginCustomer(page, email, password) {
   await page.goto('/login');
   await page.getByLabel('ایمیل', { exact: true }).fill(email);
   await page.getByLabel('رمز عبور', { exact: true }).fill(password);
+  await page.getByRole('button', { name: 'ورود', exact: true }).click();
