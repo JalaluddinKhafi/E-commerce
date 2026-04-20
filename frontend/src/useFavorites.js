@@ -84,3 +84,4 @@ export function useFavorites({ user, task }) {
         body: { productIds: guestIds },
       });
       if (currentAccount.current === accountId) {
+        setProducts(updated);
