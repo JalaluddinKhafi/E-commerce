@@ -91,3 +91,6 @@ export function useFavorites({ user, task }) {
   }
   return {
     favorites: user ? products.map((p) => p.id) : guestIds,
+    favoriteProducts: products,
+    favoritesLoading: state.loading,
+    favoritesError: state.error,
