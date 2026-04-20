@@ -242,3 +242,5 @@ test('catalog pagination and search survive shared URLs and reloads', async ({ p
     for (const id of ids) await request.delete(`/api/admin/products/${id}`, { headers });
   }
 });
+
+async function loginCustomer(page, email, password) {
