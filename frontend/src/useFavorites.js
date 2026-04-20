@@ -76,3 +76,4 @@ export function useFavorites({ user, task }) {
     });
   }
   async function importFavorites() {
+    if (!user || state.loading || !guestIds.length) return false;
