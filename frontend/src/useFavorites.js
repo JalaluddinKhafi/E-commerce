@@ -82,3 +82,5 @@ export function useFavorites({ user, task }) {
       const updated = await api('/wishlist/import', {
         method: 'POST',
         body: { productIds: guestIds },
+      });
+      if (currentAccount.current === accountId) {
