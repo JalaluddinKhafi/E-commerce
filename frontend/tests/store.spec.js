@@ -245,3 +245,4 @@ test('catalog pagination and search survive shared URLs and reloads', async ({ p
 
 async function loginCustomer(page, email, password) {
   await page.goto('/login');
+  await page.getByLabel('ایمیل', { exact: true }).fill(email);
