@@ -86,3 +86,8 @@ export function useFavorites({ user, task }) {
       if (currentAccount.current === accountId) {
         setProducts(updated);
         setGuestIds([]);
+      }
+    }, 'علاقه‌مندی‌های این مرورگر به حساب شما منتقل شدند.');
+  }
+  return {
+    favorites: user ? products.map((p) => p.id) : guestIds,
