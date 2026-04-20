@@ -85,3 +85,4 @@ export function useFavorites({ user, task }) {
       });
       if (currentAccount.current === accountId) {
         setProducts(updated);
+        setGuestIds([]);
