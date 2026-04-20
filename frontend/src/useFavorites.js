@@ -81,3 +81,4 @@ export function useFavorites({ user, task }) {
     return task(async () => {
       const updated = await api('/wishlist/import', {
         method: 'POST',
+        body: { productIds: guestIds },
