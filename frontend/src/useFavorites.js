@@ -97,3 +97,6 @@ export function useFavorites({ user, task }) {
     retryFavorites: () => setAttempt((v) => v + 1),
     guestCount: guestIds.length,
     importFavorites,
+    favorite,
+  };
+}
