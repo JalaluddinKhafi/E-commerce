@@ -94,3 +94,4 @@ export function useFavorites({ user, task }) {
     favoriteProducts: products,
     favoritesLoading: state.loading,
     favoritesError: state.error,
+    retryFavorites: () => setAttempt((v) => v + 1),
