@@ -253,3 +253,5 @@ async function loginCustomer(page, email, password) {
 
 test('account wishlist synchronizes across devices and stays isolated after sign-out', async ({
   page,
+  browser,
+  request,
