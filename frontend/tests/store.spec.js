@@ -255,3 +255,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
   page,
   browser,
   request,
+  baseURL,
