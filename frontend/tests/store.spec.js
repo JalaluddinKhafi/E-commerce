@@ -265,3 +265,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
         data: { name: 'Saved customer', email, password },
       })
     ).status(),
+  ).toBe(201);
