@@ -270,3 +270,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
   await page.getByRole('button', { name: 'علاقه‌مندی: Fresh carrots', exact: true }).click();
   await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
   await expect(page.locator('.product-card')).toHaveCount(1);
+  const otherDevice = await browser.newContext({ baseURL });
