@@ -249,3 +249,6 @@ async function loginCustomer(page, email, password) {
   await page.getByLabel('رمز عبور', { exact: true }).fill(password);
   await page.getByRole('button', { name: 'ورود', exact: true }).click();
   await expect(page.getByRole('link', { name: 'حساب من', exact: true })).toBeVisible();
+}
+
+test('account wishlist synchronizes across devices and stays isolated after sign-out', async ({
