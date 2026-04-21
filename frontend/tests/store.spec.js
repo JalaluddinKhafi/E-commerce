@@ -262,3 +262,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
   expect(
     (
       await request.post('/api/auth/register', {
+        data: { name: 'Saved customer', email, password },
