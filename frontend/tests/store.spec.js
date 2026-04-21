@@ -273,3 +273,5 @@ test('account wishlist synchronizes across devices and stays isolated after sign
   const otherDevice = await browser.newContext({ baseURL });
   try {
     const otherPage = await otherDevice.newPage();
+    await loginCustomer(otherPage, email, password);
+    await otherPage.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
