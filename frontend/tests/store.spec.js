@@ -259,3 +259,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
 }) => {
   const email = `saved-${Date.now()}@example.test`,
     password = 'Saved-products-password-123!';
+  expect(
