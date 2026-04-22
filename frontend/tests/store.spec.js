@@ -276,3 +276,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
     await loginCustomer(otherPage, email, password);
     await otherPage.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
     await expect(otherPage.locator('.product-card')).toHaveCount(1);
+    await expect(
