@@ -286,3 +286,6 @@ test('account wishlist synchronizes across devices and stays isolated after sign
   await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
   await expect(page.locator('.product-card')).toHaveCount(0);
   await expect(page.getByRole('heading', { name: 'هنوز محصولی ذخیره نکرده‌اید' })).toBeVisible();
+});
+
+test('guest wishlist is imported only after explicit account confirmation', async ({
