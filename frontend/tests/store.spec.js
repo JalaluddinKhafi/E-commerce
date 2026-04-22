@@ -293,3 +293,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   request,
 }) => {
   await page.goto('/');
+  await page.getByRole('button', { name: 'علاقه‌مندی: Fresh carrots', exact: true }).click();
