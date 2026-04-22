@@ -289,3 +289,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
 });
 
 test('guest wishlist is imported only after explicit account confirmation', async ({
+  page,
