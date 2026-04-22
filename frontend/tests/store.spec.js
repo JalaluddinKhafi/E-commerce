@@ -281,3 +281,8 @@ test('account wishlist synchronizes across devices and stays isolated after sign
     ).toBeVisible();
   } finally {
     await otherDevice.close();
+  }
+  await page.getByRole('button', { name: 'خروج · Saved customer', exact: true }).click();
+  await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
+  await expect(page.locator('.product-card')).toHaveCount(0);
+  await expect(page.getByRole('heading', { name: 'هنوز محصولی ذخیره نکرده‌اید' })).toBeVisible();
