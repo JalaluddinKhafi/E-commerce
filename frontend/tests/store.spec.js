@@ -280,3 +280,4 @@ test('account wishlist synchronizes across devices and stays isolated after sign
       otherPage.getByRole('heading', { name: 'Fresh carrots', exact: true }),
     ).toBeVisible();
   } finally {
+    await otherDevice.close();
