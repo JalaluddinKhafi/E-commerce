@@ -292,3 +292,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   page,
   request,
 }) => {
+  await page.goto('/');
