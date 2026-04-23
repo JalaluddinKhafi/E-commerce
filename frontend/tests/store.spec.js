@@ -297,3 +297,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await page.getByRole('link', { name: 'ورود / ثبت‌نام', exact: true }).click();
   await page.getByRole('link', { name: 'ثبت‌نام کنید', exact: true }).click();
   const email = `import-${Date.now()}@example.test`,
+    password = 'Import-wishlist-password-123!';
