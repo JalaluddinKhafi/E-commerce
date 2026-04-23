@@ -299,3 +299,5 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   const email = `import-${Date.now()}@example.test`,
     password = 'Import-wishlist-password-123!';
   await page.getByLabel('نام شما').fill('Import customer');
+  await page.getByLabel('ایمیل', { exact: true }).fill(email);
+  await page.getByLabel('رمز عبور', { exact: true }).fill(password);
