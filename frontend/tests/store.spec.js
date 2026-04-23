@@ -305,3 +305,5 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
     response.url().endsWith('/api/auth/register'),
   );
   await page.getByRole('button', { name: 'ساخت حساب', exact: true }).click();
+  const { token } = await (await registered).json();
+  const headers = { Authorization: `Bearer ${token}` };
