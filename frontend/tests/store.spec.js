@@ -302,3 +302,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await page.getByLabel('ایمیل', { exact: true }).fill(email);
   await page.getByLabel('رمز عبور', { exact: true }).fill(password);
   const registered = page.waitForResponse((response) =>
+    response.url().endsWith('/api/auth/register'),
