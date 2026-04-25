@@ -310,3 +310,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
   await expect(page.locator('.product-card')).toHaveCount(0);
   expect(await (await request.get('/api/wishlist', { headers })).json()).toEqual([]);
+  await page
