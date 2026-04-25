@@ -314,3 +314,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
     .getByRole('button', { name: 'انتقال علاقه‌مندی‌های مهمان به حساب', exact: true })
     .click();
   await expect(page.locator('.product-card')).toHaveCount(1);
+  await expect(page.locator('.wishlist-banner')).toHaveCount(0);
