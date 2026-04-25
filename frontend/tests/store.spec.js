@@ -315,3 +315,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
     .click();
   await expect(page.locator('.product-card')).toHaveCount(1);
   await expect(page.locator('.wishlist-banner')).toHaveCount(0);
+  expect((await (await request.get('/api/wishlist', { headers })).json()).length).toBe(1);
