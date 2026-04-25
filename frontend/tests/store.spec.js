@@ -307,3 +307,5 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await page.getByRole('button', { name: 'ساخت حساب', exact: true }).click();
   const { token } = await (await registered).json();
   const headers = { Authorization: `Bearer ${token}` };
+  await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
+  await expect(page.locator('.product-card')).toHaveCount(0);
