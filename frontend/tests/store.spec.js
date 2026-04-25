@@ -316,3 +316,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await expect(page.locator('.product-card')).toHaveCount(1);
   await expect(page.locator('.wishlist-banner')).toHaveCount(0);
   expect((await (await request.get('/api/wishlist', { headers })).json()).length).toBe(1);
+  await page.getByRole('button', { name: 'خروج · Import customer', exact: true }).click();
