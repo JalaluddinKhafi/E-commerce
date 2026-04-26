@@ -326,3 +326,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   request,
 }) => {
   const email = `addresses-${Date.now()}@example.test`,
+    password = 'Delivery-address-password-123!';
