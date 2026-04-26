@@ -322,3 +322,4 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
 });
 
 test('saved delivery addresses support defaults, checkout selection and immutable receipts', async ({
+  page,
