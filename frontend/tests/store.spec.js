@@ -317,3 +317,8 @@ test('guest wishlist is imported only after explicit account confirmation', asyn
   await expect(page.locator('.wishlist-banner')).toHaveCount(0);
   expect((await (await request.get('/api/wishlist', { headers })).json()).length).toBe(1);
   await page.getByRole('button', { name: 'خروج · Import customer', exact: true }).click();
+  await page.getByRole('link', { name: /علاقه‌مندی‌ها/ }).click();
+  await expect(page.locator('.product-card')).toHaveCount(0);
+});
+
+test('saved delivery addresses support defaults, checkout selection and immutable receipts', async ({
