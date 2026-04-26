@@ -333,3 +333,6 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
         data: { name: 'Address customer', email, password },
       })
     ).status(),
+  ).toBe(201);
+  await loginCustomer(page, email, password);
+  await page.getByRole('link', { name: 'حساب من', exact: true }).click();
