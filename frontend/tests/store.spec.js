@@ -336,3 +336,5 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   ).toBe(201);
   await loginCustomer(page, email, password);
   await page.getByRole('link', { name: 'حساب من', exact: true }).click();
+  await page.getByRole('link', { name: 'مدیریت نشانی‌ها', exact: true }).click();
+  await page.getByRole('button', { name: 'نشانی جدید', exact: false }).click();
