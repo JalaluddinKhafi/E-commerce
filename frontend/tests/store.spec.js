@@ -349,3 +349,5 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByLabel('نام گیرنده', { exact: true }).fill('گیرنده دفتر');
   await page.getByLabel('شماره تماس تحویل').fill('+93700000022');
   await page.getByLabel('نشانی کامل تحویل').fill('کابل، دفتر شماره ۲۲');
+  await page.getByLabel('این نشانی پیش‌فرض باشد').check();
+  await page.getByRole('button', { name: 'ذخیرهٔ نشانی', exact: true }).click();
