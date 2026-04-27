@@ -348,3 +348,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByLabel('عنوان نشانی').fill('محل کار');
   await page.getByLabel('نام گیرنده', { exact: true }).fill('گیرنده دفتر');
   await page.getByLabel('شماره تماس تحویل').fill('+93700000022');
+  await page.getByLabel('نشانی کامل تحویل').fill('کابل، دفتر شماره ۲۲');
