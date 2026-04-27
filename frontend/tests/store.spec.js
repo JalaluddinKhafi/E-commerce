@@ -347,3 +347,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByRole('button', { name: 'نشانی جدید', exact: false }).click();
   await page.getByLabel('عنوان نشانی').fill('محل کار');
   await page.getByLabel('نام گیرنده', { exact: true }).fill('گیرنده دفتر');
+  await page.getByLabel('شماره تماس تحویل').fill('+93700000022');
