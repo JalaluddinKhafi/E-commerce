@@ -353,3 +353,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByRole('button', { name: 'ذخیرهٔ نشانی', exact: true }).click();
   await expect(page.locator('.address-card')).toHaveCount(2);
   await expect(page.locator('.address-card.is-default')).toContainText('محل کار');
+  await page.setViewportSize({ width: 390, height: 844 });
