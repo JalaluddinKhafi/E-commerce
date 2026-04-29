@@ -375,3 +375,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
     'کابل، دفتر شماره ۲۲',
   );
   await expect(page.getByRole('textbox', { name: 'شماره تلفن', exact: true })).toHaveValue(
+    '+93700000022',
