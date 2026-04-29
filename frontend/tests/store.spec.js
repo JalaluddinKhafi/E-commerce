@@ -386,3 +386,6 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await expect(page.locator('.address-card')).toHaveCount(1);
   await expect(page.locator('.address-card.is-default')).toContainText('خانه');
   await page.getByRole('link', { name: 'سفارش‌ها', exact: true }).click();
+  await expect(page.locator('.order-card')).toContainText('گیرنده دفتر');
+  await expect(page.locator('.order-card')).toContainText('کابل، دفتر شماره ۲۲');
+});
