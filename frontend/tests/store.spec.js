@@ -379,3 +379,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   );
   await page.getByRole('button', { name: 'تأیید و ثبت سفارش', exact: true }).click();
   await expect(page.locator('.order-card')).toContainText('گیرنده دفتر');
+  await page.getByRole('link', { name: 'حساب من', exact: true }).click();
