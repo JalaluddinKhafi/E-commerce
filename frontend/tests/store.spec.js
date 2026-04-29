@@ -376,3 +376,5 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   );
   await expect(page.getByRole('textbox', { name: 'شماره تلفن', exact: true })).toHaveValue(
     '+93700000022',
+  );
+  await page.getByRole('button', { name: 'تأیید و ثبت سفارش', exact: true }).click();
