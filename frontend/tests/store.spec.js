@@ -370,3 +370,5 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
     .selectOption({ label: 'محل کار · پیش‌فرض' });
   await expect(page.getByRole('textbox', { name: 'نام گیرنده', exact: true })).toHaveValue(
     'گیرنده دفتر',
+  );
+  await expect(page.getByRole('textbox', { name: 'نشانی کامل', exact: true })).toHaveValue(
