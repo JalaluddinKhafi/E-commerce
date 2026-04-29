@@ -378,3 +378,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
     '+93700000022',
   );
   await page.getByRole('button', { name: 'تأیید و ثبت سفارش', exact: true }).click();
+  await expect(page.locator('.order-card')).toContainText('گیرنده دفتر');
