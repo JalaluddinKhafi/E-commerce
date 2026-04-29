@@ -356,3 +356,6 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,
+  );
+  await page.screenshot({ path: 'test-results/addresses-mobile.png', fullPage: true });
+  await page.getByRole('link', { name: 'تازه‌مارکت، صفحه اصلی', exact: true }).click();
