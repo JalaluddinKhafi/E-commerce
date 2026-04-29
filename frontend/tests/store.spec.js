@@ -361,3 +361,7 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByRole('link', { name: 'تازه‌مارکت، صفحه اصلی', exact: true }).click();
   await page.getByRole('button', { name: 'افزودن Fresh carrots به سبد', exact: true }).click();
   await page
+    .getByRole('link', { name: /سبد خرید/ })
+    .first()
+    .click();
+  await page.getByRole('link', { name: /ادامه و ثبت سفارش/ }).click();
