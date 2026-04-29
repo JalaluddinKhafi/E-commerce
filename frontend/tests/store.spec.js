@@ -372,3 +372,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
     'گیرنده دفتر',
   );
   await expect(page.getByRole('textbox', { name: 'نشانی کامل', exact: true })).toHaveValue(
+    'کابل، دفتر شماره ۲۲',
