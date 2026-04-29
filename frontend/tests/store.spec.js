@@ -359,3 +359,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   );
   await page.screenshot({ path: 'test-results/addresses-mobile.png', fullPage: true });
   await page.getByRole('link', { name: 'تازه‌مارکت، صفحه اصلی', exact: true }).click();
+  await page.getByRole('button', { name: 'افزودن Fresh carrots به سبد', exact: true }).click();
