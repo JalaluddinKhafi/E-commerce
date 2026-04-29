@@ -367,3 +367,4 @@ test('saved delivery addresses support defaults, checkout selection and immutabl
   await page.getByRole('link', { name: /ادامه و ثبت سفارش/ }).click();
   await page
     .getByRole('combobox', { name: 'نشانی ذخیره‌شده', exact: true })
+    .selectOption({ label: 'محل کار · پیش‌فرض' });
